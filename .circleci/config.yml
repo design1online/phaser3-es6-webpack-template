@@ -10,8 +10,8 @@ jobs:
       - checkout
       - restore_cache:
           keys:
-            - deps-{{ checksum "src/package.json" }}-{{ checksum "src/package-lock.json" }}
-            - deps-{{ checksum "src/package.json" }}-
+            - deps-{{ checksum "package.json" }}-{{ checksum "package-lock.json" }}
+            - deps-{{ checksum "package.json" }}-
             - deps-
       - run:
           name: Install dependencies
@@ -19,7 +19,7 @@ jobs:
             cd src
             npm install --no-save
       - save_cache:
-          key: deps-{{ checksum "src/package.json" }}-{{ checksum "src/package-lock.json" }}
+          key: deps-{{ checksum "package.json" }}-{{ checksum "package-lock.json" }}
           paths:
             - node_modules
       - run:
