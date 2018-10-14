@@ -21,7 +21,7 @@ jobs:
       - save_cache:
           key: deps-{{ checksum "src/package.json" }}-{{ checksum "src/package-lock.json" }}
           paths:
-            - src/node_modules
+            - node_modules
       - run:
           name: Run the Linter
           command: npm run lint
@@ -30,4 +30,4 @@ jobs:
           command: npm run test
       - run:
           name: Build
-          command: npm run build
+          command: npm run deploy
