@@ -1,0 +1,170 @@
+.padding {
+
+  &-xl {
+    padding: map-get($padding, 'xlarge');
+  }
+
+  &-lg {
+    padding: map-get($padding, 'large');
+  }
+
+  &-md {
+    padding: map-get($padding, 'medium');
+  }
+
+  &-sm {
+    padding: map-get($padding, 'small');
+  }
+
+  &-xs {
+    padding: map-get($padding, 'xsmall');
+  }
+
+  &_top {
+
+    &-xl {
+      padding-top: map-get($padding, 'xlarge');
+    }
+
+    &-lg {
+      padding-top: map-get($padding, 'large');
+    }
+
+    &-md {
+      padding-top: map-get($padding, 'medium');
+    }
+
+    &-sm {
+      padding-top: map-get($padding, 'small');
+    }
+
+    &-xs {
+      padding-top: map-get($padding, 'xsmall');
+    }
+  }
+
+  &_bottom {
+
+    &-xl {
+      padding-bottom: map-get($padding, 'xlarge');
+    }
+
+    &-lg {
+      padding-bottom: map-get($padding, 'large');
+    }
+
+    &-md {
+      padding-bottom: map-get($padding, 'medium');
+    }
+
+    &-sm {
+      padding-bottom: map-get($padding, 'small');
+    }
+
+    &-xs {
+      padding-bottom: map-get($padding, 'xsmall');
+    }
+  }
+
+  &_left {
+
+    &-xl {
+      padding-top: map-get($padding, 'xlarge');
+    }
+
+    &-lg {
+      padding-top: map-get($padding, 'large');
+    }
+
+    &-md {
+      padding-top: map-get($padding, 'medium');
+    }
+
+    &-sm {
+      padding-top: map-get($padding, 'small');
+    }
+
+    &-xs {
+      padding-top: map-get($padding, 'xsmall');
+    }
+  }
+
+  &_right {
+
+    &-xl {
+      padding-right: map-get($padding, 'xlarge');
+    }
+
+    &-lg {
+      padding-right: map-get($padding, 'large');
+    }
+
+    &-md {
+      padding-right: map-get($padding, 'medium');
+    }
+
+    &-sm {
+      padding-right: map-get($padding, 'small');
+    }
+
+    &-xs {
+      padding-right: map-get($padding, 'xsmall');
+    }
+  }
+
+  &_horizøntal {
+
+    &-xl {
+      padding-right: map-get($padding, 'xlarge');
+      padding-left: map-get($padding, 'xlarge');
+    }
+
+    &-lg {
+      padding-right: map-get($padding, 'large');
+      padding-left: map-get($padding, 'large');
+    }
+
+    &-md {
+      padding-right: map-get($padding, 'medium');
+      padding-left: map-get($padding, 'medium');
+    }
+
+    &-sm {
+      padding-right: map-get($padding, 'small');
+      padding-left: map-get($padding, 'small');
+    }
+
+    &-xs {
+      padding-right: map-get($padding, 'xsmall');
+      padding-left: map-get($padding, 'xsmall');
+    }
+  }
+
+  &_vertical {
+
+    &-xl {
+      padding-top: map-get($padding, 'xlarge');
+      padding-bottom: map-get($padding, 'xlarge');
+    }
+
+    &-lg {
+      padding-top: map-get($padding, 'large');
+      padding-top: map-get($padding, 'large');
+    }
+
+    &-md {
+      padding-top: map-get($padding, 'medium');
+      padding-bottom: map-get($padding, 'medium');
+    }
+
+    &-sm {
+      padding-top: map-get($padding, 'small');
+      padding-bottom: map-get($padding, 'small');
+    }
+
+    &-xs {
+      padding-top: map-get($padding, 'xsmall');
+      padding-bottom: map-get($padding, 'xsmall');
+    }
+  }
+}
