@@ -16,7 +16,7 @@ Run the appropriate command in your terminal:
 | `yarn install` | Install dependencies and launch browser with examples.|
 | `yarn start` | Launch browser to show the examples.<br/>Press `Ctrl + c` to kill **http-server** process. |
 | `yarn deploy` | Create a distributed version of the build that's minified and uglified. |
-| `yarn lint` | Run the linter, defaults to using (airbnb style guide)[https://github.com/airbnb/javascript]. |
+| `yarn lint` | Run the linter, defaults to using airbnb style guide (https://github.com/airbnb/javascript). |
 | `yarn lint:fix-dry-run` | Run the linter and automatically fix without saving changes. |
 | `yarn lint:fix` | Run the linter and automatically fix problems and save changes. |
 | `yarn test` | Run the unit tests. Looks for files matching the pattern `*.test.js`. |
