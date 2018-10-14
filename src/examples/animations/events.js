@@ -1,63 +1,64 @@
 import Phaser from 'phaser';
 
-const config = {
-  type: Phaser.AUTO,
-  parent: 'phaser-example',
-  width: 800,
-  height: 600,
-  scene: {
-    preload,
-    create,
-  },
-};
+class AnimationEventsExample extends Phaser.Scene {
+  constructor() {
+    super({
+      key: 'TweenExample',
+    });
 
-const game = new Phaser.Game(config);
-let back;
-let mummy;
-let anim;
-let loopText;
+    this.back = null;
+    this.mummy = null;
+    this.anim = null;
+    this.loopText = null;
+  }
 
-function preload() {
-  this.load.image('lazur', '../../assets/spooky-bg.png');
-  this.load.spritesheet('mummy', '../../assets/mummy.png', 37, 45, 18);
-}
+  preload() {
+    this.load.image('lazur', '../../assets/spooky-bg.png');
+    this.load.spritesheet('mummy', '../../assets/mummy.png', 37, 45, 18);
+  }
 
-function create() {
-  back = this.add.image(0, -400, 'lazur');
-  back.scale.set(2);
-  back.smoothed = false;
+  create() {
+    this.back = this.add.image(0, -400, 'lazur');
+    this.back.scale.set(2);
+    this.back.smoothed = false;
 
-  mummy = this.add.sprite(200, 360, 'mummy', 5);
-  mummy.scale.set(4);
-  mummy.smoothed = false;
-  anim = mummy.animations.add('walk');
+    this.mummy = this.add.sprite(200, 360, 'mummy', 5);
+    this.mummy.scale.set(4);
+    this.mummy.smoothed = false;
+    this.anim = this.mummy.animations.add('walk');
 
-  anim.onStart.add(animationStarted, this);
-  anim.onLoop.add(animationLooped, this);
-  anim.onComplete.add(animationStopped, this);
+    this.anim.onStart.add(this.animationStarted);
+    this.anim.onLoop.add(this.animationLooped);
+    this.anim.onComplete.add(this.animationStopped);
 
-  anim.play(10, true);
-}
+    this.anim.play(10, true);
+  }
 
-function animationStarted(sprite, animation) {
-  this.add.text(32, 32, 'Animation started', { fill: 'white' });
-}
+  animationStarted(sprite, animation) {
+    console.log(sprite, animation); // eslint-disable-line
+    this.add.text(32, 32, 'Animation started', { fill: 'white' });
+  }
 
-function animationLooped(sprite, animation) {
-  if (animation.loopCount === 1) {
-    loopText = game.add.text(32, 64, 'Animation looped', { fill: 'white' });
-  } else {
-    loopText.text = 'Animation looped x2';
-    animation.loop = false;
+  animationLooped(sprite, animation) {
+    console.log(sprite, animation); // eslint-disable-line
+    if (animation.loopCount === 1) {
+      this.loopText = this.add.text(32, 64, 'Animation looped', { fill: 'white' });
+    } else {
+      this.loopText.text = 'Animation looped x2';
+      animation.loop = false; // eslint-disable-line
+    }
+  }
+
+  animationStopped(sprite, animation) {
+    console.log(sprite, animation); // eslint-disable-line
+    this.add.text(32, 64 + 32, 'Animation stopped', { fill: 'white' });
+  }
+
+  update() {
+    if (this.anim.isPlaying) {
+      this.back.x -= 1;
+    }
   }
 }
 
-function animationStopped(sprite, animation) {
-  game.add.text(32, 64 + 32, 'Animation stopped', { fill: 'white' });
-}
-
-function update() {
-  if (anim.isPlaying) {
-    back.x -= 1;
-  }
-}
+export default AnimationEventsExample;

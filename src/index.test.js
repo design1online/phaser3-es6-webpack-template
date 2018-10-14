@@ -1,4 +1,5 @@
 /* global describe, it */
+// SAMPLE TEST
 const assert = require('assert');
 
 describe('Array', () => {
