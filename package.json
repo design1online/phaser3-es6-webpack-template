@@ -11,7 +11,7 @@
     "test:watch": "mocha -c -w ./src/**/*.test.js",
     "lint": "eslint --color ./src/**/**.js",
     "lint:fix-dry-run": "eslint --color --fix-dry-run ./src/**/**.js",
-    "lint:fix": "eslint --color --fix ./src/**/**.js",
+    "lint:fix": "eslint --color --fix ./src/**/**.js"
   },
   "license": "MIT",
   "devDependencies": {
