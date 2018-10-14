@@ -1,34 +1,24 @@
 import 'phaser';
+import TweenExample from './examples/animations/tween';
 
-var config = {
-    type: Phaser.AUTO,
-    parent: 'phaser-example',
+const config = {
+    // For more settings see <https://github.com/photonstorm/phaser/blob/master/src/boot/Config.js>
+    type: Phaser.WEBGL,
+    pixelArt: true,
+    roundPixels: true,
+    parent: 'content',
     width: 800,
     height: 600,
-    scene: {
-        preload: preload,
-        create: create
-    }
+    physics: {
+      default: 'arcade',
+      arcade: {
+        gravity: { y: 800 },
+        debug: false
+      }
+    },
+    scene: [
+      TweenExample,
+    ]
 };
 
-var game = new Phaser.Game(config);
-
-function preload ()
-{
-    this.load.image('logo', 'assets/logo.png');
-}
-
-function create ()
-{
-    var logo = this.add.image(400, 150, 'logo');
-
-    this.tweens.add({
-        targets: logo,
-        y: 450,
-        duration: 2000,
-        ease: 'Power2',
-        yoyo: true,
-        loop: -1
-    });
-
-}
+const game = new Phaser.Game(config);

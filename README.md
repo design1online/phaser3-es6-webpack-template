@@ -1,17 +1,24 @@
-# Phaser 3 Webpack Project Template
+# Phaser 3 Webpack ES6 Project Template
 
-A Phaser 3 Project Template
+A Phaser 3 project template using webpack, SASS, Babel ES6, and eslinter set to Aribnb preset.
+Includes a folder of example scripts to help start your development.
 
 ### Requirements
 
 We need [Node.js](https://nodejs.org) to install and run scripts.
 
-## Install and run
+## Setup & Development Commands
 
-Run next commands in your terminal:
+Run the appropriate command in your terminal:
 
 | Command | Description |
 |---------|-------------|
-| `npm install` | Install dependencies and launch browser with examples.|
-| `npm start` | Launch browser to show the examples. <br> Press `Ctrl + c` to kill **http-server** process. |
+| `yarn install` | Install dependencies and launch browser with examples.|
+| `yarn start` | Launch browser to show the examples.<br/>Press `Ctrl + c` to kill **http-server** process. |
+| `yarn deploy` | Create a distributed version of the build that's minified and uglified. |
+| `yarn lint` | Run the linter, defaults to using (airbnb style guide)[https://github.com/airbnb/javascript]. |
+| `yarn lint:fix-dry-run` | Run the linter and automatically fix without saving changes. |
+| `yarn lint:fix` | Run the linter and automatically fix problems and save changes. |
+| `yarn test` | Run the unit tests. Looks for files matching the pattern `*.test.js`. |
+| `yarn test:watch` | Run the unit tests but keep watch for changes.<br/>Press `Ctrl + c` to kill the watch process. |
 =======
