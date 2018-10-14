@@ -21,4 +21,3 @@ Run the appropriate command in your terminal:
 | `yarn lint:fix` | Run the linter and automatically fix problems and save changes. |
 | `yarn test` | Run the unit tests. Looks for files matching the pattern `*.test.js`. |
 | `yarn test:watch` | Run the unit tests but keep watch for changes.<br/>Press `Ctrl + c` to kill the watch process. |
-=======
