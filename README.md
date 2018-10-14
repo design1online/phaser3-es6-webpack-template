@@ -13,7 +13,7 @@ Run the appropriate command in your terminal:
 
 | Command | Description |
 |---------|-------------|
-| `yarn install` | Install dependencies and launch browser with examples.|
+| `npm install` | Install dependencies and launch browser with examples.|
 | `yarn start` | Launch browser to show the examples.<br/>Press `Ctrl + c` to kill **http-server** process. |
 | `yarn deploy` | Create a distributed version of the build that's minified and uglified. |
 | `yarn lint` | Run the linter, defaults to using airbnb style guide (https://github.com/airbnb/javascript). |
