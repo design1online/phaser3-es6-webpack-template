@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "author": "Jade Krafsig <jade@design1online.com>",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "start": "webpack --mode=development",
     "deploy": "webpack --mode=production --config webpack.production.config.js",
@@ -11,7 +11,8 @@
     "test:watch": "mocha -c -w ./src/**/*.test.js",
     "lint": "eslint --color ./src/**/**.js",
     "lint:fix-dry-run": "eslint --color --fix-dry-run ./src/**/**.js",
-    "lint:fix": "babel-eslint --color --fix ./src/**/**.js"
+    "lint:fix": "babel-eslint --color --fix ./src/**/**.js",
+    "docs": "jsdoc -c ./jsdoc.config.json -R README.md"
   },
   "license": "MIT",
   "devDependencies": {
@@ -32,6 +33,8 @@
     "eslint-plugin-import": "^2.14.0",
     "expose-loader": "^0.7.3",
     "html-webpack-plugin": "^3.2.0",
+    "ink-docstrap": "^1.3.2",
+    "jsdoc": "^3.5.5",
     "mini-css-extract-plugin": "^0.4.4",
     "mocha": "^5.2.0",
     "node-sass": "^4.9.3",

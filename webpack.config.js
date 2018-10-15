@@ -18,7 +18,7 @@ module.exports = {
   entry: {
     app: [
       'babel-polyfill',
-      path.resolve(__dirname, './src/index.js'),
+      path.resolve(__dirname, './src/main.js'),
     ],
     vendor: ['phaser'],
     styles: path.resolve(__dirname, './src/sass/main.scss'),
@@ -62,7 +62,7 @@ module.exports = {
       host: process.env.IP || 'localhost',
       port: process.env.PORT || 3000,
       server: {
-        baseDir: ['./', './dev'],
+        baseDir: ['./', './dev', './docs'],
       },
     }),
   ],

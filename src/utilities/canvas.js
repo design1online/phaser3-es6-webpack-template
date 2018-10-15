@@ -1,11 +1,16 @@
 /**
-* Updates the canvas to match the size of the window
-* with respect to the current aspect-ratio so that the
-* game graphics are not distorted
-*
-* @param Phaser.Game instance of a phaser game
-* @return null
-*/
+ * @file Utilities for the Canvas
+ * @author Jade Krafsig <jade@design1online.com>
+ * @module Utilities.Canvas
+ */
+
+/**
+ * @export
+ * fullScreenCanvas
+ * @desc Resizes the game canvas with respect to the current aspect ratio
+ * @param game {Phaser.Game} instance of a phaser game
+ * @source { "filename": "utilities/canvas.js", "lineno": 14 }
+ */
 export default function fullScreenCanvas(game) {
   const canvas = document.querySelector('canvas');
   const windowWidth = window.innerWidth;
