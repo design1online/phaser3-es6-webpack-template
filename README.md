@@ -1,5 +1,7 @@
 # Phaser 3 Webpack ES6 Project Template
 
+<p align="center"><img src="https://github.com/design1online/phaser3-es6-webpack-template/blob/master/assets/logo.png?raw=true" alt="Phaser Logo" title="Phaser 3 ES6 Template" /></p>
+
 A Phaser 3 project template using webpack, SASS, Babel ES6, and eslinter set to Aribnb preset.
 Includes a folder of example scripts to help start your development.
 
