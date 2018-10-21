@@ -24,7 +24,6 @@ class AnimationData extends Phaser.Scene {
     this.curtain = null; // hides the sprites to create a "clear screen" effect
     this.progress = null; // shows information about the animation progress
     this.sprite = null; // keeps an instance of the loaded sprite
-    this.debugMode = true; // toggle debugging mode for additional console logging
 
     this.spriteSheet = { // the spritesheet to animate
       name: 'mummy', // name of the sprite

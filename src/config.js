@@ -20,8 +20,9 @@ export default {
     },
   },
   scene: [
-    AnimationData,
     AnimationTween,
+    AnimationData,
   ],
   fullScreen: true, // toggle to turn off full screen ressizing
+  debugMode: true, // toggle the game's debug mode
 };

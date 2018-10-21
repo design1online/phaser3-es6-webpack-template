@@ -41,13 +41,15 @@ menu {
     padding: 1em;
     min-width: 6em;
 
+    li {
+      margin-left: .5em;
+      color: map-get($palette, 'dark');
+      list-style: square;
+    }
+
     &:hover {
       background-color: map-get($colors, 'hover-bg');
       color: map-get($colors, 'hover');
-    }
-
-    ul li {
-      list-style: none;
     }
   }
 

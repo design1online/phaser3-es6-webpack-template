@@ -17,11 +17,10 @@ import Phaser from 'phaser';
 class AnimationTween extends Phaser.Scene {
   constructor() {
     super({
-      key: 'TweenExample',
+      key: 'AnimationTween',
     });
 
     this.logo = null; // a reference to the logo
-    this.debugMode = false; // toggle debug mode
   }
 
   /**
@@ -31,7 +30,7 @@ class AnimationTween extends Phaser.Scene {
   */
   preload() {
     // load the logo image
-    this.load.image('logo', '../../../assets/logo.png');
+    this.load.image('logo', '../../assets/logo.png');
   }
 
   /**
@@ -43,7 +42,7 @@ class AnimationTween extends Phaser.Scene {
     this.logo = this.add.image(400, 150, 'logo');
 
     if (this.debugMode) {
-      console.log(this.logo); // eslint-disable-line
+      console.log('logo', this.logo); // eslint-disable-line
     }
 
     // create the tween
