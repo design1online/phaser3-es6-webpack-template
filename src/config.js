@@ -1,5 +1,5 @@
 import Phaser from 'phaser';
-import TweenExample from './examples/animations/tween';
+import { AnimationData, AnimationTween } from './examples/animations';
 
 /**
 * For more settings see:
@@ -20,7 +20,8 @@ export default {
     },
   },
   scene: [
-    TweenExample,
+    AnimationData,
+    AnimationTween,
   ],
   fullScreen: true, // toggle to turn off full screen ressizing
 };
