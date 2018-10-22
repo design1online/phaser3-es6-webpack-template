@@ -1,19 +1,22 @@
 /**
- * @file Creates a Phaser game
- * @author Jade Krafsig <jade@design1online.com>
- * @extends {Phaser.Game}
- */
+* @file Creates a Phaser game
+* @author Jade Krafsig <jade@design1online.com>
+* @extends {Phaser.Game}
+*/
 import Phaser from 'phaser';
-import config from './config';
+import { defaultConfig, customConfig } from './config';
 import fullScreenCanvas from './utilities/canvas';
 
 /**
- * Load the phaser game and add event listener for
- * resizing the canvas if full screen is enabled
- */
+* Load the phaser game and add event listener for
+* resizing the canvas if full screen is enabled
+*/
 window.onload = () => {
-  window.game = new Phaser.Game(config);
-  window.game.debugMode = config.debugMode; // toggle debug mode from the config
+  // create the phaser instance
+  window.game = new Phaser.Game(defaultConfig);
+
+  // add in our custom global variables
+  Object.assign(window.game, {...customConfig});
 
   // this is only for our examples, it's not required
   window.game.changeScene = (scene) => {
@@ -43,7 +46,7 @@ window.onload = () => {
     window.game.currentScene = scene;
   };
 
-  if (config.fullScreen) {
+  if (window.game.fullScreen) {
     fullScreenCanvas(window.game);
     window.addEventListener('resize', fullScreenCanvas, false);
   }

@@ -4,6 +4,7 @@
 * @license      {@link https://github.com/design1online/phaser3-es6-webpack-template/blob/master/LICENSE|MIT License}
 */
 import Phaser from 'phaser';
+import { customConfig } from '../../config';
 
 /**
 * @classdesc
@@ -19,6 +20,9 @@ class AnimationTween extends Phaser.Scene {
     super({
       key: 'AnimationTween',
     });
+
+    // add in our custom config values
+    Object.assign(this, customConfig);
 
     this.logo = null; // a reference to the logo
   }

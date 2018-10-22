@@ -1,5 +1,5 @@
 import Phaser from 'phaser';
-import { AnimationData, AnimationTween } from './examples/animations';
+import { AnimationData, AnimationTween, AnimationAdd } from '../examples/animations';
 
 /**
 * For more settings see:
@@ -22,7 +22,6 @@ export default {
   scene: [
     AnimationTween,
     AnimationData,
+    AnimationAdd,
   ],
-  fullScreen: true, // toggle to turn off full screen ressizing
-  debugMode: true, // toggle the game's debug mode
 };

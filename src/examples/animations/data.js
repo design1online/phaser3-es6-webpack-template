@@ -4,6 +4,7 @@
 * @license      {@link https://github.com/design1online/phaser3-es6-webpack-template/blob/master/LICENSE|MIT License}
 */
 import Phaser from 'phaser';
+import { customConfig } from '../../config';
 
 /**
 * @classdesc
@@ -19,6 +20,9 @@ class AnimationData extends Phaser.Scene {
     super({
       key: 'AnimationData',
     });
+
+    // add in our custom config values
+    Object.assign(this, customConfig);
 
     this.frameView = null; // highlights the active animation frame
     this.curtain = null; // hides the sprites to create a "clear screen" effect
@@ -63,7 +67,7 @@ class AnimationData extends Phaser.Scene {
   */
   create() {
     // Frame debug view
-    this.frameView = this.add.graphics({ fillStyle: { color: 0xff00ff }, x: 32, y: 32 });
+    this.frameView = this.add.graphics({ fillStyle: { color: this.fillColor }, x: 32, y: 32 });
 
     // Show the whole animation sheet
     this.add.image(32, 32, this.spriteSheet.name, '__BASE').setOrigin(0);
@@ -94,7 +98,7 @@ class AnimationData extends Phaser.Scene {
     this.sprite.anims.load('playAll');
 
     // Debug text
-    this.progress = this.add.text(100, 500, 'Progress: 0%', { color: '#00ff00' });
+    this.progress = this.add.text(100, 500, 'Progress: 0%', { color: this.textColor });
 
     // play the walk animation
     this.input.keyboard.on('keydown_SPACE', () => {
