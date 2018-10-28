@@ -5,7 +5,7 @@
 */
 
 /**
-* Your game's custom configuration values
+* @desc Your game's custom configuration values
 * @typedef {Object} customConfig
 * @property {boolean} fullScreen=true Toggle full screen on and off
 * @property {boolean} debugMode=true Toggle debug console.log messages

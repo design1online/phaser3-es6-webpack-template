@@ -9,10 +9,13 @@ import customConfig from '../../config/custom';
 /**
 * @classdesc Example of animation events
 * @class AnimationData
-* @constructor
 * @since 1.0.0
 */
 class AnimationData extends Phaser.Scene {
+
+  /**
+  * @desc Default constructor sets scene key
+  */
   constructor() {
     super({
       key: 'AnimationData',
@@ -21,12 +24,29 @@ class AnimationData extends Phaser.Scene {
     // add in our custom config values
     Object.assign(this, customConfig);
 
-    this.frameView = null; // highlights the active animation frame
-    this.curtain = null; // hides the sprites to create a "clear screen" effect
-    this.progress = null; // shows information about the animation progress
-    this.sprite = null; // keeps an instance of the loaded sprite
+    /**
+    * Used to highlight the active sprite in the sheet
+    * @type {Object}
+    */
+    this.frameView = null;
 
-    this.spriteSheet = { // the spritesheet to animate
+    /**
+    * Shows information about the animation progress
+    * @type {Object}
+    */
+    this.progress = null;
+
+    /**
+    * An instance of the sprite
+    * @type {Object}
+    */
+    this.sprite = null;
+
+    /**
+    * Information used to load and create the spritesheet to animate
+    * @type {Object}
+    */
+    this.spriteSheet = {
       name: 'mummy', // name of the sprite
       image: '../../assets/mummy.png', // location of the sprite sheet
       width: 37, // width of a single sprite

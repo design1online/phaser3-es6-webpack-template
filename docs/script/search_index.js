@@ -378,15 +378,9 @@ window.esdocSearchIndex = [
     "member"
   ],
   [
-    "src/examples/animations/add.js~animationadd#information",
-    "class/src/examples/animations/add.js~AnimationAdd.html#instance-member-information",
-    "src/examples/animations/add.js~AnimationAdd#information",
-    "member"
-  ],
-  [
-    "src/examples/animations/add.js~animationadd#loaded",
-    "class/src/examples/animations/add.js~AnimationAdd.html#instance-member-loaded",
-    "src/examples/animations/add.js~AnimationAdd#loaded",
+    "src/examples/animations/add.js~animationadd#instructions",
+    "class/src/examples/animations/add.js~AnimationAdd.html#instance-member-instructions",
+    "src/examples/animations/add.js~AnimationAdd#instructions",
     "member"
   ],
   [
@@ -418,12 +412,6 @@ window.esdocSearchIndex = [
     "class/src/examples/animations/data.js~AnimationData.html#instance-method-create",
     "src/examples/animations/data.js~AnimationData#create",
     "method"
-  ],
-  [
-    "src/examples/animations/data.js~animationdata#curtain",
-    "class/src/examples/animations/data.js~AnimationData.html#instance-member-curtain",
-    "src/examples/animations/data.js~AnimationData#curtain",
-    "member"
   ],
   [
     "src/examples/animations/data.js~animationdata#frameview",

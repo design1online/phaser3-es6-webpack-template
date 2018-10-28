@@ -12,10 +12,13 @@ import customConfig from '../../config/custom';
 *
 * @class AnimationTween
 * @memberOf Animations
-* @constructor
 * @since 1.0.0
 */
 class AnimationTween extends Phaser.Scene {
+
+  /**
+  * @desc Default constructor, sets the scene key
+  */
   constructor() {
     super({
       key: 'AnimationTween',
@@ -24,7 +27,11 @@ class AnimationTween extends Phaser.Scene {
     // add in our custom config values
     Object.assign(this, customConfig);
 
-    this.logo = null; // a reference to the logo
+    /**
+    * A reference to the image being tweened
+    * @type {Object}
+    */
+    this.logo = null;
   }
 
   /**

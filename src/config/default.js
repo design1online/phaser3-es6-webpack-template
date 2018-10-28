@@ -7,7 +7,7 @@ import Phaser from 'phaser';
 import { AnimationData, AnimationTween, AnimationAdd } from '../examples/animations';
 
 /**
-* Default Phaser configuration, for more settings see {@link https://photonstorm.github.io/phaser3-docs/global.html#GameConfig}
+* @desc Default Phaser configuration, for more settings see {@link https://photonstorm.github.io/phaser3-docs/global.html#GameConfig}
 * @typedef {Object} defaultConfig
 * @property {number} [type=Phaser.AUTO] Phaser.AUTO, Phaser.CANVAS, Phaser.HEADLESS or Phaser.WEBGL. AUTO picks WEBGL if available, otherwise CANVAS.
 * @property {number|string} [width=1024] The width of the game, in game pixels

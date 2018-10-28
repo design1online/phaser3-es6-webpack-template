@@ -11,10 +11,13 @@ import customConfig from '../../config/custom';
 *
 * @class AnimationAdd
 * @extends {Phaser.Scene}
-* @constructor
 * @since 1.0.0
 */
 class AnimationAdd extends Phaser.Scene {
+
+  /**
+  * @desc Default constructor and sets scene key
+  */
   constructor() {
     super({
       key: 'AnimationAdd',
@@ -23,10 +26,28 @@ class AnimationAdd extends Phaser.Scene {
     // add in our custom config values
     Object.assign(this, customConfig);
 
+    /**
+    * keeps track of gem index
+    * @type {number}
+    */
     this.i = 0;
+
+    /**
+    * The y position of the gems
+    * @type {number}
+    */
     this.y = null;
-    this.loaded = false;
-    this.information = null;
+
+    /**
+    * Holds the example instructions
+    * @type {string}
+    */
+    this.instructions = null;
+
+    /**
+    * The on add animations callback function
+    * @type {function}
+    */
     this.animations = null;
 
     this.addAnimation = this.addAnimation.bind(this);
@@ -35,8 +56,6 @@ class AnimationAdd extends Phaser.Scene {
 
   /**
   * @desc Preload the assets for this scene
-  * @method Animations.AnimationAdd#preload
-  * @since 1.0.0
   */
   preload() {
     this.load.atlas('gems', `${this.assetPath}gems.png`, `${this.assetPath}gems.json`);
@@ -44,7 +63,6 @@ class AnimationAdd extends Phaser.Scene {
 
   /**
   * @desc Initalize the animation
-  * @method Animations.AnimationAdd#create
   */
   create() {
     // reset the gem index and y position
@@ -68,7 +86,7 @@ class AnimationAdd extends Phaser.Scene {
     });
 
     const infoText = 'Click up to 4 times to add an animation to the canvas';
-    this.information = this.add.text(100, 500, infoText, { color: this.textColor });
+    this.instructions = this.add.text(100, 500, infoText, { color: this.textColor });
   }
 
   /**
