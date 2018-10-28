@@ -16,7 +16,7 @@ window.onload = () => {
   window.game = new Phaser.Game(defaultConfig);
 
   // add in our custom global variables
-  Object.assign(window.game, {...customConfig});
+  Object.assign(window.game, { ...customConfig });
 
   // this is only for our examples, it's not required
   window.game.changeScene = (scene) => {

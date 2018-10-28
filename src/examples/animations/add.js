@@ -40,7 +40,6 @@ class AnimationAdd extends Phaser.Scene {
   * @since 1.0.0
   */
   preload() {
-    console.log('game', this);
     this.load.atlas('gems', `${this.assetPath}gems.png`, `${this.assetPath}gems.json`);
   }
 
@@ -103,6 +102,7 @@ class AnimationAdd extends Phaser.Scene {
     if (this.debugMode) {
       console.log('adding animation', key); // eslint-disable-line
     }
+
     this.add.sprite(400, this.y, 'gems').play(key);
     this.y += 100;
   }

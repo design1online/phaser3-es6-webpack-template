@@ -11,12 +11,12 @@
  * @param game {Phaser.Game} instance of a phaser game
  * @source { "filename": "utilities/canvas.js", "lineno": 14 }
  */
-export default function fullScreenCanvas(game) {
+export default function fullScreenCanvas() {
   const canvas = document.querySelector('canvas');
   const windowWidth = window.innerWidth;
   const windowHeight = window.innerHeight;
   const windowRatio = windowWidth / windowHeight;
-  const gameRatio = game.width / game.height;
+  const gameRatio = window.game.width / window.game.height;
 
   if (windowRatio < gameRatio) {
     canvas.style.width = `${windowWidth}px`;
