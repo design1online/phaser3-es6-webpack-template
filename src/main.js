@@ -1,7 +1,9 @@
 /**
-* @file Creates a Phaser game
-* @author Jade Krafsig <jade@design1online.com>
-* @extends {Phaser.Game}
+* @author    Jade Krafsig <jade@design1online.com>
+* @copyright Design1Online.com, LLC
+* @license   {@link https://github.com/design1online/phaser3-es6-webpack-template/blob/master/LICENSE|MIT License}
+* @extends   {Phaser.Game}
+* @module    Core
 */
 import Phaser from 'phaser';
 import { defaultConfig, customConfig } from './config';
