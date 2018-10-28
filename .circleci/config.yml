@@ -28,6 +28,3 @@ jobs:
       - run:
           name: Run the Unit Tests
           command: npm run test
-      - run:
-          name: Build
-          command: npm run deploy

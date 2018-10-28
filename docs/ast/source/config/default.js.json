@@ -1,0 +1,3510 @@
+{
+  "type": "File",
+  "start": 0,
+  "end": 4614,
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 0
+    },
+    "end": {
+      "line": 62,
+      "column": 0
+    }
+  },
+  "program": {
+    "type": "Program",
+    "start": 0,
+    "end": 4614,
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0
+      },
+      "end": {
+        "line": 62,
+        "column": 0
+      }
+    },
+    "sourceType": "module",
+    "body": [
+      {
+        "type": "ImportDeclaration",
+        "start": 218,
+        "end": 246,
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 0
+          },
+          "end": {
+            "line": 6,
+            "column": 28
+          }
+        },
+        "specifiers": [
+          {
+            "type": "ImportDefaultSpecifier",
+            "start": 225,
+            "end": 231,
+            "loc": {
+              "start": {
+                "line": 6,
+                "column": 7
+              },
+              "end": {
+                "line": 6,
+                "column": 13
+              }
+            },
+            "local": {
+              "type": "Identifier",
+              "start": 225,
+              "end": 231,
+              "loc": {
+                "start": {
+                  "line": 6,
+                  "column": 7
+                },
+                "end": {
+                  "line": 6,
+                  "column": 13
+                },
+                "identifierName": "Phaser"
+              },
+              "name": "Phaser",
+              "leadingComments": null
+            },
+            "leadingComments": null
+          }
+        ],
+        "source": {
+          "type": "StringLiteral",
+          "start": 237,
+          "end": 245,
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 19
+            },
+            "end": {
+              "line": 6,
+              "column": 27
+            }
+          },
+          "extra": {
+            "rawValue": "phaser",
+            "raw": "'phaser'"
+          },
+          "value": "phaser"
+        },
+        "leadingComments": [
+          {
+            "type": "CommentBlock",
+            "value": "*\n* @author       Jade Krafsig <jade@design1online.com>\n* @copyright    Design1Online.com, LLC\n* @license      {@link https://github.com/design1online/phaser3-es6-webpack-template/blob/master/LICENSE|MIT License}\n",
+            "start": 0,
+            "end": 217,
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 0
+              },
+              "end": {
+                "line": 5,
+                "column": 2
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "ImportDeclaration",
+        "start": 247,
+        "end": 332,
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 0
+          },
+          "end": {
+            "line": 7,
+            "column": 85
+          }
+        },
+        "specifiers": [
+          {
+            "type": "ImportSpecifier",
+            "start": 256,
+            "end": 269,
+            "loc": {
+              "start": {
+                "line": 7,
+                "column": 9
+              },
+              "end": {
+                "line": 7,
+                "column": 22
+              }
+            },
+            "imported": {
+              "type": "Identifier",
+              "start": 256,
+              "end": 269,
+              "loc": {
+                "start": {
+                  "line": 7,
+                  "column": 9
+                },
+                "end": {
+                  "line": 7,
+                  "column": 22
+                },
+                "identifierName": "AnimationData"
+              },
+              "name": "AnimationData"
+            },
+            "local": {
+              "type": "Identifier",
+              "start": 256,
+              "end": 269,
+              "loc": {
+                "start": {
+                  "line": 7,
+                  "column": 9
+                },
+                "end": {
+                  "line": 7,
+                  "column": 22
+                },
+                "identifierName": "AnimationData"
+              },
+              "name": "AnimationData"
+            }
+          },
+          {
+            "type": "ImportSpecifier",
+            "start": 271,
+            "end": 285,
+            "loc": {
+              "start": {
+                "line": 7,
+                "column": 24
+              },
+              "end": {
+                "line": 7,
+                "column": 38
+              }
+            },
+            "imported": {
+              "type": "Identifier",
+              "start": 271,
+              "end": 285,
+              "loc": {
+                "start": {
+                  "line": 7,
+                  "column": 24
+                },
+                "end": {
+                  "line": 7,
+                  "column": 38
+                },
+                "identifierName": "AnimationTween"
+              },
+              "name": "AnimationTween"
+            },
+            "local": {
+              "type": "Identifier",
+              "start": 271,
+              "end": 285,
+              "loc": {
+                "start": {
+                  "line": 7,
+                  "column": 24
+                },
+                "end": {
+                  "line": 7,
+                  "column": 38
+                },
+                "identifierName": "AnimationTween"
+              },
+              "name": "AnimationTween"
+            }
+          },
+          {
+            "type": "ImportSpecifier",
+            "start": 287,
+            "end": 299,
+            "loc": {
+              "start": {
+                "line": 7,
+                "column": 40
+              },
+              "end": {
+                "line": 7,
+                "column": 52
+              }
+            },
+            "imported": {
+              "type": "Identifier",
+              "start": 287,
+              "end": 299,
+              "loc": {
+                "start": {
+                  "line": 7,
+                  "column": 40
+                },
+                "end": {
+                  "line": 7,
+                  "column": 52
+                },
+                "identifierName": "AnimationAdd"
+              },
+              "name": "AnimationAdd"
+            },
+            "local": {
+              "type": "Identifier",
+              "start": 287,
+              "end": 299,
+              "loc": {
+                "start": {
+                  "line": 7,
+                  "column": 40
+                },
+                "end": {
+                  "line": 7,
+                  "column": 52
+                },
+                "identifierName": "AnimationAdd"
+              },
+              "name": "AnimationAdd"
+            }
+          }
+        ],
+        "source": {
+          "type": "StringLiteral",
+          "start": 307,
+          "end": 331,
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 60
+            },
+            "end": {
+              "line": 7,
+              "column": 84
+            }
+          },
+          "extra": {
+            "rawValue": "../examples/animations",
+            "raw": "'../examples/animations'"
+          },
+          "value": "../examples/animations"
+        },
+        "trailingComments": [
+          {
+            "type": "CommentBlock",
+            "value": "*\n* @desc Default Phaser configuration, for more settings see {@link https://photonstorm.github.io/phaser3-docs/global.html#GameConfig}\n* @typedef {Object} defaultConfig\n* @property {number} [type=Phaser.AUTO] Phaser.AUTO, Phaser.CANVAS, Phaser.HEADLESS or Phaser.WEBGL. AUTO picks WEBGL if available, otherwise CANVAS.\n* @property {number|string} [width=1024] The width of the game, in game pixels\n* @property {number|string} [height=768] The height of the game, in game pixels\n* @property {number} [zoom=1] Simple scale applied to the game canvas. 2 is double size, 0.5 is half size, etc\n* @property {number} [resolution=1] The size of each game pixel, in canvas pixels. Values larger than 1 are \"high\" resolution\n* @property {Object|string} [parent=null] The DOM element that will contain the game canvas, or its id. If null (the default) or if the named element doesn't exist, the game canvas is inserted directly into the document body\n* @property {Object} [canvas=null] Provide your own Canvas element for Phaser to use instead of creating one.\n* @property {string} [canvasStyle=null] CSS styles to apply to the game canvas instead of Phaser's default styles.\n* @property {Object} [CanvasRenderingContext2D] Provide your own Canvas Context for Phaser to use, instead of creating one.\n* @property {Object} [scene=null] A scene or scenes to add to the game. If several are given, the first is started; the remainder are started only if they have { active: true }.\n* @property {string[]} [seed]\tSeed for the random number generator\n* @property {string} [title=''] The title of the game shown in the browser console\n* @property {string} [url='http://phaser.io'] The URL of the game shown in the browser console\n* @property {string} [version=''] The version of the game shown in the browser console\n* @property {boolean} [autoFocus=true] Automatically call window.focus() when the game boots. Usually necessary to capture input events if the game is in a separate frame\n* @property {boolean|InputConfig} [input] Input configuration, or false to disable all game input. See {@link https://photonstorm.github.io/phaser3-docs/global.html#InputConfig}\n* @property {boolean} [disableContextMenu=false] Disable the browser's default 'contextmenu' event (usually triggered by a right-button mouse click)\n* @property {boolean|BannerConfig} [banner=false] Configuration for the banner printed in the browser console when the game starts. See {@link https://photonstorm.github.io/phaser3-docs/global.html#BannerConfig}\n* @property {DOMContainerConfig} [dom] The DOM Container configuration object, see {@link https://photonstorm.github.io/phaser3-docs/global.html#DOMContainerConfig}\n* @property {FPSConfig} [fps] Game loop configuration, see {@link https://photonstorm.github.io/phaser3-docs/global.html#FPSConfig}\n* @property {RenderConfig} [render] Game render configuration, see {@link https://photonstorm.github.io/phaser3-docs/global.html#RenderConfig}\n* @property {string|number} [backgroundColor=0x000000] The background color of the game canvas\n* @property {CallbacksConfig} [callbacks] Optional callbacks to run before or after game boot see {@link https://photonstorm.github.io/phaser3-docs/global.html#CallbacksConfig}\n* @property {LoaderConfig} [loader] Loader configuration see {@link https://photonstorm.github.io/phaser3-docs/global.html#LoaderConfig}\n* @property {ImagesConfig} [images] Images configuration see {@link https://photonstorm.github.io/phaser3-docs/global.html#ImagesConfig}\n* @property {Object} [physics] Physics configuration see {@link https://photonstorm.github.io/phaser3-docs/Phaser.Physics.html}\n* @property {PluginObject|PluginObjectItem[]} Plugins to install see {@link https://photonstorm.github.io/phaser3-docs/global.html#PluginObject} and {@link https://photonstorm.github.io/phaser3-docs/global.html#PluginObjectItem}\n* @see https://photonstorm.github.io/phaser3-docs/global.html#GameConfig\n",
+            "start": 334,
+            "end": 4264,
+            "loc": {
+              "start": {
+                "line": 9,
+                "column": 0
+              },
+              "end": {
+                "line": 40,
+                "column": 2
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "ExportDefaultDeclaration",
+        "start": 4265,
+        "end": 4613,
+        "loc": {
+          "start": {
+            "line": 41,
+            "column": 0
+          },
+          "end": {
+            "line": 61,
+            "column": 2
+          }
+        },
+        "declaration": {
+          "type": "ObjectExpression",
+          "start": 4280,
+          "end": 4612,
+          "loc": {
+            "start": {
+              "line": 41,
+              "column": 15
+            },
+            "end": {
+              "line": 61,
+              "column": 1
+            }
+          },
+          "properties": [
+            {
+              "type": "ObjectProperty",
+              "start": 4284,
+              "end": 4302,
+              "loc": {
+                "start": {
+                  "line": 42,
+                  "column": 2
+                },
+                "end": {
+                  "line": 42,
+                  "column": 20
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 4284,
+                "end": 4288,
+                "loc": {
+                  "start": {
+                    "line": 42,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 42,
+                    "column": 6
+                  },
+                  "identifierName": "type"
+                },
+                "name": "type",
+                "leadingComments": null
+              },
+              "value": {
+                "type": "MemberExpression",
+                "start": 4290,
+                "end": 4302,
+                "loc": {
+                  "start": {
+                    "line": 42,
+                    "column": 8
+                  },
+                  "end": {
+                    "line": 42,
+                    "column": 20
+                  }
+                },
+                "object": {
+                  "type": "Identifier",
+                  "start": 4290,
+                  "end": 4296,
+                  "loc": {
+                    "start": {
+                      "line": 42,
+                      "column": 8
+                    },
+                    "end": {
+                      "line": 42,
+                      "column": 14
+                    },
+                    "identifierName": "Phaser"
+                  },
+                  "name": "Phaser"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 4297,
+                  "end": 4302,
+                  "loc": {
+                    "start": {
+                      "line": 42,
+                      "column": 15
+                    },
+                    "end": {
+                      "line": 42,
+                      "column": 20
+                    },
+                    "identifierName": "WEBGL"
+                  },
+                  "name": "WEBGL"
+                },
+                "computed": false
+              },
+              "leadingComments": null
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 4306,
+              "end": 4323,
+              "loc": {
+                "start": {
+                  "line": 43,
+                  "column": 2
+                },
+                "end": {
+                  "line": 43,
+                  "column": 19
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 4306,
+                "end": 4312,
+                "loc": {
+                  "start": {
+                    "line": 43,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 43,
+                    "column": 8
+                  },
+                  "identifierName": "parent"
+                },
+                "name": "parent"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 4314,
+                "end": 4323,
+                "loc": {
+                  "start": {
+                    "line": 43,
+                    "column": 10
+                  },
+                  "end": {
+                    "line": 43,
+                    "column": 19
+                  }
+                },
+                "extra": {
+                  "rawValue": "content",
+                  "raw": "'content'"
+                },
+                "value": "content"
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 4327,
+              "end": 4337,
+              "loc": {
+                "start": {
+                  "line": 44,
+                  "column": 2
+                },
+                "end": {
+                  "line": 44,
+                  "column": 12
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 4327,
+                "end": 4332,
+                "loc": {
+                  "start": {
+                    "line": 44,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 44,
+                    "column": 7
+                  },
+                  "identifierName": "width"
+                },
+                "name": "width"
+              },
+              "value": {
+                "type": "NumericLiteral",
+                "start": 4334,
+                "end": 4337,
+                "loc": {
+                  "start": {
+                    "line": 44,
+                    "column": 9
+                  },
+                  "end": {
+                    "line": 44,
+                    "column": 12
+                  }
+                },
+                "extra": {
+                  "rawValue": 800,
+                  "raw": "800"
+                },
+                "value": 800
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 4341,
+              "end": 4352,
+              "loc": {
+                "start": {
+                  "line": 45,
+                  "column": 2
+                },
+                "end": {
+                  "line": 45,
+                  "column": 13
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 4341,
+                "end": 4347,
+                "loc": {
+                  "start": {
+                    "line": 45,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 45,
+                    "column": 8
+                  },
+                  "identifierName": "height"
+                },
+                "name": "height"
+              },
+              "value": {
+                "type": "NumericLiteral",
+                "start": 4349,
+                "end": 4352,
+                "loc": {
+                  "start": {
+                    "line": 45,
+                    "column": 10
+                  },
+                  "end": {
+                    "line": 45,
+                    "column": 13
+                  }
+                },
+                "extra": {
+                  "rawValue": 600,
+                  "raw": "600"
+                },
+                "value": 600
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 4356,
+              "end": 4370,
+              "loc": {
+                "start": {
+                  "line": 46,
+                  "column": 2
+                },
+                "end": {
+                  "line": 46,
+                  "column": 16
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 4356,
+                "end": 4364,
+                "loc": {
+                  "start": {
+                    "line": 46,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 46,
+                    "column": 10
+                  },
+                  "identifierName": "pixelArt"
+                },
+                "name": "pixelArt"
+              },
+              "value": {
+                "type": "BooleanLiteral",
+                "start": 4366,
+                "end": 4370,
+                "loc": {
+                  "start": {
+                    "line": 46,
+                    "column": 12
+                  },
+                  "end": {
+                    "line": 46,
+                    "column": 16
+                  }
+                },
+                "value": true
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 4374,
+              "end": 4391,
+              "loc": {
+                "start": {
+                  "line": 47,
+                  "column": 2
+                },
+                "end": {
+                  "line": 47,
+                  "column": 19
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 4374,
+                "end": 4385,
+                "loc": {
+                  "start": {
+                    "line": 47,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 47,
+                    "column": 13
+                  },
+                  "identifierName": "roundPixels"
+                },
+                "name": "roundPixels"
+              },
+              "value": {
+                "type": "BooleanLiteral",
+                "start": 4387,
+                "end": 4391,
+                "loc": {
+                  "start": {
+                    "line": 47,
+                    "column": 15
+                  },
+                  "end": {
+                    "line": 47,
+                    "column": 19
+                  }
+                },
+                "value": true
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 4395,
+              "end": 4500,
+              "loc": {
+                "start": {
+                  "line": 48,
+                  "column": 2
+                },
+                "end": {
+                  "line": 54,
+                  "column": 3
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 4395,
+                "end": 4402,
+                "loc": {
+                  "start": {
+                    "line": 48,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 48,
+                    "column": 9
+                  },
+                  "identifierName": "physics"
+                },
+                "name": "physics"
+              },
+              "value": {
+                "type": "ObjectExpression",
+                "start": 4404,
+                "end": 4500,
+                "loc": {
+                  "start": {
+                    "line": 48,
+                    "column": 11
+                  },
+                  "end": {
+                    "line": 54,
+                    "column": 3
+                  }
+                },
+                "properties": [
+                  {
+                    "type": "ObjectProperty",
+                    "start": 4410,
+                    "end": 4427,
+                    "loc": {
+                      "start": {
+                        "line": 49,
+                        "column": 4
+                      },
+                      "end": {
+                        "line": 49,
+                        "column": 21
+                      }
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 4410,
+                      "end": 4417,
+                      "loc": {
+                        "start": {
+                          "line": 49,
+                          "column": 4
+                        },
+                        "end": {
+                          "line": 49,
+                          "column": 11
+                        },
+                        "identifierName": "default"
+                      },
+                      "name": "default"
+                    },
+                    "value": {
+                      "type": "StringLiteral",
+                      "start": 4419,
+                      "end": 4427,
+                      "loc": {
+                        "start": {
+                          "line": 49,
+                          "column": 13
+                        },
+                        "end": {
+                          "line": 49,
+                          "column": 21
+                        }
+                      },
+                      "extra": {
+                        "rawValue": "arcade",
+                        "raw": "'arcade'"
+                      },
+                      "value": "arcade"
+                    }
+                  },
+                  {
+                    "type": "ObjectProperty",
+                    "start": 4433,
+                    "end": 4495,
+                    "loc": {
+                      "start": {
+                        "line": 50,
+                        "column": 4
+                      },
+                      "end": {
+                        "line": 53,
+                        "column": 5
+                      }
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 4433,
+                      "end": 4439,
+                      "loc": {
+                        "start": {
+                          "line": 50,
+                          "column": 4
+                        },
+                        "end": {
+                          "line": 50,
+                          "column": 10
+                        },
+                        "identifierName": "arcade"
+                      },
+                      "name": "arcade"
+                    },
+                    "value": {
+                      "type": "ObjectExpression",
+                      "start": 4441,
+                      "end": 4495,
+                      "loc": {
+                        "start": {
+                          "line": 50,
+                          "column": 12
+                        },
+                        "end": {
+                          "line": 53,
+                          "column": 5
+                        }
+                      },
+                      "properties": [
+                        {
+                          "type": "ObjectProperty",
+                          "start": 4449,
+                          "end": 4468,
+                          "loc": {
+                            "start": {
+                              "line": 51,
+                              "column": 6
+                            },
+                            "end": {
+                              "line": 51,
+                              "column": 25
+                            }
+                          },
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "key": {
+                            "type": "Identifier",
+                            "start": 4449,
+                            "end": 4456,
+                            "loc": {
+                              "start": {
+                                "line": 51,
+                                "column": 6
+                              },
+                              "end": {
+                                "line": 51,
+                                "column": 13
+                              },
+                              "identifierName": "gravity"
+                            },
+                            "name": "gravity"
+                          },
+                          "value": {
+                            "type": "ObjectExpression",
+                            "start": 4458,
+                            "end": 4468,
+                            "loc": {
+                              "start": {
+                                "line": 51,
+                                "column": 15
+                              },
+                              "end": {
+                                "line": 51,
+                                "column": 25
+                              }
+                            },
+                            "properties": [
+                              {
+                                "type": "ObjectProperty",
+                                "start": 4460,
+                                "end": 4466,
+                                "loc": {
+                                  "start": {
+                                    "line": 51,
+                                    "column": 17
+                                  },
+                                  "end": {
+                                    "line": 51,
+                                    "column": 23
+                                  }
+                                },
+                                "method": false,
+                                "shorthand": false,
+                                "computed": false,
+                                "key": {
+                                  "type": "Identifier",
+                                  "start": 4460,
+                                  "end": 4461,
+                                  "loc": {
+                                    "start": {
+                                      "line": 51,
+                                      "column": 17
+                                    },
+                                    "end": {
+                                      "line": 51,
+                                      "column": 18
+                                    },
+                                    "identifierName": "y"
+                                  },
+                                  "name": "y"
+                                },
+                                "value": {
+                                  "type": "NumericLiteral",
+                                  "start": 4463,
+                                  "end": 4466,
+                                  "loc": {
+                                    "start": {
+                                      "line": 51,
+                                      "column": 20
+                                    },
+                                    "end": {
+                                      "line": 51,
+                                      "column": 23
+                                    }
+                                  },
+                                  "extra": {
+                                    "rawValue": 800,
+                                    "raw": "800"
+                                  },
+                                  "value": 800
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "ObjectProperty",
+                          "start": 4476,
+                          "end": 4488,
+                          "loc": {
+                            "start": {
+                              "line": 52,
+                              "column": 6
+                            },
+                            "end": {
+                              "line": 52,
+                              "column": 18
+                            }
+                          },
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "key": {
+                            "type": "Identifier",
+                            "start": 4476,
+                            "end": 4481,
+                            "loc": {
+                              "start": {
+                                "line": 52,
+                                "column": 6
+                              },
+                              "end": {
+                                "line": 52,
+                                "column": 11
+                              },
+                              "identifierName": "debug"
+                            },
+                            "name": "debug"
+                          },
+                          "value": {
+                            "type": "BooleanLiteral",
+                            "start": 4483,
+                            "end": 4488,
+                            "loc": {
+                              "start": {
+                                "line": 52,
+                                "column": 13
+                              },
+                              "end": {
+                                "line": 52,
+                                "column": 18
+                              }
+                            },
+                            "value": false
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 4540,
+              "end": 4609,
+              "loc": {
+                "start": {
+                  "line": 56,
+                  "column": 2
+                },
+                "end": {
+                  "line": 60,
+                  "column": 3
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 4540,
+                "end": 4545,
+                "loc": {
+                  "start": {
+                    "line": 56,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 56,
+                    "column": 7
+                  },
+                  "identifierName": "scene"
+                },
+                "name": "scene",
+                "leadingComments": null
+              },
+              "value": {
+                "type": "ArrayExpression",
+                "start": 4547,
+                "end": 4609,
+                "loc": {
+                  "start": {
+                    "line": 56,
+                    "column": 9
+                  },
+                  "end": {
+                    "line": 60,
+                    "column": 3
+                  }
+                },
+                "elements": [
+                  {
+                    "type": "Identifier",
+                    "start": 4553,
+                    "end": 4567,
+                    "loc": {
+                      "start": {
+                        "line": 57,
+                        "column": 4
+                      },
+                      "end": {
+                        "line": 57,
+                        "column": 18
+                      },
+                      "identifierName": "AnimationTween"
+                    },
+                    "name": "AnimationTween"
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 4573,
+                    "end": 4586,
+                    "loc": {
+                      "start": {
+                        "line": 58,
+                        "column": 4
+                      },
+                      "end": {
+                        "line": 58,
+                        "column": 17
+                      },
+                      "identifierName": "AnimationData"
+                    },
+                    "name": "AnimationData"
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 4592,
+                    "end": 4604,
+                    "loc": {
+                      "start": {
+                        "line": 59,
+                        "column": 4
+                      },
+                      "end": {
+                        "line": 59,
+                        "column": 16
+                      },
+                      "identifierName": "AnimationAdd"
+                    },
+                    "name": "AnimationAdd"
+                  }
+                ]
+              },
+              "leadingComments": [
+                {
+                  "type": "CommentBlock",
+                  "value": " list of all the game scenes ",
+                  "start": 4504,
+                  "end": 4537,
+                  "loc": {
+                    "start": {
+                      "line": 55,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 55,
+                      "column": 35
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "leadingComments": [
+            {
+              "type": "CommentBlock",
+              "value": "*\n* @desc Default Phaser configuration, for more settings see {@link https://photonstorm.github.io/phaser3-docs/global.html#GameConfig}\n* @typedef {Object} defaultConfig\n* @property {number} [type=Phaser.AUTO] Phaser.AUTO, Phaser.CANVAS, Phaser.HEADLESS or Phaser.WEBGL. AUTO picks WEBGL if available, otherwise CANVAS.\n* @property {number|string} [width=1024] The width of the game, in game pixels\n* @property {number|string} [height=768] The height of the game, in game pixels\n* @property {number} [zoom=1] Simple scale applied to the game canvas. 2 is double size, 0.5 is half size, etc\n* @property {number} [resolution=1] The size of each game pixel, in canvas pixels. Values larger than 1 are \"high\" resolution\n* @property {Object|string} [parent=null] The DOM element that will contain the game canvas, or its id. If null (the default) or if the named element doesn't exist, the game canvas is inserted directly into the document body\n* @property {Object} [canvas=null] Provide your own Canvas element for Phaser to use instead of creating one.\n* @property {string} [canvasStyle=null] CSS styles to apply to the game canvas instead of Phaser's default styles.\n* @property {Object} [CanvasRenderingContext2D] Provide your own Canvas Context for Phaser to use, instead of creating one.\n* @property {Object} [scene=null] A scene or scenes to add to the game. If several are given, the first is started; the remainder are started only if they have { active: true }.\n* @property {string[]} [seed]\tSeed for the random number generator\n* @property {string} [title=''] The title of the game shown in the browser console\n* @property {string} [url='http://phaser.io'] The URL of the game shown in the browser console\n* @property {string} [version=''] The version of the game shown in the browser console\n* @property {boolean} [autoFocus=true] Automatically call window.focus() when the game boots. Usually necessary to capture input events if the game is in a separate frame\n* @property {boolean|InputConfig} [input] Input configuration, or false to disable all game input. See {@link https://photonstorm.github.io/phaser3-docs/global.html#InputConfig}\n* @property {boolean} [disableContextMenu=false] Disable the browser's default 'contextmenu' event (usually triggered by a right-button mouse click)\n* @property {boolean|BannerConfig} [banner=false] Configuration for the banner printed in the browser console when the game starts. See {@link https://photonstorm.github.io/phaser3-docs/global.html#BannerConfig}\n* @property {DOMContainerConfig} [dom] The DOM Container configuration object, see {@link https://photonstorm.github.io/phaser3-docs/global.html#DOMContainerConfig}\n* @property {FPSConfig} [fps] Game loop configuration, see {@link https://photonstorm.github.io/phaser3-docs/global.html#FPSConfig}\n* @property {RenderConfig} [render] Game render configuration, see {@link https://photonstorm.github.io/phaser3-docs/global.html#RenderConfig}\n* @property {string|number} [backgroundColor=0x000000] The background color of the game canvas\n* @property {CallbacksConfig} [callbacks] Optional callbacks to run before or after game boot see {@link https://photonstorm.github.io/phaser3-docs/global.html#CallbacksConfig}\n* @property {LoaderConfig} [loader] Loader configuration see {@link https://photonstorm.github.io/phaser3-docs/global.html#LoaderConfig}\n* @property {ImagesConfig} [images] Images configuration see {@link https://photonstorm.github.io/phaser3-docs/global.html#ImagesConfig}\n* @property {Object} [physics] Physics configuration see {@link https://photonstorm.github.io/phaser3-docs/Phaser.Physics.html}\n* @property {PluginObject|PluginObjectItem[]} Plugins to install see {@link https://photonstorm.github.io/phaser3-docs/global.html#PluginObject} and {@link https://photonstorm.github.io/phaser3-docs/global.html#PluginObjectItem}\n* @see https://photonstorm.github.io/phaser3-docs/global.html#GameConfig\n",
+              "start": 334,
+              "end": 4264,
+              "loc": {
+                "start": {
+                  "line": 9,
+                  "column": 0
+                },
+                "end": {
+                  "line": 40,
+                  "column": 2
+                }
+              }
+            }
+          ],
+          "trailingComments": []
+        },
+        "leadingComments": [
+          {
+            "type": "CommentBlock",
+            "value": "*\n* @desc Default Phaser configuration, for more settings see {@link https://photonstorm.github.io/phaser3-docs/global.html#GameConfig}\n* @typedef {Object} defaultConfig\n* @property {number} [type=Phaser.AUTO] Phaser.AUTO, Phaser.CANVAS, Phaser.HEADLESS or Phaser.WEBGL. AUTO picks WEBGL if available, otherwise CANVAS.\n* @property {number|string} [width=1024] The width of the game, in game pixels\n* @property {number|string} [height=768] The height of the game, in game pixels\n* @property {number} [zoom=1] Simple scale applied to the game canvas. 2 is double size, 0.5 is half size, etc\n* @property {number} [resolution=1] The size of each game pixel, in canvas pixels. Values larger than 1 are \"high\" resolution\n* @property {Object|string} [parent=null] The DOM element that will contain the game canvas, or its id. If null (the default) or if the named element doesn't exist, the game canvas is inserted directly into the document body\n* @property {Object} [canvas=null] Provide your own Canvas element for Phaser to use instead of creating one.\n* @property {string} [canvasStyle=null] CSS styles to apply to the game canvas instead of Phaser's default styles.\n* @property {Object} [CanvasRenderingContext2D] Provide your own Canvas Context for Phaser to use, instead of creating one.\n* @property {Object} [scene=null] A scene or scenes to add to the game. If several are given, the first is started; the remainder are started only if they have { active: true }.\n* @property {string[]} [seed]\tSeed for the random number generator\n* @property {string} [title=''] The title of the game shown in the browser console\n* @property {string} [url='http://phaser.io'] The URL of the game shown in the browser console\n* @property {string} [version=''] The version of the game shown in the browser console\n* @property {boolean} [autoFocus=true] Automatically call window.focus() when the game boots. Usually necessary to capture input events if the game is in a separate frame\n* @property {boolean|InputConfig} [input] Input configuration, or false to disable all game input. See {@link https://photonstorm.github.io/phaser3-docs/global.html#InputConfig}\n* @property {boolean} [disableContextMenu=false] Disable the browser's default 'contextmenu' event (usually triggered by a right-button mouse click)\n* @property {boolean|BannerConfig} [banner=false] Configuration for the banner printed in the browser console when the game starts. See {@link https://photonstorm.github.io/phaser3-docs/global.html#BannerConfig}\n* @property {DOMContainerConfig} [dom] The DOM Container configuration object, see {@link https://photonstorm.github.io/phaser3-docs/global.html#DOMContainerConfig}\n* @property {FPSConfig} [fps] Game loop configuration, see {@link https://photonstorm.github.io/phaser3-docs/global.html#FPSConfig}\n* @property {RenderConfig} [render] Game render configuration, see {@link https://photonstorm.github.io/phaser3-docs/global.html#RenderConfig}\n* @property {string|number} [backgroundColor=0x000000] The background color of the game canvas\n* @property {CallbacksConfig} [callbacks] Optional callbacks to run before or after game boot see {@link https://photonstorm.github.io/phaser3-docs/global.html#CallbacksConfig}\n* @property {LoaderConfig} [loader] Loader configuration see {@link https://photonstorm.github.io/phaser3-docs/global.html#LoaderConfig}\n* @property {ImagesConfig} [images] Images configuration see {@link https://photonstorm.github.io/phaser3-docs/global.html#ImagesConfig}\n* @property {Object} [physics] Physics configuration see {@link https://photonstorm.github.io/phaser3-docs/Phaser.Physics.html}\n* @property {PluginObject|PluginObjectItem[]} Plugins to install see {@link https://photonstorm.github.io/phaser3-docs/global.html#PluginObject} and {@link https://photonstorm.github.io/phaser3-docs/global.html#PluginObjectItem}\n* @see https://photonstorm.github.io/phaser3-docs/global.html#GameConfig\n",
+            "start": 334,
+            "end": 4264,
+            "loc": {
+              "start": {
+                "line": 9,
+                "column": 0
+              },
+              "end": {
+                "line": 40,
+                "column": 2
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "directives": []
+  },
+  "comments": [
+    {
+      "type": "CommentBlock",
+      "value": "*\n* @author       Jade Krafsig <jade@design1online.com>\n* @copyright    Design1Online.com, LLC\n* @license      {@link https://github.com/design1online/phaser3-es6-webpack-template/blob/master/LICENSE|MIT License}\n",
+      "start": 0,
+      "end": 217,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 5,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n* @desc Default Phaser configuration, for more settings see {@link https://photonstorm.github.io/phaser3-docs/global.html#GameConfig}\n* @typedef {Object} defaultConfig\n* @property {number} [type=Phaser.AUTO] Phaser.AUTO, Phaser.CANVAS, Phaser.HEADLESS or Phaser.WEBGL. AUTO picks WEBGL if available, otherwise CANVAS.\n* @property {number|string} [width=1024] The width of the game, in game pixels\n* @property {number|string} [height=768] The height of the game, in game pixels\n* @property {number} [zoom=1] Simple scale applied to the game canvas. 2 is double size, 0.5 is half size, etc\n* @property {number} [resolution=1] The size of each game pixel, in canvas pixels. Values larger than 1 are \"high\" resolution\n* @property {Object|string} [parent=null] The DOM element that will contain the game canvas, or its id. If null (the default) or if the named element doesn't exist, the game canvas is inserted directly into the document body\n* @property {Object} [canvas=null] Provide your own Canvas element for Phaser to use instead of creating one.\n* @property {string} [canvasStyle=null] CSS styles to apply to the game canvas instead of Phaser's default styles.\n* @property {Object} [CanvasRenderingContext2D] Provide your own Canvas Context for Phaser to use, instead of creating one.\n* @property {Object} [scene=null] A scene or scenes to add to the game. If several are given, the first is started; the remainder are started only if they have { active: true }.\n* @property {string[]} [seed]\tSeed for the random number generator\n* @property {string} [title=''] The title of the game shown in the browser console\n* @property {string} [url='http://phaser.io'] The URL of the game shown in the browser console\n* @property {string} [version=''] The version of the game shown in the browser console\n* @property {boolean} [autoFocus=true] Automatically call window.focus() when the game boots. Usually necessary to capture input events if the game is in a separate frame\n* @property {boolean|InputConfig} [input] Input configuration, or false to disable all game input. See {@link https://photonstorm.github.io/phaser3-docs/global.html#InputConfig}\n* @property {boolean} [disableContextMenu=false] Disable the browser's default 'contextmenu' event (usually triggered by a right-button mouse click)\n* @property {boolean|BannerConfig} [banner=false] Configuration for the banner printed in the browser console when the game starts. See {@link https://photonstorm.github.io/phaser3-docs/global.html#BannerConfig}\n* @property {DOMContainerConfig} [dom] The DOM Container configuration object, see {@link https://photonstorm.github.io/phaser3-docs/global.html#DOMContainerConfig}\n* @property {FPSConfig} [fps] Game loop configuration, see {@link https://photonstorm.github.io/phaser3-docs/global.html#FPSConfig}\n* @property {RenderConfig} [render] Game render configuration, see {@link https://photonstorm.github.io/phaser3-docs/global.html#RenderConfig}\n* @property {string|number} [backgroundColor=0x000000] The background color of the game canvas\n* @property {CallbacksConfig} [callbacks] Optional callbacks to run before or after game boot see {@link https://photonstorm.github.io/phaser3-docs/global.html#CallbacksConfig}\n* @property {LoaderConfig} [loader] Loader configuration see {@link https://photonstorm.github.io/phaser3-docs/global.html#LoaderConfig}\n* @property {ImagesConfig} [images] Images configuration see {@link https://photonstorm.github.io/phaser3-docs/global.html#ImagesConfig}\n* @property {Object} [physics] Physics configuration see {@link https://photonstorm.github.io/phaser3-docs/Phaser.Physics.html}\n* @property {PluginObject|PluginObjectItem[]} Plugins to install see {@link https://photonstorm.github.io/phaser3-docs/global.html#PluginObject} and {@link https://photonstorm.github.io/phaser3-docs/global.html#PluginObjectItem}\n* @see https://photonstorm.github.io/phaser3-docs/global.html#GameConfig\n",
+      "start": 334,
+      "end": 4264,
+      "loc": {
+        "start": {
+          "line": 9,
+          "column": 0
+        },
+        "end": {
+          "line": 40,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": " list of all the game scenes ",
+      "start": 4504,
+      "end": 4537,
+      "loc": {
+        "start": {
+          "line": 55,
+          "column": 2
+        },
+        "end": {
+          "line": 55,
+          "column": 35
+        }
+      }
+    }
+  ],
+  "tokens": [
+    {
+      "type": "CommentBlock",
+      "value": "*\n* @author       Jade Krafsig <jade@design1online.com>\n* @copyright    Design1Online.com, LLC\n* @license      {@link https://github.com/design1online/phaser3-es6-webpack-template/blob/master/LICENSE|MIT License}\n",
+      "start": 0,
+      "end": 217,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 5,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "import",
+        "keyword": "import",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "import",
+      "start": 218,
+      "end": 224,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 0
+        },
+        "end": {
+          "line": 6,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "Phaser",
+      "start": 225,
+      "end": 231,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 7
+        },
+        "end": {
+          "line": 6,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "from",
+      "start": 232,
+      "end": 236,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 14
+        },
+        "end": {
+          "line": 6,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "phaser",
+      "start": 237,
+      "end": 245,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 19
+        },
+        "end": {
+          "line": 6,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 245,
+      "end": 246,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 27
+        },
+        "end": {
+          "line": 6,
+          "column": 28
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "import",
+        "keyword": "import",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "import",
+      "start": 247,
+      "end": 253,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 0
+        },
+        "end": {
+          "line": 7,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "{",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 254,
+      "end": 255,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 7
+        },
+        "end": {
+          "line": 7,
+          "column": 8
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "AnimationData",
+      "start": 256,
+      "end": 269,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 9
+        },
+        "end": {
+          "line": 7,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 269,
+      "end": 270,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 22
+        },
+        "end": {
+          "line": 7,
+          "column": 23
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "AnimationTween",
+      "start": 271,
+      "end": 285,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 24
+        },
+        "end": {
+          "line": 7,
+          "column": 38
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 285,
+      "end": 286,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 38
+        },
+        "end": {
+          "line": 7,
+          "column": 39
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "AnimationAdd",
+      "start": 287,
+      "end": 299,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 40
+        },
+        "end": {
+          "line": 7,
+          "column": 52
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 300,
+      "end": 301,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 53
+        },
+        "end": {
+          "line": 7,
+          "column": 54
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "from",
+      "start": 302,
+      "end": 306,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 55
+        },
+        "end": {
+          "line": 7,
+          "column": 59
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "../examples/animations",
+      "start": 307,
+      "end": 331,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 60
+        },
+        "end": {
+          "line": 7,
+          "column": 84
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 331,
+      "end": 332,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 84
+        },
+        "end": {
+          "line": 7,
+          "column": 85
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": "*\n* @desc Default Phaser configuration, for more settings see {@link https://photonstorm.github.io/phaser3-docs/global.html#GameConfig}\n* @typedef {Object} defaultConfig\n* @property {number} [type=Phaser.AUTO] Phaser.AUTO, Phaser.CANVAS, Phaser.HEADLESS or Phaser.WEBGL. AUTO picks WEBGL if available, otherwise CANVAS.\n* @property {number|string} [width=1024] The width of the game, in game pixels\n* @property {number|string} [height=768] The height of the game, in game pixels\n* @property {number} [zoom=1] Simple scale applied to the game canvas. 2 is double size, 0.5 is half size, etc\n* @property {number} [resolution=1] The size of each game pixel, in canvas pixels. Values larger than 1 are \"high\" resolution\n* @property {Object|string} [parent=null] The DOM element that will contain the game canvas, or its id. If null (the default) or if the named element doesn't exist, the game canvas is inserted directly into the document body\n* @property {Object} [canvas=null] Provide your own Canvas element for Phaser to use instead of creating one.\n* @property {string} [canvasStyle=null] CSS styles to apply to the game canvas instead of Phaser's default styles.\n* @property {Object} [CanvasRenderingContext2D] Provide your own Canvas Context for Phaser to use, instead of creating one.\n* @property {Object} [scene=null] A scene or scenes to add to the game. If several are given, the first is started; the remainder are started only if they have { active: true }.\n* @property {string[]} [seed]\tSeed for the random number generator\n* @property {string} [title=''] The title of the game shown in the browser console\n* @property {string} [url='http://phaser.io'] The URL of the game shown in the browser console\n* @property {string} [version=''] The version of the game shown in the browser console\n* @property {boolean} [autoFocus=true] Automatically call window.focus() when the game boots. Usually necessary to capture input events if the game is in a separate frame\n* @property {boolean|InputConfig} [input] Input configuration, or false to disable all game input. See {@link https://photonstorm.github.io/phaser3-docs/global.html#InputConfig}\n* @property {boolean} [disableContextMenu=false] Disable the browser's default 'contextmenu' event (usually triggered by a right-button mouse click)\n* @property {boolean|BannerConfig} [banner=false] Configuration for the banner printed in the browser console when the game starts. See {@link https://photonstorm.github.io/phaser3-docs/global.html#BannerConfig}\n* @property {DOMContainerConfig} [dom] The DOM Container configuration object, see {@link https://photonstorm.github.io/phaser3-docs/global.html#DOMContainerConfig}\n* @property {FPSConfig} [fps] Game loop configuration, see {@link https://photonstorm.github.io/phaser3-docs/global.html#FPSConfig}\n* @property {RenderConfig} [render] Game render configuration, see {@link https://photonstorm.github.io/phaser3-docs/global.html#RenderConfig}\n* @property {string|number} [backgroundColor=0x000000] The background color of the game canvas\n* @property {CallbacksConfig} [callbacks] Optional callbacks to run before or after game boot see {@link https://photonstorm.github.io/phaser3-docs/global.html#CallbacksConfig}\n* @property {LoaderConfig} [loader] Loader configuration see {@link https://photonstorm.github.io/phaser3-docs/global.html#LoaderConfig}\n* @property {ImagesConfig} [images] Images configuration see {@link https://photonstorm.github.io/phaser3-docs/global.html#ImagesConfig}\n* @property {Object} [physics] Physics configuration see {@link https://photonstorm.github.io/phaser3-docs/Phaser.Physics.html}\n* @property {PluginObject|PluginObjectItem[]} Plugins to install see {@link https://photonstorm.github.io/phaser3-docs/global.html#PluginObject} and {@link https://photonstorm.github.io/phaser3-docs/global.html#PluginObjectItem}\n* @see https://photonstorm.github.io/phaser3-docs/global.html#GameConfig\n",
+      "start": 334,
+      "end": 4264,
+      "loc": {
+        "start": {
+          "line": 9,
+          "column": 0
+        },
+        "end": {
+          "line": 40,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "export",
+        "keyword": "export",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "export",
+      "start": 4265,
+      "end": 4271,
+      "loc": {
+        "start": {
+          "line": 41,
+          "column": 0
+        },
+        "end": {
+          "line": 41,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "default",
+        "keyword": "default",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "default",
+      "start": 4272,
+      "end": 4279,
+      "loc": {
+        "start": {
+          "line": 41,
+          "column": 7
+        },
+        "end": {
+          "line": 41,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "{",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 4280,
+      "end": 4281,
+      "loc": {
+        "start": {
+          "line": 41,
+          "column": 15
+        },
+        "end": {
+          "line": 41,
+          "column": 16
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "type",
+      "start": 4284,
+      "end": 4288,
+      "loc": {
+        "start": {
+          "line": 42,
+          "column": 2
+        },
+        "end": {
+          "line": 42,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 4288,
+      "end": 4289,
+      "loc": {
+        "start": {
+          "line": 42,
+          "column": 6
+        },
+        "end": {
+          "line": 42,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "Phaser",
+      "start": 4290,
+      "end": 4296,
+      "loc": {
+        "start": {
+          "line": 42,
+          "column": 8
+        },
+        "end": {
+          "line": 42,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ".",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 4296,
+      "end": 4297,
+      "loc": {
+        "start": {
+          "line": 42,
+          "column": 14
+        },
+        "end": {
+          "line": 42,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "WEBGL",
+      "start": 4297,
+      "end": 4302,
+      "loc": {
+        "start": {
+          "line": 42,
+          "column": 15
+        },
+        "end": {
+          "line": 42,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 4302,
+      "end": 4303,
+      "loc": {
+        "start": {
+          "line": 42,
+          "column": 20
+        },
+        "end": {
+          "line": 42,
+          "column": 21
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "parent",
+      "start": 4306,
+      "end": 4312,
+      "loc": {
+        "start": {
+          "line": 43,
+          "column": 2
+        },
+        "end": {
+          "line": 43,
+          "column": 8
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 4312,
+      "end": 4313,
+      "loc": {
+        "start": {
+          "line": 43,
+          "column": 8
+        },
+        "end": {
+          "line": 43,
+          "column": 9
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "content",
+      "start": 4314,
+      "end": 4323,
+      "loc": {
+        "start": {
+          "line": 43,
+          "column": 10
+        },
+        "end": {
+          "line": 43,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 4323,
+      "end": 4324,
+      "loc": {
+        "start": {
+          "line": 43,
+          "column": 19
+        },
+        "end": {
+          "line": 43,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "width",
+      "start": 4327,
+      "end": 4332,
+      "loc": {
+        "start": {
+          "line": 44,
+          "column": 2
+        },
+        "end": {
+          "line": 44,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 4332,
+      "end": 4333,
+      "loc": {
+        "start": {
+          "line": 44,
+          "column": 7
+        },
+        "end": {
+          "line": 44,
+          "column": 8
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "num",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": 800,
+      "start": 4334,
+      "end": 4337,
+      "loc": {
+        "start": {
+          "line": 44,
+          "column": 9
+        },
+        "end": {
+          "line": 44,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 4337,
+      "end": 4338,
+      "loc": {
+        "start": {
+          "line": 44,
+          "column": 12
+        },
+        "end": {
+          "line": 44,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "height",
+      "start": 4341,
+      "end": 4347,
+      "loc": {
+        "start": {
+          "line": 45,
+          "column": 2
+        },
+        "end": {
+          "line": 45,
+          "column": 8
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 4347,
+      "end": 4348,
+      "loc": {
+        "start": {
+          "line": 45,
+          "column": 8
+        },
+        "end": {
+          "line": 45,
+          "column": 9
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "num",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": 600,
+      "start": 4349,
+      "end": 4352,
+      "loc": {
+        "start": {
+          "line": 45,
+          "column": 10
+        },
+        "end": {
+          "line": 45,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 4352,
+      "end": 4353,
+      "loc": {
+        "start": {
+          "line": 45,
+          "column": 13
+        },
+        "end": {
+          "line": 45,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "pixelArt",
+      "start": 4356,
+      "end": 4364,
+      "loc": {
+        "start": {
+          "line": 46,
+          "column": 2
+        },
+        "end": {
+          "line": 46,
+          "column": 10
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 4364,
+      "end": 4365,
+      "loc": {
+        "start": {
+          "line": 46,
+          "column": 10
+        },
+        "end": {
+          "line": 46,
+          "column": 11
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "true",
+        "keyword": "true",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "true",
+      "start": 4366,
+      "end": 4370,
+      "loc": {
+        "start": {
+          "line": 46,
+          "column": 12
+        },
+        "end": {
+          "line": 46,
+          "column": 16
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 4370,
+      "end": 4371,
+      "loc": {
+        "start": {
+          "line": 46,
+          "column": 16
+        },
+        "end": {
+          "line": 46,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "roundPixels",
+      "start": 4374,
+      "end": 4385,
+      "loc": {
+        "start": {
+          "line": 47,
+          "column": 2
+        },
+        "end": {
+          "line": 47,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 4385,
+      "end": 4386,
+      "loc": {
+        "start": {
+          "line": 47,
+          "column": 13
+        },
+        "end": {
+          "line": 47,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "true",
+        "keyword": "true",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "true",
+      "start": 4387,
+      "end": 4391,
+      "loc": {
+        "start": {
+          "line": 47,
+          "column": 15
+        },
+        "end": {
+          "line": 47,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 4391,
+      "end": 4392,
+      "loc": {
+        "start": {
+          "line": 47,
+          "column": 19
+        },
+        "end": {
+          "line": 47,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "physics",
+      "start": 4395,
+      "end": 4402,
+      "loc": {
+        "start": {
+          "line": 48,
+          "column": 2
+        },
+        "end": {
+          "line": 48,
+          "column": 9
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 4402,
+      "end": 4403,
+      "loc": {
+        "start": {
+          "line": 48,
+          "column": 9
+        },
+        "end": {
+          "line": 48,
+          "column": 10
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "{",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 4404,
+      "end": 4405,
+      "loc": {
+        "start": {
+          "line": 48,
+          "column": 11
+        },
+        "end": {
+          "line": 48,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "default",
+        "keyword": "default",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "default",
+      "start": 4410,
+      "end": 4417,
+      "loc": {
+        "start": {
+          "line": 49,
+          "column": 4
+        },
+        "end": {
+          "line": 49,
+          "column": 11
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 4417,
+      "end": 4418,
+      "loc": {
+        "start": {
+          "line": 49,
+          "column": 11
+        },
+        "end": {
+          "line": 49,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "arcade",
+      "start": 4419,
+      "end": 4427,
+      "loc": {
+        "start": {
+          "line": 49,
+          "column": 13
+        },
+        "end": {
+          "line": 49,
+          "column": 21
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 4427,
+      "end": 4428,
+      "loc": {
+        "start": {
+          "line": 49,
+          "column": 21
+        },
+        "end": {
+          "line": 49,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "arcade",
+      "start": 4433,
+      "end": 4439,
+      "loc": {
+        "start": {
+          "line": 50,
+          "column": 4
+        },
+        "end": {
+          "line": 50,
+          "column": 10
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 4439,
+      "end": 4440,
+      "loc": {
+        "start": {
+          "line": 50,
+          "column": 10
+        },
+        "end": {
+          "line": 50,
+          "column": 11
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "{",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 4441,
+      "end": 4442,
+      "loc": {
+        "start": {
+          "line": 50,
+          "column": 12
+        },
+        "end": {
+          "line": 50,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "gravity",
+      "start": 4449,
+      "end": 4456,
+      "loc": {
+        "start": {
+          "line": 51,
+          "column": 6
+        },
+        "end": {
+          "line": 51,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 4456,
+      "end": 4457,
+      "loc": {
+        "start": {
+          "line": 51,
+          "column": 13
+        },
+        "end": {
+          "line": 51,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "{",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 4458,
+      "end": 4459,
+      "loc": {
+        "start": {
+          "line": 51,
+          "column": 15
+        },
+        "end": {
+          "line": 51,
+          "column": 16
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "y",
+      "start": 4460,
+      "end": 4461,
+      "loc": {
+        "start": {
+          "line": 51,
+          "column": 17
+        },
+        "end": {
+          "line": 51,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 4461,
+      "end": 4462,
+      "loc": {
+        "start": {
+          "line": 51,
+          "column": 18
+        },
+        "end": {
+          "line": 51,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "num",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": 800,
+      "start": 4463,
+      "end": 4466,
+      "loc": {
+        "start": {
+          "line": 51,
+          "column": 20
+        },
+        "end": {
+          "line": 51,
+          "column": 23
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 4467,
+      "end": 4468,
+      "loc": {
+        "start": {
+          "line": 51,
+          "column": 24
+        },
+        "end": {
+          "line": 51,
+          "column": 25
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 4468,
+      "end": 4469,
+      "loc": {
+        "start": {
+          "line": 51,
+          "column": 25
+        },
+        "end": {
+          "line": 51,
+          "column": 26
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "debug",
+      "start": 4476,
+      "end": 4481,
+      "loc": {
+        "start": {
+          "line": 52,
+          "column": 6
+        },
+        "end": {
+          "line": 52,
+          "column": 11
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 4481,
+      "end": 4482,
+      "loc": {
+        "start": {
+          "line": 52,
+          "column": 11
+        },
+        "end": {
+          "line": 52,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "false",
+        "keyword": "false",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "false",
+      "start": 4483,
+      "end": 4488,
+      "loc": {
+        "start": {
+          "line": 52,
+          "column": 13
+        },
+        "end": {
+          "line": 52,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 4488,
+      "end": 4489,
+      "loc": {
+        "start": {
+          "line": 52,
+          "column": 18
+        },
+        "end": {
+          "line": 52,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 4494,
+      "end": 4495,
+      "loc": {
+        "start": {
+          "line": 53,
+          "column": 4
+        },
+        "end": {
+          "line": 53,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 4495,
+      "end": 4496,
+      "loc": {
+        "start": {
+          "line": 53,
+          "column": 5
+        },
+        "end": {
+          "line": 53,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 4499,
+      "end": 4500,
+      "loc": {
+        "start": {
+          "line": 54,
+          "column": 2
+        },
+        "end": {
+          "line": 54,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 4500,
+      "end": 4501,
+      "loc": {
+        "start": {
+          "line": 54,
+          "column": 3
+        },
+        "end": {
+          "line": 54,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": "CommentBlock",
+      "value": " list of all the game scenes ",
+      "start": 4504,
+      "end": 4537,
+      "loc": {
+        "start": {
+          "line": 55,
+          "column": 2
+        },
+        "end": {
+          "line": 55,
+          "column": 35
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "scene",
+      "start": 4540,
+      "end": 4545,
+      "loc": {
+        "start": {
+          "line": 56,
+          "column": 2
+        },
+        "end": {
+          "line": 56,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 4545,
+      "end": 4546,
+      "loc": {
+        "start": {
+          "line": 56,
+          "column": 7
+        },
+        "end": {
+          "line": 56,
+          "column": 8
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "[",
+        "beforeExpr": true,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 4547,
+      "end": 4548,
+      "loc": {
+        "start": {
+          "line": 56,
+          "column": 9
+        },
+        "end": {
+          "line": 56,
+          "column": 10
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "AnimationTween",
+      "start": 4553,
+      "end": 4567,
+      "loc": {
+        "start": {
+          "line": 57,
+          "column": 4
+        },
+        "end": {
+          "line": 57,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 4567,
+      "end": 4568,
+      "loc": {
+        "start": {
+          "line": 57,
+          "column": 18
+        },
+        "end": {
+          "line": 57,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "AnimationData",
+      "start": 4573,
+      "end": 4586,
+      "loc": {
+        "start": {
+          "line": 58,
+          "column": 4
+        },
+        "end": {
+          "line": 58,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 4586,
+      "end": 4587,
+      "loc": {
+        "start": {
+          "line": 58,
+          "column": 17
+        },
+        "end": {
+          "line": 58,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "AnimationAdd",
+      "start": 4592,
+      "end": 4604,
+      "loc": {
+        "start": {
+          "line": 59,
+          "column": 4
+        },
+        "end": {
+          "line": 59,
+          "column": 16
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 4604,
+      "end": 4605,
+      "loc": {
+        "start": {
+          "line": 59,
+          "column": 16
+        },
+        "end": {
+          "line": 59,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "]",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 4608,
+      "end": 4609,
+      "loc": {
+        "start": {
+          "line": 60,
+          "column": 2
+        },
+        "end": {
+          "line": 60,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 4609,
+      "end": 4610,
+      "loc": {
+        "start": {
+          "line": 60,
+          "column": 3
+        },
+        "end": {
+          "line": 60,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "}",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "start": 4611,
+      "end": 4612,
+      "loc": {
+        "start": {
+          "line": 61,
+          "column": 0
+        },
+        "end": {
+          "line": 61,
+          "column": 1
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ";",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 4612,
+      "end": 4613,
+      "loc": {
+        "start": {
+          "line": 61,
+          "column": 1
+        },
+        "end": {
+          "line": 61,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "eof",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 4614,
+      "end": 4614,
+      "loc": {
+        "start": {
+          "line": 62,
+          "column": 0
+        },
+        "end": {
+          "line": 62,
+          "column": 0
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">src/main.js | Phaser3-Examples</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-external">E</span><span data-ice="name"><span><a href="https://photonstorm.github.io/phaser3-docs/index.html">Phaser</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-external">E</span><span data-ice="name"><span><a href="https://photonstorm.github.io/phaser3-docs/Phaser.Game.html">Phaser.Game</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-external">E</span><span data-ice="name"><span><a href="https://photonstorm.github.io/phaser3-docs/Phaser.Scene.html">Phaser.Scene</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#config">config</a><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-customConfig">customConfig</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-defaultConfig">defaultConfig</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#examples-animations">examples/animations</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/examples/animations/add.js~AnimationAdd.html">AnimationAdd</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/examples/animations/data.js~AnimationData.html">AnimationData</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/examples/animations/tween.js~AnimationTween.html">AnimationTween</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#utilities">utilities</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-fullScreenCanvas">fullScreenCanvas</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/main.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">/**
+* @author    Jade Krafsig &lt;jade@design1online.com&gt;
+* @copyright Design1Online.com, LLC
+* @license   {@link https://github.com/design1online/phaser3-es6-webpack-template/blob/master/LICENSE|MIT License}
+* @module    Core
+*/
+import Phaser from &apos;phaser&apos;;
+import { defaultConfig, customConfig } from &apos;./config&apos;;
+import fullScreenCanvas from &apos;./utilities/canvas&apos;;
+
+/**
+* Phaser Core
+* @external {Phaser} https://photonstorm.github.io/phaser3-docs/index.html
+*/
+
+/**
+* Phaser Game
+* @external {Phaser.Game} https://photonstorm.github.io/phaser3-docs/Phaser.Game.html
+*/
+
+
+/**
+* Phaser Scene
+* @external {Phaser.Scene} https://photonstorm.github.io/phaser3-docs/Phaser.Scene.html
+*/
+
+/**
+* @desc Initialize the phaser game object
+*/
+const initalizeGame = () =&gt; {
+  // create the phaser instance
+  window.game = new Phaser.Game(defaultConfig);
+
+  // add in our custom global variables
+  Object.assign(window.game, { ...customConfig });
+
+  // this is only for our examples, it&apos;s not required
+  window.game.changeScene = (scene) =&gt; {
+    // if there&apos;s no current scene defined figure out which one it is
+    if (!window.game.currentScene) {
+      if (window.game.debugMode) {
+        console.log(&apos;no current scene, checking...&apos;); // eslint-disable-line
+      }
+
+      window.game.scene.scenes.forEach((sceneArray) =&gt; {
+        if (sceneArray.scene.isActive()) {
+          window.game.currentScene = sceneArray.scene.key;
+
+          if (window.game.debugMode) {
+            console.log(`current scene: ${window.game.currentScene}`); // eslint-disable-line
+          }
+        }
+      });
+    }
+
+    if (window.game.debugMode) {
+      console.log(`changing scenes from ${window.game.currentScene} to ${scene}`); // eslint-disable-line
+    }
+
+    window.game.scene.stop(window.game.currentScene);
+    window.game.scene.start(scene);
+    window.game.currentScene = scene;
+  };
+
+  if (window.game.fullScreen) {
+    fullScreenCanvas(window.game);
+    window.addEventListener(&apos;resize&apos;, fullScreenCanvas, false);
+  }
+};
+
+/**
+* @function window.onload
+* @desc Load the phaser game and add event listener for
+* resizing the canvas if full screen is enabled
+*/
+window.onload = initalizeGame;
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

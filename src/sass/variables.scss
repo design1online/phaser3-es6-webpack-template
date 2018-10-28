@@ -5,3 +5,26 @@ $padding: (
   'small': 4px,
   'xsmall': 2px,
 );
+
+$palette: (
+  'danger': #FA6002,
+  'warning': #FF9F0F,
+  'info': #F8CA02,
+  'secondary': #CBEBF7,
+  'primary': #60A6B7,
+  'light': #e6f0f2,
+  'dark': #114551,
+);
+
+$colors: (
+  'h1': map-get($palette, 'danger'),
+  'hover': map-get($palette, 'light'),
+  'hover-bg': map-get($palette, 'dark'),
+  'menu': map-get($palette, 'primary'),
+  'menu-bg': map-get($palette, 'primary'),
+  'menu-hover-bg': map-get($palette, 'light'),
+  'box-shadow': rgba(0,0,0,0.2),
+  'link': map-get($palette, 'danger'),
+  'link-hover': map-get($palette, 'info'),
+  'link-hover-bg': map-get($palette, 'warning'),
+)

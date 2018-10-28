@@ -1,0 +1,1670 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/config/custom.js",
+    "content": "/**\n* @author       Jade Krafsig <jade@design1online.com>\n* @copyright    Design1Online.com, LLC\n* @license      {@link https://github.com/design1online/phaser3-es6-webpack-template/blob/master/LICENSE|MIT License}\n*/\n\n/**\n* @desc Your game's custom configuration values\n* @typedef {Object} customConfig\n* @property {boolean} fullScreen=true Toggle full screen on and off\n* @property {boolean} debugMode=true Toggle debug console.log messages\n* @property {string} textColor=#00ff00 Default game text color\n* @property {string} fillColor=0xff00ff Default game fill color\n* @property {string} assetPath=../../assets/ The path prefix for game assets\n*/\nexport default {\n  fullScreen: true,\n  debugMode: true,\n  textColor: '#00ff00',\n  fillColor: '0xff00ff',\n  assetPath: '../../assets/',\n};\n",
+    "static": true,
+    "longname": "/Applications/MAMP/htdocs/phaser3/src/config/custom.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "typedef",
+    "name": "customConfig",
+    "memberof": "src/config/custom.js",
+    "static": true,
+    "longname": "src/config/custom.js~customConfig",
+    "access": "public",
+    "description": "Your game's custom configuration values",
+    "lineNumber": 16,
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "boolean"
+        ],
+        "spread": false,
+        "optional": false,
+        "defaultValue": "true",
+        "defaultRaw": true,
+        "name": "fullScreen",
+        "description": "Toggle full screen on and off"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "boolean"
+        ],
+        "spread": false,
+        "optional": false,
+        "defaultValue": "true",
+        "defaultRaw": true,
+        "name": "debugMode",
+        "description": "Toggle debug console.log messages"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "defaultValue": "#00ff00",
+        "defaultRaw": "#00ff00",
+        "name": "textColor",
+        "description": "Default game text color"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "defaultValue": "0xff00ff",
+        "defaultRaw": "0xff00ff",
+        "name": "fillColor",
+        "description": "Default game fill color"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "defaultValue": "../../assets/",
+        "defaultRaw": "../../assets/",
+        "name": "assetPath",
+        "description": "The path prefix for game assets"
+      }
+    ],
+    "type": {
+      "types": [
+        "Object"
+      ],
+      "optional": false,
+      "name": "customConfig"
+    }
+  },
+  {
+    "__docId__": 50,
+    "kind": "file",
+    "name": "src/config/default.js",
+    "content": "/**\n* @author       Jade Krafsig <jade@design1online.com>\n* @copyright    Design1Online.com, LLC\n* @license      {@link https://github.com/design1online/phaser3-es6-webpack-template/blob/master/LICENSE|MIT License}\n*/\nimport Phaser from 'phaser';\nimport { AnimationData, AnimationTween, AnimationAdd } from '../examples/animations';\n\n/**\n* @desc Default Phaser configuration, for more settings see {@link https://photonstorm.github.io/phaser3-docs/global.html#GameConfig}\n* @typedef {Object} defaultConfig\n* @property {number} [type=Phaser.AUTO] Phaser.AUTO, Phaser.CANVAS, Phaser.HEADLESS or Phaser.WEBGL. AUTO picks WEBGL if available, otherwise CANVAS.\n* @property {number|string} [width=1024] The width of the game, in game pixels\n* @property {number|string} [height=768] The height of the game, in game pixels\n* @property {number} [zoom=1] Simple scale applied to the game canvas. 2 is double size, 0.5 is half size, etc\n* @property {number} [resolution=1] The size of each game pixel, in canvas pixels. Values larger than 1 are \"high\" resolution\n* @property {Object|string} [parent=null] The DOM element that will contain the game canvas, or its id. If null (the default) or if the named element doesn't exist, the game canvas is inserted directly into the document body\n* @property {Object} [canvas=null] Provide your own Canvas element for Phaser to use instead of creating one.\n* @property {string} [canvasStyle=null] CSS styles to apply to the game canvas instead of Phaser's default styles.\n* @property {Object} [CanvasRenderingContext2D] Provide your own Canvas Context for Phaser to use, instead of creating one.\n* @property {Object} [scene=null] A scene or scenes to add to the game. If several are given, the first is started; the remainder are started only if they have { active: true }.\n* @property {string[]} [seed]\tSeed for the random number generator\n* @property {string} [title=''] The title of the game shown in the browser console\n* @property {string} [url='http://phaser.io'] The URL of the game shown in the browser console\n* @property {string} [version=''] The version of the game shown in the browser console\n* @property {boolean} [autoFocus=true] Automatically call window.focus() when the game boots. Usually necessary to capture input events if the game is in a separate frame\n* @property {boolean|InputConfig} [input] Input configuration, or false to disable all game input. See {@link https://photonstorm.github.io/phaser3-docs/global.html#InputConfig}\n* @property {boolean} [disableContextMenu=false] Disable the browser's default 'contextmenu' event (usually triggered by a right-button mouse click)\n* @property {boolean|BannerConfig} [banner=false] Configuration for the banner printed in the browser console when the game starts. See {@link https://photonstorm.github.io/phaser3-docs/global.html#BannerConfig}\n* @property {DOMContainerConfig} [dom] The DOM Container configuration object, see {@link https://photonstorm.github.io/phaser3-docs/global.html#DOMContainerConfig}\n* @property {FPSConfig} [fps] Game loop configuration, see {@link https://photonstorm.github.io/phaser3-docs/global.html#FPSConfig}\n* @property {RenderConfig} [render] Game render configuration, see {@link https://photonstorm.github.io/phaser3-docs/global.html#RenderConfig}\n* @property {string|number} [backgroundColor=0x000000] The background color of the game canvas\n* @property {CallbacksConfig} [callbacks] Optional callbacks to run before or after game boot see {@link https://photonstorm.github.io/phaser3-docs/global.html#CallbacksConfig}\n* @property {LoaderConfig} [loader] Loader configuration see {@link https://photonstorm.github.io/phaser3-docs/global.html#LoaderConfig}\n* @property {ImagesConfig} [images] Images configuration see {@link https://photonstorm.github.io/phaser3-docs/global.html#ImagesConfig}\n* @property {Object} [physics] Physics configuration see {@link https://photonstorm.github.io/phaser3-docs/Phaser.Physics.html}\n* @property {PluginObject|PluginObjectItem[]} Plugins to install see {@link https://photonstorm.github.io/phaser3-docs/global.html#PluginObject} and {@link https://photonstorm.github.io/phaser3-docs/global.html#PluginObjectItem}\n* @see https://photonstorm.github.io/phaser3-docs/global.html#GameConfig\n*/\nexport default {\n  type: Phaser.WEBGL,\n  parent: 'content',\n  width: 800,\n  height: 600,\n  pixelArt: true,\n  roundPixels: true,\n  physics: {\n    default: 'arcade',\n    arcade: {\n      gravity: { y: 800 },\n      debug: false,\n    },\n  },\n  /* list of all the game scenes */\n  scene: [\n    AnimationTween,\n    AnimationData,\n    AnimationAdd,\n  ],\n};\n",
+    "static": true,
+    "longname": "/Applications/MAMP/htdocs/phaser3/src/config/default.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 51,
+    "kind": "typedef",
+    "name": "defaultConfig",
+    "memberof": "src/config/default.js",
+    "static": true,
+    "longname": "src/config/default.js~defaultConfig",
+    "access": "public",
+    "description": "Default Phaser configuration, for more settings see {@link https://photonstorm.github.io/phaser3-docs/global.html#GameConfig}",
+    "see": [
+      "https://photonstorm.github.io/phaser3-docs/global.html#GameConfig"
+    ],
+    "lineNumber": 41,
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "Phaser.AUTO",
+        "defaultRaw": "Phaser.AUTO",
+        "name": "type",
+        "description": "Phaser.AUTO, Phaser.CANVAS, Phaser.HEADLESS or Phaser.WEBGL. AUTO picks WEBGL if available, otherwise CANVAS."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number",
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "1024",
+        "defaultRaw": 1024,
+        "name": "width",
+        "description": "The width of the game, in game pixels"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number",
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "768",
+        "defaultRaw": 768,
+        "name": "height",
+        "description": "The height of the game, in game pixels"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "1",
+        "defaultRaw": 1,
+        "name": "zoom",
+        "description": "Simple scale applied to the game canvas. 2 is double size, 0.5 is half size, etc"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "1",
+        "defaultRaw": 1,
+        "name": "resolution",
+        "description": "The size of each game pixel, in canvas pixels. Values larger than 1 are \"high\" resolution"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object",
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "null",
+        "defaultRaw": null,
+        "name": "parent",
+        "description": "The DOM element that will contain the game canvas, or its id. If null (the default) or if the named element doesn't exist, the game canvas is inserted directly into the document body"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "null",
+        "defaultRaw": null,
+        "name": "canvas",
+        "description": "Provide your own Canvas element for Phaser to use instead of creating one."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "null",
+        "defaultRaw": null,
+        "name": "canvasStyle",
+        "description": "CSS styles to apply to the game canvas instead of Phaser's default styles."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "CanvasRenderingContext2D",
+        "description": "Provide your own Canvas Context for Phaser to use, instead of creating one."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "null",
+        "defaultRaw": null,
+        "name": "scene",
+        "description": "A scene or scenes to add to the game. If several are given, the first is started; the remainder are started only if they have { active: true }."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string[]"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "seed",
+        "description": "Seed for the random number generator"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "''",
+        "defaultRaw": "''",
+        "name": "title",
+        "description": "The title of the game shown in the browser console"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "'http://phaser.io'",
+        "defaultRaw": "'http://phaser.io'",
+        "name": "url",
+        "description": "The URL of the game shown in the browser console"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "''",
+        "defaultRaw": "''",
+        "name": "version",
+        "description": "The version of the game shown in the browser console"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "boolean"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "true",
+        "defaultRaw": true,
+        "name": "autoFocus",
+        "description": "Automatically call window.focus() when the game boots. Usually necessary to capture input events if the game is in a separate frame"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "boolean",
+          "InputConfig"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "input",
+        "description": "Input configuration, or false to disable all game input. See {@link https://photonstorm.github.io/phaser3-docs/global.html#InputConfig}"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "boolean"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "false",
+        "defaultRaw": false,
+        "name": "disableContextMenu",
+        "description": "Disable the browser's default 'contextmenu' event (usually triggered by a right-button mouse click)"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "boolean",
+          "BannerConfig"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "false",
+        "defaultRaw": false,
+        "name": "banner",
+        "description": "Configuration for the banner printed in the browser console when the game starts. See {@link https://photonstorm.github.io/phaser3-docs/global.html#BannerConfig}"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "DOMContainerConfig"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "dom",
+        "description": "The DOM Container configuration object, see {@link https://photonstorm.github.io/phaser3-docs/global.html#DOMContainerConfig}"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "FPSConfig"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "fps",
+        "description": "Game loop configuration, see {@link https://photonstorm.github.io/phaser3-docs/global.html#FPSConfig}"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "RenderConfig"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "render",
+        "description": "Game render configuration, see {@link https://photonstorm.github.io/phaser3-docs/global.html#RenderConfig}"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string",
+          "number"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "0x000000",
+        "defaultRaw": "0x000000",
+        "name": "backgroundColor",
+        "description": "The background color of the game canvas"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "CallbacksConfig"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "callbacks",
+        "description": "Optional callbacks to run before or after game boot see {@link https://photonstorm.github.io/phaser3-docs/global.html#CallbacksConfig}"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "LoaderConfig"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "loader",
+        "description": "Loader configuration see {@link https://photonstorm.github.io/phaser3-docs/global.html#LoaderConfig}"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "ImagesConfig"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "images",
+        "description": "Images configuration see {@link https://photonstorm.github.io/phaser3-docs/global.html#ImagesConfig}"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "physics",
+        "description": "Physics configuration see {@link https://photonstorm.github.io/phaser3-docs/Phaser.Physics.html}"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "PluginObject",
+          "PluginObjectItem[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "Plugins",
+        "description": "to install see {@link https://photonstorm.github.io/phaser3-docs/global.html#PluginObject} and {@link https://photonstorm.github.io/phaser3-docs/global.html#PluginObjectItem}"
+      }
+    ],
+    "type": {
+      "types": [
+        "Object"
+      ],
+      "optional": false,
+      "name": "defaultConfig"
+    }
+  },
+  {
+    "__docId__": 52,
+    "kind": "file",
+    "name": "src/config/index.js",
+    "content": "/**\n* @author       Jade Krafsig <jade@design1online.com>\n* @copyright    Design1Online.com, LLC\n* @license      {@link https://github.com/design1online/phaser3-es6-webpack-template/blob/master/LICENSE|MIT License}\n* @module       Config\n*/\nimport defaultConfig from './default';\nimport customConfig from './custom';\n\nexport {\n  /**\n  * Get the phaser configuration details\n  * @return {Object} the default phaser configuration\n  */\n  defaultConfig,\n\n  /**\n  * Get our game's custom configuration values\n  * @return {Object} the game's custom configurations\n  */\n  customConfig,\n};\n",
+    "static": true,
+    "longname": "/Applications/MAMP/htdocs/phaser3/src/config/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 53,
+    "kind": "file",
+    "name": "src/examples/animations/add.js",
+    "content": "/**\n* @author       Jade Krafsig <jade@design1online.com>\n* @copyright    Design1Online.com, LLC\n* @license      {@link https://github.com/design1online/phaser3-es6-webpack-template/blob/master/LICENSE|MIT License}\n*/\nimport Phaser from 'phaser';\nimport customConfig from '../../config/custom';\n\n/**\n* @classdesc Example of adding animations on click\n*\n* @class AnimationAdd\n* @extends {Phaser.Scene}\n* @since 1.0.0\n*/\nclass AnimationAdd extends Phaser.Scene {\n\n  /**\n  * @desc Default constructor and sets scene key\n  */\n  constructor() {\n    super({\n      key: 'AnimationAdd',\n    });\n\n    // add in our custom config values\n    Object.assign(this, customConfig);\n\n    /**\n    * keeps track of gem index\n    * @type {number}\n    */\n    this.i = 0;\n\n    /**\n    * The y position of the gems\n    * @type {number}\n    */\n    this.y = null;\n\n    /**\n    * Holds the example instructions\n    * @type {string}\n    */\n    this.instructions = null;\n\n    /**\n    * The on add animations callback function\n    * @type {function}\n    */\n    this.animations = null;\n\n    this.addAnimation = this.addAnimation.bind(this);\n    this.createGemAnimation = this.createGemAnimation.bind(this);\n  }\n\n  /**\n  * @desc Preload the assets for this scene\n  */\n  preload() {\n    this.load.atlas('gems', `${this.assetPath}gems.png`, `${this.assetPath}gems.json`);\n  }\n\n  /**\n  * @desc Initalize the animation\n  */\n  create() {\n    // reset the gem index and y position\n    this.i = 0;\n    this.y = 100;\n\n    // Each time a new animation is added to the Animation Manager we'll call this function\n    this.animations = this.anims.on('add', this.addAnimation);\n\n    // Click to add an animation\n    this.input.on('pointerup', () => {\n      switch (this.i) {\n        case 0: this.createGemAnimation('diamond', 15); break;\n        case 1: this.createGemAnimation('prism', 6); break;\n        case 2: this.createGemAnimation('ruby', 6); break;\n        case 3: this.createGemAnimation('square', 14); break;\n        default: break;\n      }\n\n      this.i += 1;\n    });\n\n    const infoText = 'Click up to 4 times to add an animation to the canvas';\n    this.instructions = this.add.text(100, 500, infoText, { color: this.textColor });\n  }\n\n  /**\n  * @desc Creates an animation for the gem\n  * @param {String} key the name of the animation\n  * @param {Number} end the number of frames in the animation\n  */\n  createGemAnimation(key, end) {\n    // only create if it doesn't exist yet this this is called on the add event listener\n    if (!this.anims.get(key)) {\n      // as soon as this is created the add event will fire this.addAnimation\n      this.animations.create({\n        key,\n        frames: this.animations.generateFrameNames('gems', { prefix: `${key}_`, end, zeroPad: 4 }),\n        repeat: -1,\n      });\n    } else {\n      this.addAnimation(key);\n    }\n  }\n\n  /**\n  * @desc Add the animation sprite to the screen\n  * @param {String} key the animation key to play\n  */\n  addAnimation(key) {\n    if (this.debugMode) {\n      console.log('adding animation', key); // eslint-disable-line\n    }\n\n    this.add.sprite(400, this.y, 'gems').play(key);\n    this.y += 100;\n  }\n}\n\nexport default AnimationAdd;\n",
+    "static": true,
+    "longname": "/Applications/MAMP/htdocs/phaser3/src/examples/animations/add.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 54,
+    "kind": "class",
+    "name": "AnimationAdd",
+    "memberof": "src/examples/animations/add.js",
+    "static": true,
+    "longname": "src/examples/animations/add.js~AnimationAdd",
+    "access": "public",
+    "export": true,
+    "importPath": "Phaser3-Examples/src/examples/animations/add.js",
+    "importStyle": "AnimationAdd",
+    "description": "",
+    "lineNumber": 16,
+    "since": "1.0.0",
+    "unknown": [
+      {
+        "tagName": "@classdesc",
+        "tagValue": "Example of adding animations on click"
+      },
+      {
+        "tagName": "@class",
+        "tagValue": "AnimationAdd"
+      }
+    ],
+    "interface": false,
+    "extends": [
+      "Phaser.Scene"
+    ]
+  },
+  {
+    "__docId__": 55,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/examples/animations/add.js~AnimationAdd",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/examples/animations/add.js~AnimationAdd#constructor",
+    "access": "public",
+    "description": "Default constructor and sets scene key",
+    "lineNumber": 21
+  },
+  {
+    "__docId__": 56,
+    "kind": "member",
+    "name": "i",
+    "memberof": "src/examples/animations/add.js~AnimationAdd",
+    "static": false,
+    "longname": "src/examples/animations/add.js~AnimationAdd#i",
+    "access": "public",
+    "description": "keeps track of gem index",
+    "lineNumber": 33,
+    "type": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 57,
+    "kind": "member",
+    "name": "y",
+    "memberof": "src/examples/animations/add.js~AnimationAdd",
+    "static": false,
+    "longname": "src/examples/animations/add.js~AnimationAdd#y",
+    "access": "public",
+    "description": "The y position of the gems",
+    "lineNumber": 39,
+    "type": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 58,
+    "kind": "member",
+    "name": "instructions",
+    "memberof": "src/examples/animations/add.js~AnimationAdd",
+    "static": false,
+    "longname": "src/examples/animations/add.js~AnimationAdd#instructions",
+    "access": "public",
+    "description": "Holds the example instructions",
+    "lineNumber": 45,
+    "type": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 59,
+    "kind": "member",
+    "name": "animations",
+    "memberof": "src/examples/animations/add.js~AnimationAdd",
+    "static": false,
+    "longname": "src/examples/animations/add.js~AnimationAdd#animations",
+    "access": "public",
+    "description": "The on add animations callback function",
+    "lineNumber": 51,
+    "type": {
+      "nullable": null,
+      "types": [
+        "function"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 62,
+    "kind": "method",
+    "name": "preload",
+    "memberof": "src/examples/animations/add.js~AnimationAdd",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/examples/animations/add.js~AnimationAdd#preload",
+    "access": "public",
+    "description": "Preload the assets for this scene",
+    "lineNumber": 60,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 63,
+    "kind": "method",
+    "name": "create",
+    "memberof": "src/examples/animations/add.js~AnimationAdd",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/examples/animations/add.js~AnimationAdd#create",
+    "access": "public",
+    "description": "Initalize the animation",
+    "lineNumber": 67,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 69,
+    "kind": "method",
+    "name": "createGemAnimation",
+    "memberof": "src/examples/animations/add.js~AnimationAdd",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/examples/animations/add.js~AnimationAdd#createGemAnimation",
+    "access": "public",
+    "description": "Creates an animation for the gem",
+    "lineNumber": 97,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "key",
+        "description": "the name of the animation"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "end",
+        "description": "the number of frames in the animation"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 70,
+    "kind": "method",
+    "name": "addAnimation",
+    "memberof": "src/examples/animations/add.js~AnimationAdd",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/examples/animations/add.js~AnimationAdd#addAnimation",
+    "access": "public",
+    "description": "Add the animation sprite to the screen",
+    "lineNumber": 115,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "key",
+        "description": "the animation key to play"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 72,
+    "kind": "file",
+    "name": "src/examples/animations/data.js",
+    "content": "/**\n* @author       Jade Krafsig <jade@design1online.com>\n* @copyright    Design1Online.com, LLC\n* @license      {@link https://github.com/design1online/phaser3-es6-webpack-template/blob/master/LICENSE|MIT License}\n*/\nimport Phaser from 'phaser';\nimport customConfig from '../../config/custom';\n\n/**\n* @classdesc Example of animation events\n* @class AnimationData\n* @since 1.0.0\n*/\nclass AnimationData extends Phaser.Scene {\n\n  /**\n  * @desc Default constructor sets scene key\n  */\n  constructor() {\n    super({\n      key: 'AnimationData',\n    });\n\n    // add in our custom config values\n    Object.assign(this, customConfig);\n\n    /**\n    * Used to highlight the active sprite in the sheet\n    * @type {Object}\n    */\n    this.frameView = null;\n\n    /**\n    * Shows information about the animation progress\n    * @type {Object}\n    */\n    this.progress = null;\n\n    /**\n    * An instance of the sprite\n    * @type {Object}\n    */\n    this.sprite = null;\n\n    /**\n    * Information used to load and create the spritesheet to animate\n    * @type {Object}\n    */\n    this.spriteSheet = {\n      name: 'mummy', // name of the sprite\n      image: '../../assets/mummy.png', // location of the sprite sheet\n      width: 37, // width of a single sprite\n      height: 45, // height of a single sprite\n      start: 0, // frame to start the animation on\n      end: 17, // frame to end the animation on\n      margin: 0, // margins around the animations\n      spacing: 0, // spacing between the animations\n      frameRate: 6, // speed that the animation plays\n      yoyo: false, // play this animation forwards and backwards\n    };\n  }\n\n  /**\n  * @desc Preload the assets for this scene\n  */\n  preload() {\n    // load the sprite sheet animation\n    this.load.spritesheet(this.spriteSheet.name, this.spriteSheet.image,\n      {\n        frameWidth: this.spriteSheet.width,\n        frameHeight: this.spriteSheet.height,\n        startFrame: this.spriteSheet.start || 0,\n        endFrame: this.spriteSheet.end || null,\n        margin: this.spriteSheet.margin || 0,\n        spacing: this.spriteSheet.spacing || 0,\n      });\n  }\n\n  /**\n  * @desc Initalize the animation\n  */\n  create() {\n    // Frame debug view\n    this.frameView = this.add.graphics({ fillStyle: { color: this.fillColor }, x: 32, y: 32 });\n\n    // Show the whole animation sheet\n    this.add.image(32, 32, this.spriteSheet.name, '__BASE').setOrigin(0);\n\n    // Create the animation\n    const anim = this.anims.create(\n      {\n        key: 'playAll',\n        frames: this.anims.generateFrameNumbers(this.spriteSheet.name),\n        frameRate: this.spriteSheet.frameRate,\n        yoyo: this.spriteSheet.yoyo,\n        repeat: -1,\n      },\n    );\n\n    // show this only if we're in debug mode\n    if (this.debugMode) {\n      console.log(anim); // eslint-disable-line\n    }\n\n    // scale up the image so it's not so small\n    this.sprite = this.add.sprite(400, 300, this.spriteSheet.name).setScale(4);\n\n    if (this.debugMode) {\n      console.log(this.sprite); // eslint-disable-line\n    }\n\n    this.sprite.anims.load('playAll');\n\n    // Debug text\n    this.progress = this.add.text(100, 500, 'Progress: 0%', { color: this.textColor });\n\n    // play the walk animation\n    this.input.keyboard.on('keydown_SPACE', () => {\n      this.sprite.anims.play('playAll');\n    });\n\n    // Toggle play/pause of walk animation\n    this.input.keyboard.on('keydown_P', () => {\n      if (this.sprite.anims.isPaused) {\n        this.sprite.anims.resume();\n      } else {\n        this.sprite.anims.pause();\n      }\n    });\n\n    // Restart if they press R button\n    this.input.keyboard.on('keydown_R', (event) => {\n      if (this.debugMode) {\n        console.log(event); // eslint-disable-line\n      }\n      this.sprite.anims.restart();\n    });\n  }\n\n  /**\n  * @desc Updates the pink frame around the current animation that's displayed\n  */\n  updateFrameView() {\n    this.frameView.clear();\n    this.frameView.fillRect(\n      this.sprite.frame.cutX,\n      this.sprite.frame.cutY,\n      this.spriteSheet.width,\n      this.spriteSheet.height,\n    );\n  }\n\n  /**\n  * @desc The render callback loop\n  */\n  update() {\n    this.updateFrameView();\n\n    const debug = [\n      'SPACE to start animation, P to pause/resume',\n      `Progress: ${this.sprite.anims.getProgress()}%`,\n      `Accumulator: ${this.sprite.anims.accumulator}`,\n      `NextTick: ${this.sprite.anims.nextTick}`,\n    ];\n\n    this.progress.setText(debug);\n  }\n}\n\nexport default AnimationData;\n",
+    "static": true,
+    "longname": "/Applications/MAMP/htdocs/phaser3/src/examples/animations/data.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 73,
+    "kind": "class",
+    "name": "AnimationData",
+    "memberof": "src/examples/animations/data.js",
+    "static": true,
+    "longname": "src/examples/animations/data.js~AnimationData",
+    "access": "public",
+    "export": true,
+    "importPath": "Phaser3-Examples/src/examples/animations/data.js",
+    "importStyle": "AnimationData",
+    "description": "",
+    "lineNumber": 14,
+    "since": "1.0.0",
+    "unknown": [
+      {
+        "tagName": "@classdesc",
+        "tagValue": "Example of animation events"
+      },
+      {
+        "tagName": "@class",
+        "tagValue": "AnimationData"
+      }
+    ],
+    "interface": false,
+    "extends": [
+      "phaser~Phaser.Scene"
+    ]
+  },
+  {
+    "__docId__": 74,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/examples/animations/data.js~AnimationData",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/examples/animations/data.js~AnimationData#constructor",
+    "access": "public",
+    "description": "Default constructor sets scene key",
+    "lineNumber": 19
+  },
+  {
+    "__docId__": 75,
+    "kind": "member",
+    "name": "frameView",
+    "memberof": "src/examples/animations/data.js~AnimationData",
+    "static": false,
+    "longname": "src/examples/animations/data.js~AnimationData#frameView",
+    "access": "public",
+    "description": "Used to highlight the active sprite in the sheet",
+    "lineNumber": 31,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 76,
+    "kind": "member",
+    "name": "progress",
+    "memberof": "src/examples/animations/data.js~AnimationData",
+    "static": false,
+    "longname": "src/examples/animations/data.js~AnimationData#progress",
+    "access": "public",
+    "description": "Shows information about the animation progress",
+    "lineNumber": 37,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 77,
+    "kind": "member",
+    "name": "sprite",
+    "memberof": "src/examples/animations/data.js~AnimationData",
+    "static": false,
+    "longname": "src/examples/animations/data.js~AnimationData#sprite",
+    "access": "public",
+    "description": "An instance of the sprite",
+    "lineNumber": 43,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 78,
+    "kind": "member",
+    "name": "spriteSheet",
+    "memberof": "src/examples/animations/data.js~AnimationData",
+    "static": false,
+    "longname": "src/examples/animations/data.js~AnimationData#spriteSheet",
+    "access": "public",
+    "description": "Information used to load and create the spritesheet to animate",
+    "lineNumber": 49,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 79,
+    "kind": "method",
+    "name": "preload",
+    "memberof": "src/examples/animations/data.js~AnimationData",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/examples/animations/data.js~AnimationData#preload",
+    "access": "public",
+    "description": "Preload the assets for this scene",
+    "lineNumber": 66,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 80,
+    "kind": "method",
+    "name": "create",
+    "memberof": "src/examples/animations/data.js~AnimationData",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/examples/animations/data.js~AnimationData#create",
+    "access": "public",
+    "description": "Initalize the animation",
+    "lineNumber": 82,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 84,
+    "kind": "method",
+    "name": "updateFrameView",
+    "memberof": "src/examples/animations/data.js~AnimationData",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/examples/animations/data.js~AnimationData#updateFrameView",
+    "access": "public",
+    "description": "Updates the pink frame around the current animation that's displayed",
+    "lineNumber": 143,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 85,
+    "kind": "method",
+    "name": "update",
+    "memberof": "src/examples/animations/data.js~AnimationData",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/examples/animations/data.js~AnimationData#update",
+    "access": "public",
+    "description": "The render callback loop",
+    "lineNumber": 156,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 86,
+    "kind": "file",
+    "name": "src/examples/animations/index.js",
+    "content": "/**\n* @author       Jade Krafsig <jade@design1online.com>\n* @copyright    Design1Online.com, LLC\n* @license      {@link https://github.com/design1online/phaser3-es6-webpack-template/blob/master/LICENSE|MIT License}\n* @module       Animations\n*/\nimport AnimationData from './data';\nimport AnimationTween from './tween';\nimport AnimationAdd from './add';\n\nexport {\n  /**\n  * @description Animation data scene\n  * @return {Phaser.Scene}\n  */\n  AnimationData,\n\n  /**\n  * Animation tween\n  * @return {Phaser.Scene}\n  */\n  AnimationTween,\n\n  /**\n  * Animation add\n  * @return {Phaser.Scene}\n  */\n  AnimationAdd,\n};\n",
+    "static": true,
+    "longname": "/Applications/MAMP/htdocs/phaser3/src/examples/animations/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 87,
+    "kind": "file",
+    "name": "src/examples/animations/tween.js",
+    "content": "/**\n* @author       Jade Krafsig <jade@design1online.com>\n* @copyright    Design1Online.com, LLC\n* @license      {@link https://github.com/design1online/phaser3-es6-webpack-template/blob/master/LICENSE|MIT License}\n*/\nimport Phaser from 'phaser';\nimport customConfig from '../../config/custom';\n\n/**\n* @classdesc\n* Example of tweening an animation\n*\n* @class AnimationTween\n* @memberOf Animations\n* @since 1.0.0\n*/\nclass AnimationTween extends Phaser.Scene {\n\n  /**\n  * @desc Default constructor, sets the scene key\n  */\n  constructor() {\n    super({\n      key: 'AnimationTween',\n    });\n\n    // add in our custom config values\n    Object.assign(this, customConfig);\n\n    /**\n    * A reference to the image being tweened\n    * @type {Object}\n    */\n    this.logo = null;\n  }\n\n  /**\n  * Preload the assets for this scene\n  * @method Animations.AnimationTween#preload\n  * @since 1.0.0\n  */\n  preload() {\n    // load the logo image\n    this.load.image('logo', '../../assets/logo.png');\n  }\n\n  /**\n  * @desc Initalize the animation\n  * @method Animations.AnimationTween#create\n  */\n  create() {\n    // create an instance of the logo\n    this.logo = this.add.image(400, 150, 'logo');\n\n    if (this.debugMode) {\n      console.log('logo', this.logo); // eslint-disable-line\n    }\n\n    // create the tween\n    this.tweens.add({\n      targets: this.logo,\n      y: 430,\n      duration: 2000,\n      ease: 'Power2',\n      yoyo: true,\n      loop: -1,\n    });\n  }\n}\n\nexport default AnimationTween;\n",
+    "static": true,
+    "longname": "/Applications/MAMP/htdocs/phaser3/src/examples/animations/tween.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 88,
+    "kind": "class",
+    "name": "AnimationTween",
+    "memberof": "src/examples/animations/tween.js",
+    "static": true,
+    "longname": "src/examples/animations/tween.js~AnimationTween",
+    "access": "public",
+    "export": true,
+    "importPath": "Phaser3-Examples/src/examples/animations/tween.js",
+    "importStyle": "AnimationTween",
+    "description": "",
+    "lineNumber": 17,
+    "since": "1.0.0",
+    "unknown": [
+      {
+        "tagName": "@classdesc",
+        "tagValue": "Example of tweening an animation"
+      },
+      {
+        "tagName": "@class",
+        "tagValue": "AnimationTween"
+      },
+      {
+        "tagName": "@memberOf",
+        "tagValue": "Animations"
+      }
+    ],
+    "interface": false,
+    "extends": [
+      "phaser~Phaser.Scene"
+    ]
+  },
+  {
+    "__docId__": 89,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/examples/animations/tween.js~AnimationTween",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/examples/animations/tween.js~AnimationTween#constructor",
+    "access": "public",
+    "description": "Default constructor, sets the scene key",
+    "lineNumber": 22
+  },
+  {
+    "__docId__": 90,
+    "kind": "member",
+    "name": "logo",
+    "memberof": "src/examples/animations/tween.js~AnimationTween",
+    "static": false,
+    "longname": "src/examples/animations/tween.js~AnimationTween#logo",
+    "access": "public",
+    "description": "A reference to the image being tweened",
+    "lineNumber": 34,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 91,
+    "kind": "method",
+    "name": "preload",
+    "memberof": "src/examples/animations/tween.js~AnimationTween",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/examples/animations/tween.js~AnimationTween#preload",
+    "access": "public",
+    "description": "Preload the assets for this scene",
+    "lineNumber": 42,
+    "since": "1.0.0",
+    "unknown": [
+      {
+        "tagName": "@method",
+        "tagValue": "Animations.AnimationTween#preload"
+      }
+    ],
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 92,
+    "kind": "method",
+    "name": "create",
+    "memberof": "src/examples/animations/tween.js~AnimationTween",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/examples/animations/tween.js~AnimationTween#create",
+    "access": "public",
+    "description": "Initalize the animation",
+    "lineNumber": 51,
+    "unknown": [
+      {
+        "tagName": "@method",
+        "tagValue": "Animations.AnimationTween#create"
+      }
+    ],
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 94,
+    "kind": "file",
+    "name": "src/main.js",
+    "content": "/**\n* @author    Jade Krafsig <jade@design1online.com>\n* @copyright Design1Online.com, LLC\n* @license   {@link https://github.com/design1online/phaser3-es6-webpack-template/blob/master/LICENSE|MIT License}\n* @module    Core\n*/\nimport Phaser from 'phaser';\nimport { defaultConfig, customConfig } from './config';\nimport fullScreenCanvas from './utilities/canvas';\n\n/**\n* Phaser Core\n* @external {Phaser} https://photonstorm.github.io/phaser3-docs/index.html\n*/\n\n/**\n* Phaser Game\n* @external {Phaser.Game} https://photonstorm.github.io/phaser3-docs/Phaser.Game.html\n*/\n\n\n/**\n* Phaser Scene\n* @external {Phaser.Scene} https://photonstorm.github.io/phaser3-docs/Phaser.Scene.html\n*/\n\n/**\n* @desc Initialize the phaser game object\n*/\nconst initalizeGame = () => {\n  // create the phaser instance\n  window.game = new Phaser.Game(defaultConfig);\n\n  // add in our custom global variables\n  Object.assign(window.game, { ...customConfig });\n\n  // this is only for our examples, it's not required\n  window.game.changeScene = (scene) => {\n    // if there's no current scene defined figure out which one it is\n    if (!window.game.currentScene) {\n      if (window.game.debugMode) {\n        console.log('no current scene, checking...'); // eslint-disable-line\n      }\n\n      window.game.scene.scenes.forEach((sceneArray) => {\n        if (sceneArray.scene.isActive()) {\n          window.game.currentScene = sceneArray.scene.key;\n\n          if (window.game.debugMode) {\n            console.log(`current scene: ${window.game.currentScene}`); // eslint-disable-line\n          }\n        }\n      });\n    }\n\n    if (window.game.debugMode) {\n      console.log(`changing scenes from ${window.game.currentScene} to ${scene}`); // eslint-disable-line\n    }\n\n    window.game.scene.stop(window.game.currentScene);\n    window.game.scene.start(scene);\n    window.game.currentScene = scene;\n  };\n\n  if (window.game.fullScreen) {\n    fullScreenCanvas(window.game);\n    window.addEventListener('resize', fullScreenCanvas, false);\n  }\n};\n\n/**\n* @function window.onload\n* @desc Load the phaser game and add event listener for\n* resizing the canvas if full screen is enabled\n*/\nwindow.onload = initalizeGame;\n",
+    "static": true,
+    "longname": "/Applications/MAMP/htdocs/phaser3/src/main.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 95,
+    "kind": "external",
+    "name": "Phaser",
+    "externalLink": "https://photonstorm.github.io/phaser3-docs/index.html",
+    "memberof": "src/main.js",
+    "static": true,
+    "longname": "src/main.js~Phaser",
+    "access": "public",
+    "description": "Phaser Core"
+  },
+  {
+    "__docId__": 96,
+    "kind": "external",
+    "name": "Phaser.Game",
+    "externalLink": "https://photonstorm.github.io/phaser3-docs/Phaser.Game.html",
+    "memberof": "src/main.js",
+    "static": true,
+    "longname": "src/main.js~Phaser.Game",
+    "access": "public",
+    "description": "Phaser Game"
+  },
+  {
+    "__docId__": 97,
+    "kind": "external",
+    "name": "Phaser.Scene",
+    "externalLink": "https://photonstorm.github.io/phaser3-docs/Phaser.Scene.html",
+    "memberof": "src/main.js",
+    "static": true,
+    "longname": "src/main.js~Phaser.Scene",
+    "access": "public",
+    "description": "Phaser Scene"
+  },
+  {
+    "__docId__": 98,
+    "kind": "function",
+    "name": "initalizeGame",
+    "memberof": "src/main.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/main.js~initalizeGame",
+    "access": "public",
+    "export": false,
+    "importPath": "Phaser3-Examples/src/main.js",
+    "importStyle": null,
+    "description": "Initialize the phaser game object",
+    "lineNumber": 30,
+    "params": [],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 99,
+    "kind": "file",
+    "name": "src/utilities/canvas.js",
+    "content": "/**\n* @author    Jade Krafsig <jade@design1online.com>\n* @copyright Design1Online.com, LLC\n* @license   {@link https://github.com/design1online/phaser3-es6-webpack-template/blob/master/LICENSE|MIT License}\n*/\n\n/**\n * Full Screen Canvas\n * @desc Resizes the game canvas with respect to the current aspect ratio\n */\nexport default function fullScreenCanvas() {\n  const canvas = document.querySelector('canvas');\n  const windowWidth = window.innerWidth;\n  const windowHeight = window.innerHeight;\n  const windowRatio = windowWidth / windowHeight;\n  const gameRatio = window.game.width / window.game.height;\n\n  if (windowRatio < gameRatio) {\n    canvas.style.width = `${windowWidth}px`;\n    canvas.style.height = `${windowWidth / gameRatio}px`;\n  } else {\n    canvas.style.width = `${windowHeight * gameRatio}px`;\n    canvas.style.height = `${windowHeight}px`;\n  }\n}\n",
+    "static": true,
+    "longname": "/Applications/MAMP/htdocs/phaser3/src/utilities/canvas.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 100,
+    "kind": "function",
+    "name": "fullScreenCanvas",
+    "memberof": "src/utilities/canvas.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/utilities/canvas.js~fullScreenCanvas",
+    "access": "public",
+    "export": true,
+    "importPath": "Phaser3-Examples/src/utilities/canvas.js",
+    "importStyle": "fullScreenCanvas",
+    "description": "Resizes the game canvas with respect to the current aspect ratio",
+    "lineNumber": 11,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 101,
+    "kind": "file",
+    "name": "src/utilities/index.js",
+    "content": "/**\n * @file Utilities\n * @author Jade Krafsig <jade@design1online.com>\n * @module Utilities\n */\nimport fullScreenCanvas from './canvas';\n\nexport default {\n  /**\n  * Resize the canvas\n  * @function fullScreenCanvas\n  * @since 1.0.0\n  * @see {@link utilities/canvas.js}\n  * @return null\n  */\n  fullScreenCanvas,\n};\n",
+    "static": true,
+    "longname": "/Applications/MAMP/htdocs/phaser3/src/utilities/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "kind": "index",
+    "content": "# Phaser 3 Webpack ES6 Project Template\n\n<p style=\"text-align: center;\">![Phaser Logo](../assets/logo.png \"Phaser Logo\")</p>\n\nA Phaser 3 project template using webpack, SASS, Babel ES6, and eslinter set to Aribnb preset.\nIncludes a folder of example scripts to help start your development.\n\n### Requirements\n\nWe need [Node.js](https://nodejs.org) to install and run scripts.\n\n## Setup & Development Commands\n\nRun the appropriate command in your terminal:\n\n| Command | Description |\n|---------|-------------|\n| `npm install` | Install dependencies and launch browser with examples.|\n| `yarn start` | Launch browser to show the examples.<br/>Press `Ctrl + c` to kill **http-server** process. |\n| `yarn deploy` | Create a distributed version of the build that's minified and uglified. |\n| `yarn docs` | Generate ESDocs for the examples. |\n| `yarn jsdocs` | Generate JsDocs for the examples. |\n| `yarn lint` | Run the linter, defaults to using airbnb style guide (https://github.com/airbnb/javascript). |\n| `yarn lint:fix-dry-run` | Run the linter and automatically fix without saving changes. |\n| `yarn lint:fix` | Run the linter and automatically fix problems and save changes. |\n| `yarn test` | Run the unit tests. Looks for files matching the pattern `*.test.js`. |\n| `yarn test:watch` | Run the unit tests but keep watch for changes.<br/>Press `Ctrl + c` to kill the watch process. |\n",
+    "longname": "/Applications/MAMP/htdocs/phaser3/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"Phaser3-Examples\",\n  \"version\": \"1.0.0\",\n  \"description\": \"\",\n  \"author\": \"Jade Krafsig <jade@design1online.com>\",\n  \"main\": \"main.js\",\n  \"scripts\": {\n    \"start\": \"webpack --mode=development\",\n    \"deploy\": \"webpack --mode=production --config webpack.production.config.js\",\n    \"test\": \"mocha -c ./src/**/*.test.js\",\n    \"test:watch\": \"mocha -c -w ./src/**/*.test.js\",\n    \"lint\": \"eslint --color ./src/**/**.js\",\n    \"lint:fix-dry-run\": \"eslint --color --fix-dry-run ./src/**/**.js\",\n    \"lint:fix\": \"babel-eslint --color --fix ./src/**/**.js\",\n    \"docs\": \"./node_modules/.bin/esdoc\",\n    \"jsdocs\": \"jsdoc -c ./jsdoc.config.json -R README.md\"\n  },\n  \"license\": \"MIT\",\n  \"devDependencies\": {\n    \"@babel/core\": \"^7.1.2\",\n    \"babel-core\": \"^7.0.0-bridge.0\",\n    \"babel-eslint\": \"^8.2.6\",\n    \"babel-loader\": \"^8.0.4\",\n    \"babel-polyfill\": \"^6.26.0\",\n    \"babel-preset-airbnb\": \"^3.0.1\",\n    \"babel-preset-es2015\": \"^6.24.1\",\n    \"browser-sync\": \"^2.24.4\",\n    \"browser-sync-webpack-plugin\": \"^2.2.2\",\n    \"clean-webpack-plugin\": \"^0.1.19\",\n    \"copy-webpack-plugin\": \"^4.5.1\",\n    \"css-loader\": \"^1.0.0\",\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-ecmascript-proposal-plugin\": \"^1.0.0\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"eslint\": \"^5.7.0\",\n    \"eslint-config-airbnb-base\": \"^13.1.0\",\n    \"eslint-plugin-import\": \"^2.14.0\",\n    \"expose-loader\": \"^0.7.3\",\n    \"html-webpack-plugin\": \"^3.2.0\",\n    \"ink-docstrap\": \"^1.3.2\",\n    \"jsdoc\": \"^3.5.5\",\n    \"mini-css-extract-plugin\": \"^0.4.4\",\n    \"mocha\": \"^5.2.0\",\n    \"node-sass\": \"^4.9.3\",\n    \"node-sass-glob-importer\": \"^5.2.0\",\n    \"optimize-css-assets-webpack-plugin\": \"^5.0.1\",\n    \"postcss-loader\": \"^3.0.0\",\n    \"raw-loader\": \"^0.5.1\",\n    \"resolve-url-loader\": \"^3.0.0\",\n    \"sass-loader\": \"^7.1.0\",\n    \"style-loader\": \"^0.23.1\",\n    \"uglifyjs-webpack-plugin\": \"^2.0.1\",\n    \"webpack\": \"^4.10.0\",\n    \"webpack-cli\": \"^3.0.1\",\n    \"yan\": \"0.0.1\",\n    \"yarn\": \"^1.7.0\"\n  },\n  \"dependencies\": {\n    \"@babel/polyfill\": \"^7.0.0\",\n    \"babel\": \"^6.23.0\",\n    \"phaser\": \"3.9.0\",\n    \"phaser-animated-tiles\": \"^2.0.2\"\n  }\n}\n",
+    "longname": "/Applications/MAMP/htdocs/phaser3/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]

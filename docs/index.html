@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl">
+  <title data-ice="title">Home | Phaser3-Examples</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-external">E</span><span data-ice="name"><span><a href="https://photonstorm.github.io/phaser3-docs/index.html">Phaser</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-external">E</span><span data-ice="name"><span><a href="https://photonstorm.github.io/phaser3-docs/Phaser.Game.html">Phaser.Game</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-external">E</span><span data-ice="name"><span><a href="https://photonstorm.github.io/phaser3-docs/Phaser.Scene.html">Phaser.Scene</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#config">config</a><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-customConfig">customConfig</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-defaultConfig">defaultConfig</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#examples-animations">examples/animations</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/examples/animations/add.js~AnimationAdd.html">AnimationAdd</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/examples/animations/data.js~AnimationData.html">AnimationData</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/examples/animations/tween.js~AnimationTween.html">AnimationTween</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#utilities">utilities</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-fullScreenCanvas">fullScreenCanvas</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><h1 id="phaser-3-webpack-es6-project-template">Phaser 3 Webpack ES6 Project Template</h1><p></p><p><img src="../assets/logo.png" alt="Phaser Logo" title="Phaser Logo"></p>
+
+<p></p>
+<p>A Phaser 3 project template using webpack, SASS, Babel ES6, and eslinter set to Aribnb preset.
+Includes a folder of example scripts to help start your development.</p>
+<h3 id="requirements">Requirements</h3><p>We need <a href="https://nodejs.org">Node.js</a> to install and run scripts.</p>
+<h2 id="setup--amp--development-commands">Setup &amp; Development Commands</h2><p>Run the appropriate command in your terminal:</p>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>npm install</code></td>
+<td>Install dependencies and launch browser with examples.</td>
+</tr>
+<tr>
+<td><code>yarn start</code></td>
+<td>Launch browser to show the examples.<br>Press <code>Ctrl + c</code> to kill <strong>http-server</strong> process.</td>
+</tr>
+<tr>
+<td><code>yarn deploy</code></td>
+<td>Create a distributed version of the build that&apos;s minified and uglified.</td>
+</tr>
+<tr>
+<td><code>yarn docs</code></td>
+<td>Generate ESDocs for the examples.</td>
+</tr>
+<tr>
+<td><code>yarn jsdocs</code></td>
+<td>Generate JsDocs for the examples.</td>
+</tr>
+<tr>
+<td><code>yarn lint</code></td>
+<td>Run the linter, defaults to using airbnb style guide (<a href="https://github.com/airbnb/javascript)">https://github.com/airbnb/javascript)</a>.</td>
+</tr>
+<tr>
+<td><code>yarn lint:fix-dry-run</code></td>
+<td>Run the linter and automatically fix without saving changes.</td>
+</tr>
+<tr>
+<td><code>yarn lint:fix</code></td>
+<td>Run the linter and automatically fix problems and save changes.</td>
+</tr>
+<tr>
+<td><code>yarn test</code></td>
+<td>Run the unit tests. Looks for files matching the pattern <code>*.test.js</code>.</td>
+</tr>
+<tr>
+<td><code>yarn test:watch</code></td>
+<td>Run the unit tests but keep watch for changes.<br>Press <code>Ctrl + c</code> to kill the watch process.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

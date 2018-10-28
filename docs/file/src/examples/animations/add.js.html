@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../../">
+  <title data-ice="title">src/examples/animations/add.js | Phaser3-Examples</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-external">E</span><span data-ice="name"><span><a href="https://photonstorm.github.io/phaser3-docs/index.html">Phaser</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-external">E</span><span data-ice="name"><span><a href="https://photonstorm.github.io/phaser3-docs/Phaser.Game.html">Phaser.Game</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-external">E</span><span data-ice="name"><span><a href="https://photonstorm.github.io/phaser3-docs/Phaser.Scene.html">Phaser.Scene</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#config">config</a><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-customConfig">customConfig</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-defaultConfig">defaultConfig</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#examples-animations">examples/animations</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/examples/animations/add.js~AnimationAdd.html">AnimationAdd</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/examples/animations/data.js~AnimationData.html">AnimationData</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/examples/animations/tween.js~AnimationTween.html">AnimationTween</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#utilities">utilities</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-fullScreenCanvas">fullScreenCanvas</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/examples/animations/add.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">/**
+* @author       Jade Krafsig &lt;jade@design1online.com&gt;
+* @copyright    Design1Online.com, LLC
+* @license      {@link https://github.com/design1online/phaser3-es6-webpack-template/blob/master/LICENSE|MIT License}
+*/
+import Phaser from &apos;phaser&apos;;
+import customConfig from &apos;../../config/custom&apos;;
+
+/**
+* @classdesc Example of adding animations on click
+*
+* @class AnimationAdd
+* @extends {Phaser.Scene}
+* @since 1.0.0
+*/
+class AnimationAdd extends Phaser.Scene {
+
+  /**
+  * @desc Default constructor and sets scene key
+  */
+  constructor() {
+    super({
+      key: &apos;AnimationAdd&apos;,
+    });
+
+    // add in our custom config values
+    Object.assign(this, customConfig);
+
+    /**
+    * keeps track of gem index
+    * @type {number}
+    */
+    this.i = 0;
+
+    /**
+    * The y position of the gems
+    * @type {number}
+    */
+    this.y = null;
+
+    /**
+    * Holds the example instructions
+    * @type {string}
+    */
+    this.instructions = null;
+
+    /**
+    * The on add animations callback function
+    * @type {function}
+    */
+    this.animations = null;
+
+    this.addAnimation = this.addAnimation.bind(this);
+    this.createGemAnimation = this.createGemAnimation.bind(this);
+  }
+
+  /**
+  * @desc Preload the assets for this scene
+  */
+  preload() {
+    this.load.atlas(&apos;gems&apos;, `${this.assetPath}gems.png`, `${this.assetPath}gems.json`);
+  }
+
+  /**
+  * @desc Initalize the animation
+  */
+  create() {
+    // reset the gem index and y position
+    this.i = 0;
+    this.y = 100;
+
+    // Each time a new animation is added to the Animation Manager we&apos;ll call this function
+    this.animations = this.anims.on(&apos;add&apos;, this.addAnimation);
+
+    // Click to add an animation
+    this.input.on(&apos;pointerup&apos;, () =&gt; {
+      switch (this.i) {
+        case 0: this.createGemAnimation(&apos;diamond&apos;, 15); break;
+        case 1: this.createGemAnimation(&apos;prism&apos;, 6); break;
+        case 2: this.createGemAnimation(&apos;ruby&apos;, 6); break;
+        case 3: this.createGemAnimation(&apos;square&apos;, 14); break;
+        default: break;
+      }
+
+      this.i += 1;
+    });
+
+    const infoText = &apos;Click up to 4 times to add an animation to the canvas&apos;;
+    this.instructions = this.add.text(100, 500, infoText, { color: this.textColor });
+  }
+
+  /**
+  * @desc Creates an animation for the gem
+  * @param {String} key the name of the animation
+  * @param {Number} end the number of frames in the animation
+  */
+  createGemAnimation(key, end) {
+    // only create if it doesn&apos;t exist yet this this is called on the add event listener
+    if (!this.anims.get(key)) {
+      // as soon as this is created the add event will fire this.addAnimation
+      this.animations.create({
+        key,
+        frames: this.animations.generateFrameNames(&apos;gems&apos;, { prefix: `${key}_`, end, zeroPad: 4 }),
+        repeat: -1,
+      });
+    } else {
+      this.addAnimation(key);
+    }
+  }
+
+  /**
+  * @desc Add the animation sprite to the screen
+  * @param {String} key the animation key to play
+  */
+  addAnimation(key) {
+    if (this.debugMode) {
+      console.log(&apos;adding animation&apos;, key); // eslint-disable-line
+    }
+
+    this.add.sprite(400, this.y, &apos;gems&apos;).play(key);
+    this.y += 100;
+  }
+}
+
+export default AnimationAdd;
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

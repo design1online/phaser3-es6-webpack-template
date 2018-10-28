@@ -1,17 +1,19 @@
 /**
-* Updates the canvas to match the size of the window
-* with respect to the current aspect-ratio so that the
-* game graphics are not distorted
-*
-* @param Phaser.Game instance of a phaser game
-* @return null
+* @author    Jade Krafsig <jade@design1online.com>
+* @copyright Design1Online.com, LLC
+* @license   {@link https://github.com/design1online/phaser3-es6-webpack-template/blob/master/LICENSE|MIT License}
 */
-export default function fullScreenCanvas(game) {
+
+/**
+ * Full Screen Canvas
+ * @desc Resizes the game canvas with respect to the current aspect ratio
+ */
+export default function fullScreenCanvas() {
   const canvas = document.querySelector('canvas');
   const windowWidth = window.innerWidth;
   const windowHeight = window.innerHeight;
   const windowRatio = windowWidth / windowHeight;
-  const gameRatio = game.width / game.height;
+  const gameRatio = window.game.width / window.game.height;
 
   if (windowRatio < gameRatio) {
     canvas.style.width = `${windowWidth}px`;
