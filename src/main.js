@@ -2,7 +2,6 @@
 * @author    Jade Krafsig <jade@design1online.com>
 * @copyright Design1Online.com, LLC
 * @license   {@link https://github.com/design1online/phaser3-es6-webpack-template/blob/master/LICENSE|MIT License}
-* @extends   {Phaser.Game}
 * @module    Core
 */
 import Phaser from 'phaser';
@@ -10,10 +9,25 @@ import { defaultConfig, customConfig } from './config';
 import fullScreenCanvas from './utilities/canvas';
 
 /**
-* Load the phaser game and add event listener for
-* resizing the canvas if full screen is enabled
+* Phaser Core
+* @external {Phaser} https://photonstorm.github.io/phaser3-docs/index.html
 */
-window.onload = () => {
+
+/**
+* Phaser Game
+* @external {Phaser.Game} https://photonstorm.github.io/phaser3-docs/Phaser.Game.html
+*/
+
+
+/**
+* Phaser Scene
+* @external {Phaser.Scene} https://photonstorm.github.io/phaser3-docs/Phaser.Scene.html
+*/
+
+/**
+* @desc Initialize the phaser game object
+*/
+const initalizeGame = () => {
   // create the phaser instance
   window.game = new Phaser.Game(defaultConfig);
 
@@ -53,3 +67,10 @@ window.onload = () => {
     window.addEventListener('resize', fullScreenCanvas, false);
   }
 };
+
+/**
+* @function window.onload
+* @desc Load the phaser game and add event listener for
+* resizing the canvas if full screen is enabled
+*/
+window.onload = initalizeGame;

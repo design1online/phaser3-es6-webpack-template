@@ -2,17 +2,13 @@
 * @author       Jade Krafsig <jade@design1online.com>
 * @copyright    Design1Online.com, LLC
 * @license      {@link https://github.com/design1online/phaser3-es6-webpack-template/blob/master/LICENSE|MIT License}
-* @module       Animations.data
 */
 import Phaser from 'phaser';
 import customConfig from '../../config/custom';
 
 /**
-* @classdesc
-* Example of animation events
-*
+* @classdesc Example of animation events
 * @class AnimationData
-* @memberOf Animations
 * @constructor
 * @since 1.0.0
 */
@@ -45,9 +41,7 @@ class AnimationData extends Phaser.Scene {
   }
 
   /**
-  * Preload the assets for this scene
-  * @method Animations.AnimationData#preload
-  * @since 1.0.0
+  * @desc Preload the assets for this scene
   */
   preload() {
     // load the sprite sheet animation
@@ -64,7 +58,6 @@ class AnimationData extends Phaser.Scene {
 
   /**
   * @desc Initalize the animation
-  * @method Animations.AnimationData#create
   */
   create() {
     // Frame debug view
@@ -126,7 +119,6 @@ class AnimationData extends Phaser.Scene {
 
   /**
   * @desc Updates the pink frame around the current animation that's displayed
-  * @method Animations.AnimationData#updateFrameView
   */
   updateFrameView() {
     this.frameView.clear();
@@ -140,7 +132,6 @@ class AnimationData extends Phaser.Scene {
 
   /**
   * @desc The render callback loop
-  * @method Animations.AnimationData#update
   */
   update() {
     this.updateFrameView();

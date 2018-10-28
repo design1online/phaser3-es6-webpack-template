@@ -7,12 +7,16 @@
 import defaultConfig from './default';
 import customConfig from './custom';
 
-/**
-* @export
-* The default phaser configuration
-* and the custom phaser config values
-*/
 export {
+  /**
+  * Get the phaser configuration details
+  * @return {Object} the default phaser configuration
+  */
   defaultConfig,
+
+  /**
+  * Get our game's custom configuration values
+  * @return {Object} the game's custom configurations
+  */
   customConfig,
 };

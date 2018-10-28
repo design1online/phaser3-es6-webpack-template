@@ -8,12 +8,22 @@ import AnimationData from './data';
 import AnimationTween from './tween';
 import AnimationAdd from './add';
 
-/**
-* @export
-* All of the animation scenes
-*/
 export {
+  /**
+  * @description Animation data scene
+  * @return {Phaser.Scene}
+  */
   AnimationData,
+
+  /**
+  * Animation tween
+  * @return {Phaser.Scene}
+  */
   AnimationTween,
+
+  /**
+  * Animation add
+  * @return {Phaser.Scene}
+  */
   AnimationAdd,
 };

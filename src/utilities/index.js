@@ -5,9 +5,13 @@
  */
 import fullScreenCanvas from './canvas';
 
-/**
- * All utilities
- */
 export default {
+  /**
+  * Resize the canvas
+  * @function fullScreenCanvas
+  * @since 1.0.0
+  * @see {@link utilities/canvas.js}
+  * @return null
+  */
   fullScreenCanvas,
 };

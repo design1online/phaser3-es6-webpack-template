@@ -2,15 +2,11 @@
 * @author    Jade Krafsig <jade@design1online.com>
 * @copyright Design1Online.com, LLC
 * @license   {@link https://github.com/design1online/phaser3-es6-webpack-template/blob/master/LICENSE|MIT License}
-* @module    Utilities.Canvas
 */
 
 /**
- * @export
- * fullScreenCanvas
+ * Full Screen Canvas
  * @desc Resizes the game canvas with respect to the current aspect ratio
- * @param game {Phaser.Game} instance of a phaser game
- * @source { "filename": "utilities/canvas.js", "lineno": 14 }
  */
 export default function fullScreenCanvas() {
   const canvas = document.querySelector('canvas');

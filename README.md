@@ -1,6 +1,6 @@
 # Phaser 3 Webpack ES6 Project Template
 
-<p align="center"><img src="https://github.com/design1online/phaser3-es6-webpack-template/blob/master/assets/logo.png?raw=true" alt="Phaser Logo" title="Phaser 3 ES6 Template" /></p>
+<p style="text-align: center;">![Phaser Logo](../assets/logo.png "Phaser Logo")</p>
 
 A Phaser 3 project template using webpack, SASS, Babel ES6, and eslinter set to Aribnb preset.
 Includes a folder of example scripts to help start your development.
@@ -18,7 +18,8 @@ Run the appropriate command in your terminal:
 | `npm install` | Install dependencies and launch browser with examples.|
 | `yarn start` | Launch browser to show the examples.<br/>Press `Ctrl + c` to kill **http-server** process. |
 | `yarn deploy` | Create a distributed version of the build that's minified and uglified. |
-| `yarn docs` | Generate JSDocs for the examples. |
+| `yarn docs` | Generate ESDocs for the examples. |
+| `yarn jsdocs` | Generate JsDocs for the examples. |
 | `yarn lint` | Run the linter, defaults to using airbnb style guide (https://github.com/airbnb/javascript). |
 | `yarn lint:fix-dry-run` | Run the linter and automatically fix without saving changes. |
 | `yarn lint:fix` | Run the linter and automatically fix problems and save changes. |

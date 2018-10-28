@@ -2,17 +2,15 @@
 * @author       Jade Krafsig <jade@design1online.com>
 * @copyright    Design1Online.com, LLC
 * @license      {@link https://github.com/design1online/phaser3-es6-webpack-template/blob/master/LICENSE|MIT License}
-* @module       Animations.add
 */
 import Phaser from 'phaser';
 import customConfig from '../../config/custom';
 
 /**
-* @classdesc
-* Example of adding animations on click
+* @classdesc Example of adding animations on click
 *
 * @class AnimationAdd
-* @memberOf Animations
+* @extends {Phaser.Scene}
 * @constructor
 * @since 1.0.0
 */
@@ -36,7 +34,7 @@ class AnimationAdd extends Phaser.Scene {
   }
 
   /**
-  * Preload the assets for this scene
+  * @desc Preload the assets for this scene
   * @method Animations.AnimationAdd#preload
   * @since 1.0.0
   */
@@ -74,8 +72,7 @@ class AnimationAdd extends Phaser.Scene {
   }
 
   /**
-  * Creates an animation for the gem
-  *
+  * @desc Creates an animation for the gem
   * @param {String} key the name of the animation
   * @param {Number} end the number of frames in the animation
   */
@@ -95,8 +92,6 @@ class AnimationAdd extends Phaser.Scene {
 
   /**
   * @desc Add the animation sprite to the screen
-  * @method Animations.AnimationAdd#addAnimation
-  *
   * @param {String} key the animation key to play
   */
   addAnimation(key) {

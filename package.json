@@ -12,7 +12,8 @@
     "lint": "eslint --color ./src/**/**.js",
     "lint:fix-dry-run": "eslint --color --fix-dry-run ./src/**/**.js",
     "lint:fix": "babel-eslint --color --fix ./src/**/**.js",
-    "docs": "jsdoc -c ./jsdoc.config.json -R README.md"
+    "docs": "./node_modules/.bin/esdoc",
+    "jsdocs": "jsdoc -c ./jsdoc.config.json -R README.md"
   },
   "license": "MIT",
   "devDependencies": {
@@ -28,6 +29,9 @@
     "clean-webpack-plugin": "^0.1.19",
     "copy-webpack-plugin": "^4.5.1",
     "css-loader": "^1.0.0",
+    "esdoc": "^1.1.0",
+    "esdoc-ecmascript-proposal-plugin": "^1.0.0",
+    "esdoc-standard-plugin": "^1.0.0",
     "eslint": "^5.7.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0",

@@ -2,8 +2,8 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <base data-ice="baseUrl">
-  <title data-ice="title">Home | Phaser3-Examples</title>
+  <base data-ice="baseUrl" href="../../../../">
+  <title data-ice="title">src/examples/animations/tween.js | Phaser3-Examples</title>
   <link type="text/css" rel="stylesheet" href="css/style.css">
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
@@ -42,64 +42,73 @@
 </div>
 </nav>
 
-<div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><h1 id="phaser-3-webpack-es6-project-template">Phaser 3 Webpack ES6 Project Template</h1><p></p><p><img src="../assets/logo.png" alt="Phaser Logo" title="Phaser Logo"></p>
+<div class="content" data-ice="content"><h1 data-ice="title">src/examples/animations/tween.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">/**
+* @author       Jade Krafsig &lt;jade@design1online.com&gt;
+* @copyright    Design1Online.com, LLC
+* @license      {@link https://github.com/design1online/phaser3-es6-webpack-template/blob/master/LICENSE|MIT License}
+*/
+import Phaser from &apos;phaser&apos;;
+import customConfig from &apos;../../config/custom&apos;;
 
-<p></p>
-<p>A Phaser 3 project template using webpack, SASS, Babel ES6, and eslinter set to Aribnb preset.
-Includes a folder of example scripts to help start your development.</p>
-<h3 id="requirements">Requirements</h3><p>We need <a href="https://nodejs.org">Node.js</a> to install and run scripts.</p>
-<h2 id="setup--amp--development-commands">Setup &amp; Development Commands</h2><p>Run the appropriate command in your terminal:</p>
-<table>
-<thead>
-<tr>
-<th>Command</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>npm install</code></td>
-<td>Install dependencies and launch browser with examples.</td>
-</tr>
-<tr>
-<td><code>yarn start</code></td>
-<td>Launch browser to show the examples.<br>Press <code>Ctrl + c</code> to kill <strong>http-server</strong> process.</td>
-</tr>
-<tr>
-<td><code>yarn deploy</code></td>
-<td>Create a distributed version of the build that&apos;s minified and uglified.</td>
-</tr>
-<tr>
-<td><code>yarn docs</code></td>
-<td>Generate ESDocs for the examples.</td>
-</tr>
-<tr>
-<td><code>yarn jsdocs</code></td>
-<td>Generate JsDocs for the examples.</td>
-</tr>
-<tr>
-<td><code>yarn lint</code></td>
-<td>Run the linter, defaults to using airbnb style guide (<a href="https://github.com/airbnb/javascript)">https://github.com/airbnb/javascript)</a>.</td>
-</tr>
-<tr>
-<td><code>yarn lint:fix-dry-run</code></td>
-<td>Run the linter and automatically fix without saving changes.</td>
-</tr>
-<tr>
-<td><code>yarn lint:fix</code></td>
-<td>Run the linter and automatically fix problems and save changes.</td>
-</tr>
-<tr>
-<td><code>yarn test</code></td>
-<td>Run the unit tests. Looks for files matching the pattern <code>*.test.js</code>.</td>
-</tr>
-<tr>
-<td><code>yarn test:watch</code></td>
-<td>Run the unit tests but keep watch for changes.<br>Press <code>Ctrl + c</code> to kill the watch process.</td>
-</tr>
-</tbody>
-</table>
-</div>
+/**
+* @classdesc
+* Example of tweening an animation
+*
+* @class AnimationTween
+* @memberOf Animations
+* @constructor
+* @since 1.0.0
+*/
+class AnimationTween extends Phaser.Scene {
+  constructor() {
+    super({
+      key: &apos;AnimationTween&apos;,
+    });
+
+    // add in our custom config values
+    Object.assign(this, customConfig);
+
+    this.logo = null; // a reference to the logo
+  }
+
+  /**
+  * Preload the assets for this scene
+  * @method Animations.AnimationTween#preload
+  * @since 1.0.0
+  */
+  preload() {
+    // load the logo image
+    this.load.image(&apos;logo&apos;, &apos;../../assets/logo.png&apos;);
+  }
+
+  /**
+  * @desc Initalize the animation
+  * @method Animations.AnimationTween#create
+  */
+  create() {
+    // create an instance of the logo
+    this.logo = this.add.image(400, 150, &apos;logo&apos;);
+
+    if (this.debugMode) {
+      console.log(&apos;logo&apos;, this.logo); // eslint-disable-line
+    }
+
+    // create the tween
+    this.tweens.add({
+      targets: this.logo,
+      y: 430,
+      duration: 2000,
+      ease: &apos;Power2&apos;,
+      yoyo: true,
+      loop: -1,
+    });
+  }
+}
+
+export default AnimationTween;
+</code></pre>
+
 </div>
 
 <footer class="footer">

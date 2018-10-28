@@ -1,0 +1,49 @@
+{
+  "coverage": "51.72%",
+  "expectCount": 29,
+  "actualCount": 15,
+  "files": {
+    "src/examples/animations/add.js": {
+      "expectCount": 11,
+      "actualCount": 5,
+      "undocumentLines": [
+        18,
+        26,
+        27,
+        28,
+        29,
+        30
+      ]
+    },
+    "src/examples/animations/data.js": {
+      "expectCount": 11,
+      "actualCount": 5,
+      "undocumentLines": [
+        16,
+        24,
+        25,
+        26,
+        27,
+        29
+      ]
+    },
+    "src/examples/animations/tween.js": {
+      "expectCount": 5,
+      "actualCount": 3,
+      "undocumentLines": [
+        19,
+        27
+      ]
+    },
+    "src/main.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/utilities/canvas.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    }
+  }
+}
