@@ -24,6 +24,24 @@ window.esdocSearchIndex = [
     "function"
   ],
   [
+    "",
+    "test-file/src/main.test.js.html#lineNumber5",
+    "Array",
+    "test"
+  ],
+  [
+    "",
+    "test-file/src/main.test.js.html#lineNumber6",
+    "Array #indexOf()",
+    "test"
+  ],
+  [
+    "",
+    "test-file/src/main.test.js.html#lineNumber7",
+    "Array #indexOf() should return -1 when the value is not present",
+    "test"
+  ],
+  [
     "src/.external-ecmascript.js~array",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
     "src/.external-ecmascript.js~Array",
@@ -514,6 +532,12 @@ window.esdocSearchIndex = [
     "https://photonstorm.github.io/phaser3-docs/Phaser.Scene.html",
     "src/main.js~Phaser.Scene",
     "external"
+  ],
+  [
+    "src/main.test.js",
+    "test-file/src/main.test.js.html",
+    "src/main.test.js",
+    "testFile"
   ],
   [
     "src/utilities/canvas.js",

@@ -1,28 +1,28 @@
 {
   "type": "File",
   "start": 0,
-  "end": 4614,
+  "end": 4645,
   "loc": {
     "start": {
       "line": 1,
       "column": 0
     },
     "end": {
-      "line": 62,
+      "line": 76,
       "column": 0
     }
   },
   "program": {
     "type": "Program",
     "start": 0,
-    "end": 4614,
+    "end": 4645,
     "loc": {
       "start": {
         "line": 1,
         "column": 0
       },
       "end": {
-        "line": 62,
+        "line": 76,
         "column": 0
       }
     },
@@ -303,16 +303,16 @@
         "trailingComments": [
           {
             "type": "CommentBlock",
-            "value": "*\n* @desc Default Phaser configuration, for more settings see {@link https://photonstorm.github.io/phaser3-docs/global.html#GameConfig}\n* @typedef {Object} defaultConfig\n* @property {number} [type=Phaser.AUTO] Phaser.AUTO, Phaser.CANVAS, Phaser.HEADLESS or Phaser.WEBGL. AUTO picks WEBGL if available, otherwise CANVAS.\n* @property {number|string} [width=1024] The width of the game, in game pixels\n* @property {number|string} [height=768] The height of the game, in game pixels\n* @property {number} [zoom=1] Simple scale applied to the game canvas. 2 is double size, 0.5 is half size, etc\n* @property {number} [resolution=1] The size of each game pixel, in canvas pixels. Values larger than 1 are \"high\" resolution\n* @property {Object|string} [parent=null] The DOM element that will contain the game canvas, or its id. If null (the default) or if the named element doesn't exist, the game canvas is inserted directly into the document body\n* @property {Object} [canvas=null] Provide your own Canvas element for Phaser to use instead of creating one.\n* @property {string} [canvasStyle=null] CSS styles to apply to the game canvas instead of Phaser's default styles.\n* @property {Object} [CanvasRenderingContext2D] Provide your own Canvas Context for Phaser to use, instead of creating one.\n* @property {Object} [scene=null] A scene or scenes to add to the game. If several are given, the first is started; the remainder are started only if they have { active: true }.\n* @property {string[]} [seed]\tSeed for the random number generator\n* @property {string} [title=''] The title of the game shown in the browser console\n* @property {string} [url='http://phaser.io'] The URL of the game shown in the browser console\n* @property {string} [version=''] The version of the game shown in the browser console\n* @property {boolean} [autoFocus=true] Automatically call window.focus() when the game boots. Usually necessary to capture input events if the game is in a separate frame\n* @property {boolean|InputConfig} [input] Input configuration, or false to disable all game input. See {@link https://photonstorm.github.io/phaser3-docs/global.html#InputConfig}\n* @property {boolean} [disableContextMenu=false] Disable the browser's default 'contextmenu' event (usually triggered by a right-button mouse click)\n* @property {boolean|BannerConfig} [banner=false] Configuration for the banner printed in the browser console when the game starts. See {@link https://photonstorm.github.io/phaser3-docs/global.html#BannerConfig}\n* @property {DOMContainerConfig} [dom] The DOM Container configuration object, see {@link https://photonstorm.github.io/phaser3-docs/global.html#DOMContainerConfig}\n* @property {FPSConfig} [fps] Game loop configuration, see {@link https://photonstorm.github.io/phaser3-docs/global.html#FPSConfig}\n* @property {RenderConfig} [render] Game render configuration, see {@link https://photonstorm.github.io/phaser3-docs/global.html#RenderConfig}\n* @property {string|number} [backgroundColor=0x000000] The background color of the game canvas\n* @property {CallbacksConfig} [callbacks] Optional callbacks to run before or after game boot see {@link https://photonstorm.github.io/phaser3-docs/global.html#CallbacksConfig}\n* @property {LoaderConfig} [loader] Loader configuration see {@link https://photonstorm.github.io/phaser3-docs/global.html#LoaderConfig}\n* @property {ImagesConfig} [images] Images configuration see {@link https://photonstorm.github.io/phaser3-docs/global.html#ImagesConfig}\n* @property {Object} [physics] Physics configuration see {@link https://photonstorm.github.io/phaser3-docs/Phaser.Physics.html}\n* @property {PluginObject|PluginObjectItem[]} Plugins to install see {@link https://photonstorm.github.io/phaser3-docs/global.html#PluginObject} and {@link https://photonstorm.github.io/phaser3-docs/global.html#PluginObjectItem}\n* @see https://photonstorm.github.io/phaser3-docs/global.html#GameConfig\n",
+            "value": "*\n* @desc Default Phaser configuration, for more settings see {@link https://photonstorm.github.io/phaser3-docs/global.html#GameConfig}\n* @typedef {Object} defaultConfig\n* @property {number} [type=Phaser.AUTO] Phaser.AUTO, Phaser.CANVAS, Phaser.HEADLESS or Phaser.WEBGL.\n* AUTO picks WEBGL if available, otherwise CANVAS.\n* @property {number|string} [width=1024] The width of the game, in game pixels\n* @property {number|string} [height=768] The height of the game, in game pixels\n* @property {number} [zoom=1] Simple scale applied to the game canvas. 2 is double size,\n*  0.5 is half size, etc\n* @property {number} [resolution=1] The size of each game pixel, in canvas pixels. Values\n*  larger than 1 are \"high\"\n* resolution\n* @property {Object|string} [parent=null] The DOM element that will contain the game canvas,\n* or its id. If null (the default) or if the named element doesn't exist, the game canvas is\n* inserted directly into the document body\n* @property {Object} [canvas=null] Provide your own Canvas element for Phaser to use instead of\n* creating one.\n* @property {string} [canvasStyle=null] CSS styles to apply to the game canvas instead of Phaser's\n*  default styles.\n* @property {Object} [CanvasRenderingContext2D] Provide your own Canvas Context for Phaser to use,\n* instead of creating one.\n* @property {Object} [scene=null] A scene or scenes to add to the game. If several are given,\n* the first is started; the remainder are started only if they have { active: true }.\n* @property {string[]} [seed] Seed for the random number generator\n* @property {string} [title=''] The title of the game shown in the browser console\n* @property {string} [url='http://phaser.io'] The URL of the game shown in the browser console\n* @property {string} [version=''] The version of the game shown in the browser console\n* @property {boolean} [autoFocus=true] Automatically call window.focus() when the game boots.\n* Usually necessary to capture input events if the game is in a separate frame\n* @property {boolean|InputConfig} [input] Input configuration, or false to disable all game input.\n* See {@link https://photonstorm.github.io/phaser3-docs/global.html#InputConfig}\n* @property {boolean} [disableContextMenu=false] Disable the browser's default 'contextmenu' event\n* (usually triggered by a right-button mouse click)\n* @property {boolean|BannerConfig} [banner=false] Configuration for the banner printed in the\n* browser console when the game starts. See {@link https://photonstorm.github.io/phaser3-docs/global.html#BannerConfig}\n* @property {DOMContainerConfig} [dom] The DOM Container configuration object, see {@link https://photonstorm.github.io/phaser3-docs/global.html#DOMContainerConfig}\n* @property {FPSConfig} [fps] Game loop configuration, see {@link https://photonstorm.github.io/phaser3-docs/global.html#FPSConfig}\n* @property {RenderConfig} [render] Game render configuration, see {@link https://photonstorm.github.io/phaser3-docs/global.html#RenderConfig}\n* @property {string|number} [backgroundColor=0x000000] The background color of the game canvas\n* @property {CallbacksConfig} [callbacks] Optional callbacks to run before or after game boot see {@link https://photonstorm.github.io/phaser3-docs/global.html#CallbacksConfig}\n* @property {LoaderConfig} [loader] Loader configuration see {@link https://photonstorm.github.io/phaser3-docs/global.html#LoaderConfig}\n* @property {ImagesConfig} [images] Images configuration see {@link https://photonstorm.github.io/phaser3-docs/global.html#ImagesConfig}\n* @property {Object} [physics] Physics configuration see {@link https://photonstorm.github.io/phaser3-docs/Phaser.Physics.html}\n* @property {PluginObject|PluginObjectItem[]} Plugins to install see {@link https://photonstorm.github.io/phaser3-docs/global.html#PluginObject} and {@link https://photonstorm.github.io/phaser3-docs/global.html#PluginObjectItem}\n* @see https://photonstorm.github.io/phaser3-docs/global.html#GameConfig\n",
             "start": 334,
-            "end": 4264,
+            "end": 4295,
             "loc": {
               "start": {
                 "line": 9,
                 "column": 0
               },
               "end": {
-                "line": 40,
+                "line": 54,
                 "column": 2
               }
             }
@@ -321,44 +321,44 @@
       },
       {
         "type": "ExportDefaultDeclaration",
-        "start": 4265,
-        "end": 4613,
+        "start": 4296,
+        "end": 4644,
         "loc": {
           "start": {
-            "line": 41,
+            "line": 55,
             "column": 0
           },
           "end": {
-            "line": 61,
+            "line": 75,
             "column": 2
           }
         },
         "declaration": {
           "type": "ObjectExpression",
-          "start": 4280,
-          "end": 4612,
+          "start": 4311,
+          "end": 4643,
           "loc": {
             "start": {
-              "line": 41,
+              "line": 55,
               "column": 15
             },
             "end": {
-              "line": 61,
+              "line": 75,
               "column": 1
             }
           },
           "properties": [
             {
               "type": "ObjectProperty",
-              "start": 4284,
-              "end": 4302,
+              "start": 4315,
+              "end": 4333,
               "loc": {
                 "start": {
-                  "line": 42,
+                  "line": 56,
                   "column": 2
                 },
                 "end": {
-                  "line": 42,
+                  "line": 56,
                   "column": 20
                 }
               },
@@ -367,15 +367,15 @@
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 4284,
-                "end": 4288,
+                "start": 4315,
+                "end": 4319,
                 "loc": {
                   "start": {
-                    "line": 42,
+                    "line": 56,
                     "column": 2
                   },
                   "end": {
-                    "line": 42,
+                    "line": 56,
                     "column": 6
                   },
                   "identifierName": "type"
@@ -385,29 +385,29 @@
               },
               "value": {
                 "type": "MemberExpression",
-                "start": 4290,
-                "end": 4302,
+                "start": 4321,
+                "end": 4333,
                 "loc": {
                   "start": {
-                    "line": 42,
+                    "line": 56,
                     "column": 8
                   },
                   "end": {
-                    "line": 42,
+                    "line": 56,
                     "column": 20
                   }
                 },
                 "object": {
                   "type": "Identifier",
-                  "start": 4290,
-                  "end": 4296,
+                  "start": 4321,
+                  "end": 4327,
                   "loc": {
                     "start": {
-                      "line": 42,
+                      "line": 56,
                       "column": 8
                     },
                     "end": {
-                      "line": 42,
+                      "line": 56,
                       "column": 14
                     },
                     "identifierName": "Phaser"
@@ -416,15 +416,15 @@
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 4297,
-                  "end": 4302,
+                  "start": 4328,
+                  "end": 4333,
                   "loc": {
                     "start": {
-                      "line": 42,
+                      "line": 56,
                       "column": 15
                     },
                     "end": {
-                      "line": 42,
+                      "line": 56,
                       "column": 20
                     },
                     "identifierName": "WEBGL"
@@ -437,15 +437,15 @@
             },
             {
               "type": "ObjectProperty",
-              "start": 4306,
-              "end": 4323,
+              "start": 4337,
+              "end": 4354,
               "loc": {
                 "start": {
-                  "line": 43,
+                  "line": 57,
                   "column": 2
                 },
                 "end": {
-                  "line": 43,
+                  "line": 57,
                   "column": 19
                 }
               },
@@ -454,15 +454,15 @@
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 4306,
-                "end": 4312,
+                "start": 4337,
+                "end": 4343,
                 "loc": {
                   "start": {
-                    "line": 43,
+                    "line": 57,
                     "column": 2
                   },
                   "end": {
-                    "line": 43,
+                    "line": 57,
                     "column": 8
                   },
                   "identifierName": "parent"
@@ -471,15 +471,15 @@
               },
               "value": {
                 "type": "StringLiteral",
-                "start": 4314,
-                "end": 4323,
+                "start": 4345,
+                "end": 4354,
                 "loc": {
                   "start": {
-                    "line": 43,
+                    "line": 57,
                     "column": 10
                   },
                   "end": {
-                    "line": 43,
+                    "line": 57,
                     "column": 19
                   }
                 },
@@ -492,15 +492,15 @@
             },
             {
               "type": "ObjectProperty",
-              "start": 4327,
-              "end": 4337,
+              "start": 4358,
+              "end": 4368,
               "loc": {
                 "start": {
-                  "line": 44,
+                  "line": 58,
                   "column": 2
                 },
                 "end": {
-                  "line": 44,
+                  "line": 58,
                   "column": 12
                 }
               },
@@ -509,15 +509,15 @@
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 4327,
-                "end": 4332,
+                "start": 4358,
+                "end": 4363,
                 "loc": {
                   "start": {
-                    "line": 44,
+                    "line": 58,
                     "column": 2
                   },
                   "end": {
-                    "line": 44,
+                    "line": 58,
                     "column": 7
                   },
                   "identifierName": "width"
@@ -526,15 +526,15 @@
               },
               "value": {
                 "type": "NumericLiteral",
-                "start": 4334,
-                "end": 4337,
+                "start": 4365,
+                "end": 4368,
                 "loc": {
                   "start": {
-                    "line": 44,
+                    "line": 58,
                     "column": 9
                   },
                   "end": {
-                    "line": 44,
+                    "line": 58,
                     "column": 12
                   }
                 },
@@ -547,15 +547,15 @@
             },
             {
               "type": "ObjectProperty",
-              "start": 4341,
-              "end": 4352,
+              "start": 4372,
+              "end": 4383,
               "loc": {
                 "start": {
-                  "line": 45,
+                  "line": 59,
                   "column": 2
                 },
                 "end": {
-                  "line": 45,
+                  "line": 59,
                   "column": 13
                 }
               },
@@ -564,15 +564,15 @@
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 4341,
-                "end": 4347,
+                "start": 4372,
+                "end": 4378,
                 "loc": {
                   "start": {
-                    "line": 45,
+                    "line": 59,
                     "column": 2
                   },
                   "end": {
-                    "line": 45,
+                    "line": 59,
                     "column": 8
                   },
                   "identifierName": "height"
@@ -581,15 +581,15 @@
               },
               "value": {
                 "type": "NumericLiteral",
-                "start": 4349,
-                "end": 4352,
+                "start": 4380,
+                "end": 4383,
                 "loc": {
                   "start": {
-                    "line": 45,
+                    "line": 59,
                     "column": 10
                   },
                   "end": {
-                    "line": 45,
+                    "line": 59,
                     "column": 13
                   }
                 },
@@ -602,15 +602,15 @@
             },
             {
               "type": "ObjectProperty",
-              "start": 4356,
-              "end": 4370,
+              "start": 4387,
+              "end": 4401,
               "loc": {
                 "start": {
-                  "line": 46,
+                  "line": 60,
                   "column": 2
                 },
                 "end": {
-                  "line": 46,
+                  "line": 60,
                   "column": 16
                 }
               },
@@ -619,15 +619,15 @@
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 4356,
-                "end": 4364,
+                "start": 4387,
+                "end": 4395,
                 "loc": {
                   "start": {
-                    "line": 46,
+                    "line": 60,
                     "column": 2
                   },
                   "end": {
-                    "line": 46,
+                    "line": 60,
                     "column": 10
                   },
                   "identifierName": "pixelArt"
@@ -636,15 +636,15 @@
               },
               "value": {
                 "type": "BooleanLiteral",
-                "start": 4366,
-                "end": 4370,
+                "start": 4397,
+                "end": 4401,
                 "loc": {
                   "start": {
-                    "line": 46,
+                    "line": 60,
                     "column": 12
                   },
                   "end": {
-                    "line": 46,
+                    "line": 60,
                     "column": 16
                   }
                 },
@@ -653,15 +653,15 @@
             },
             {
               "type": "ObjectProperty",
-              "start": 4374,
-              "end": 4391,
+              "start": 4405,
+              "end": 4422,
               "loc": {
                 "start": {
-                  "line": 47,
+                  "line": 61,
                   "column": 2
                 },
                 "end": {
-                  "line": 47,
+                  "line": 61,
                   "column": 19
                 }
               },
@@ -670,15 +670,15 @@
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 4374,
-                "end": 4385,
+                "start": 4405,
+                "end": 4416,
                 "loc": {
                   "start": {
-                    "line": 47,
+                    "line": 61,
                     "column": 2
                   },
                   "end": {
-                    "line": 47,
+                    "line": 61,
                     "column": 13
                   },
                   "identifierName": "roundPixels"
@@ -687,15 +687,15 @@
               },
               "value": {
                 "type": "BooleanLiteral",
-                "start": 4387,
-                "end": 4391,
+                "start": 4418,
+                "end": 4422,
                 "loc": {
                   "start": {
-                    "line": 47,
+                    "line": 61,
                     "column": 15
                   },
                   "end": {
-                    "line": 47,
+                    "line": 61,
                     "column": 19
                   }
                 },
@@ -704,15 +704,15 @@
             },
             {
               "type": "ObjectProperty",
-              "start": 4395,
-              "end": 4500,
+              "start": 4426,
+              "end": 4531,
               "loc": {
                 "start": {
-                  "line": 48,
+                  "line": 62,
                   "column": 2
                 },
                 "end": {
-                  "line": 54,
+                  "line": 68,
                   "column": 3
                 }
               },
@@ -721,15 +721,15 @@
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 4395,
-                "end": 4402,
+                "start": 4426,
+                "end": 4433,
                 "loc": {
                   "start": {
-                    "line": 48,
+                    "line": 62,
                     "column": 2
                   },
                   "end": {
-                    "line": 48,
+                    "line": 62,
                     "column": 9
                   },
                   "identifierName": "physics"
@@ -738,30 +738,30 @@
               },
               "value": {
                 "type": "ObjectExpression",
-                "start": 4404,
-                "end": 4500,
+                "start": 4435,
+                "end": 4531,
                 "loc": {
                   "start": {
-                    "line": 48,
+                    "line": 62,
                     "column": 11
                   },
                   "end": {
-                    "line": 54,
+                    "line": 68,
                     "column": 3
                   }
                 },
                 "properties": [
                   {
                     "type": "ObjectProperty",
-                    "start": 4410,
-                    "end": 4427,
+                    "start": 4441,
+                    "end": 4458,
                     "loc": {
                       "start": {
-                        "line": 49,
+                        "line": 63,
                         "column": 4
                       },
                       "end": {
-                        "line": 49,
+                        "line": 63,
                         "column": 21
                       }
                     },
@@ -770,15 +770,15 @@
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 4410,
-                      "end": 4417,
+                      "start": 4441,
+                      "end": 4448,
                       "loc": {
                         "start": {
-                          "line": 49,
+                          "line": 63,
                           "column": 4
                         },
                         "end": {
-                          "line": 49,
+                          "line": 63,
                           "column": 11
                         },
                         "identifierName": "default"
@@ -787,15 +787,15 @@
                     },
                     "value": {
                       "type": "StringLiteral",
-                      "start": 4419,
-                      "end": 4427,
+                      "start": 4450,
+                      "end": 4458,
                       "loc": {
                         "start": {
-                          "line": 49,
+                          "line": 63,
                           "column": 13
                         },
                         "end": {
-                          "line": 49,
+                          "line": 63,
                           "column": 21
                         }
                       },
@@ -808,15 +808,15 @@
                   },
                   {
                     "type": "ObjectProperty",
-                    "start": 4433,
-                    "end": 4495,
+                    "start": 4464,
+                    "end": 4526,
                     "loc": {
                       "start": {
-                        "line": 50,
+                        "line": 64,
                         "column": 4
                       },
                       "end": {
-                        "line": 53,
+                        "line": 67,
                         "column": 5
                       }
                     },
@@ -825,15 +825,15 @@
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 4433,
-                      "end": 4439,
+                      "start": 4464,
+                      "end": 4470,
                       "loc": {
                         "start": {
-                          "line": 50,
+                          "line": 64,
                           "column": 4
                         },
                         "end": {
-                          "line": 50,
+                          "line": 64,
                           "column": 10
                         },
                         "identifierName": "arcade"
@@ -842,30 +842,30 @@
                     },
                     "value": {
                       "type": "ObjectExpression",
-                      "start": 4441,
-                      "end": 4495,
+                      "start": 4472,
+                      "end": 4526,
                       "loc": {
                         "start": {
-                          "line": 50,
+                          "line": 64,
                           "column": 12
                         },
                         "end": {
-                          "line": 53,
+                          "line": 67,
                           "column": 5
                         }
                       },
                       "properties": [
                         {
                           "type": "ObjectProperty",
-                          "start": 4449,
-                          "end": 4468,
+                          "start": 4480,
+                          "end": 4499,
                           "loc": {
                             "start": {
-                              "line": 51,
+                              "line": 65,
                               "column": 6
                             },
                             "end": {
-                              "line": 51,
+                              "line": 65,
                               "column": 25
                             }
                           },
@@ -874,15 +874,15 @@
                           "computed": false,
                           "key": {
                             "type": "Identifier",
-                            "start": 4449,
-                            "end": 4456,
+                            "start": 4480,
+                            "end": 4487,
                             "loc": {
                               "start": {
-                                "line": 51,
+                                "line": 65,
                                 "column": 6
                               },
                               "end": {
-                                "line": 51,
+                                "line": 65,
                                 "column": 13
                               },
                               "identifierName": "gravity"
@@ -891,30 +891,30 @@
                           },
                           "value": {
                             "type": "ObjectExpression",
-                            "start": 4458,
-                            "end": 4468,
+                            "start": 4489,
+                            "end": 4499,
                             "loc": {
                               "start": {
-                                "line": 51,
+                                "line": 65,
                                 "column": 15
                               },
                               "end": {
-                                "line": 51,
+                                "line": 65,
                                 "column": 25
                               }
                             },
                             "properties": [
                               {
                                 "type": "ObjectProperty",
-                                "start": 4460,
-                                "end": 4466,
+                                "start": 4491,
+                                "end": 4497,
                                 "loc": {
                                   "start": {
-                                    "line": 51,
+                                    "line": 65,
                                     "column": 17
                                   },
                                   "end": {
-                                    "line": 51,
+                                    "line": 65,
                                     "column": 23
                                   }
                                 },
@@ -923,15 +923,15 @@
                                 "computed": false,
                                 "key": {
                                   "type": "Identifier",
-                                  "start": 4460,
-                                  "end": 4461,
+                                  "start": 4491,
+                                  "end": 4492,
                                   "loc": {
                                     "start": {
-                                      "line": 51,
+                                      "line": 65,
                                       "column": 17
                                     },
                                     "end": {
-                                      "line": 51,
+                                      "line": 65,
                                       "column": 18
                                     },
                                     "identifierName": "y"
@@ -940,15 +940,15 @@
                                 },
                                 "value": {
                                   "type": "NumericLiteral",
-                                  "start": 4463,
-                                  "end": 4466,
+                                  "start": 4494,
+                                  "end": 4497,
                                   "loc": {
                                     "start": {
-                                      "line": 51,
+                                      "line": 65,
                                       "column": 20
                                     },
                                     "end": {
-                                      "line": 51,
+                                      "line": 65,
                                       "column": 23
                                     }
                                   },
@@ -964,15 +964,15 @@
                         },
                         {
                           "type": "ObjectProperty",
-                          "start": 4476,
-                          "end": 4488,
+                          "start": 4507,
+                          "end": 4519,
                           "loc": {
                             "start": {
-                              "line": 52,
+                              "line": 66,
                               "column": 6
                             },
                             "end": {
-                              "line": 52,
+                              "line": 66,
                               "column": 18
                             }
                           },
@@ -981,15 +981,15 @@
                           "computed": false,
                           "key": {
                             "type": "Identifier",
-                            "start": 4476,
-                            "end": 4481,
+                            "start": 4507,
+                            "end": 4512,
                             "loc": {
                               "start": {
-                                "line": 52,
+                                "line": 66,
                                 "column": 6
                               },
                               "end": {
-                                "line": 52,
+                                "line": 66,
                                 "column": 11
                               },
                               "identifierName": "debug"
@@ -998,15 +998,15 @@
                           },
                           "value": {
                             "type": "BooleanLiteral",
-                            "start": 4483,
-                            "end": 4488,
+                            "start": 4514,
+                            "end": 4519,
                             "loc": {
                               "start": {
-                                "line": 52,
+                                "line": 66,
                                 "column": 13
                               },
                               "end": {
-                                "line": 52,
+                                "line": 66,
                                 "column": 18
                               }
                             },
@@ -1021,15 +1021,15 @@
             },
             {
               "type": "ObjectProperty",
-              "start": 4540,
-              "end": 4609,
+              "start": 4571,
+              "end": 4640,
               "loc": {
                 "start": {
-                  "line": 56,
+                  "line": 70,
                   "column": 2
                 },
                 "end": {
-                  "line": 60,
+                  "line": 74,
                   "column": 3
                 }
               },
@@ -1038,15 +1038,15 @@
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 4540,
-                "end": 4545,
+                "start": 4571,
+                "end": 4576,
                 "loc": {
                   "start": {
-                    "line": 56,
+                    "line": 70,
                     "column": 2
                   },
                   "end": {
-                    "line": 56,
+                    "line": 70,
                     "column": 7
                   },
                   "identifierName": "scene"
@@ -1056,30 +1056,30 @@
               },
               "value": {
                 "type": "ArrayExpression",
-                "start": 4547,
-                "end": 4609,
+                "start": 4578,
+                "end": 4640,
                 "loc": {
                   "start": {
-                    "line": 56,
+                    "line": 70,
                     "column": 9
                   },
                   "end": {
-                    "line": 60,
+                    "line": 74,
                     "column": 3
                   }
                 },
                 "elements": [
                   {
                     "type": "Identifier",
-                    "start": 4553,
-                    "end": 4567,
+                    "start": 4584,
+                    "end": 4598,
                     "loc": {
                       "start": {
-                        "line": 57,
+                        "line": 71,
                         "column": 4
                       },
                       "end": {
-                        "line": 57,
+                        "line": 71,
                         "column": 18
                       },
                       "identifierName": "AnimationTween"
@@ -1088,15 +1088,15 @@
                   },
                   {
                     "type": "Identifier",
-                    "start": 4573,
-                    "end": 4586,
+                    "start": 4604,
+                    "end": 4617,
                     "loc": {
                       "start": {
-                        "line": 58,
+                        "line": 72,
                         "column": 4
                       },
                       "end": {
-                        "line": 58,
+                        "line": 72,
                         "column": 17
                       },
                       "identifierName": "AnimationData"
@@ -1105,15 +1105,15 @@
                   },
                   {
                     "type": "Identifier",
-                    "start": 4592,
-                    "end": 4604,
+                    "start": 4623,
+                    "end": 4635,
                     "loc": {
                       "start": {
-                        "line": 59,
+                        "line": 73,
                         "column": 4
                       },
                       "end": {
-                        "line": 59,
+                        "line": 73,
                         "column": 16
                       },
                       "identifierName": "AnimationAdd"
@@ -1126,15 +1126,15 @@
                 {
                   "type": "CommentBlock",
                   "value": " list of all the game scenes ",
-                  "start": 4504,
-                  "end": 4537,
+                  "start": 4535,
+                  "end": 4568,
                   "loc": {
                     "start": {
-                      "line": 55,
+                      "line": 69,
                       "column": 2
                     },
                     "end": {
-                      "line": 55,
+                      "line": 69,
                       "column": 35
                     }
                   }
@@ -1145,16 +1145,16 @@
           "leadingComments": [
             {
               "type": "CommentBlock",
-              "value": "*\n* @desc Default Phaser configuration, for more settings see {@link https://photonstorm.github.io/phaser3-docs/global.html#GameConfig}\n* @typedef {Object} defaultConfig\n* @property {number} [type=Phaser.AUTO] Phaser.AUTO, Phaser.CANVAS, Phaser.HEADLESS or Phaser.WEBGL. AUTO picks WEBGL if available, otherwise CANVAS.\n* @property {number|string} [width=1024] The width of the game, in game pixels\n* @property {number|string} [height=768] The height of the game, in game pixels\n* @property {number} [zoom=1] Simple scale applied to the game canvas. 2 is double size, 0.5 is half size, etc\n* @property {number} [resolution=1] The size of each game pixel, in canvas pixels. Values larger than 1 are \"high\" resolution\n* @property {Object|string} [parent=null] The DOM element that will contain the game canvas, or its id. If null (the default) or if the named element doesn't exist, the game canvas is inserted directly into the document body\n* @property {Object} [canvas=null] Provide your own Canvas element for Phaser to use instead of creating one.\n* @property {string} [canvasStyle=null] CSS styles to apply to the game canvas instead of Phaser's default styles.\n* @property {Object} [CanvasRenderingContext2D] Provide your own Canvas Context for Phaser to use, instead of creating one.\n* @property {Object} [scene=null] A scene or scenes to add to the game. If several are given, the first is started; the remainder are started only if they have { active: true }.\n* @property {string[]} [seed]\tSeed for the random number generator\n* @property {string} [title=''] The title of the game shown in the browser console\n* @property {string} [url='http://phaser.io'] The URL of the game shown in the browser console\n* @property {string} [version=''] The version of the game shown in the browser console\n* @property {boolean} [autoFocus=true] Automatically call window.focus() when the game boots. Usually necessary to capture input events if the game is in a separate frame\n* @property {boolean|InputConfig} [input] Input configuration, or false to disable all game input. See {@link https://photonstorm.github.io/phaser3-docs/global.html#InputConfig}\n* @property {boolean} [disableContextMenu=false] Disable the browser's default 'contextmenu' event (usually triggered by a right-button mouse click)\n* @property {boolean|BannerConfig} [banner=false] Configuration for the banner printed in the browser console when the game starts. See {@link https://photonstorm.github.io/phaser3-docs/global.html#BannerConfig}\n* @property {DOMContainerConfig} [dom] The DOM Container configuration object, see {@link https://photonstorm.github.io/phaser3-docs/global.html#DOMContainerConfig}\n* @property {FPSConfig} [fps] Game loop configuration, see {@link https://photonstorm.github.io/phaser3-docs/global.html#FPSConfig}\n* @property {RenderConfig} [render] Game render configuration, see {@link https://photonstorm.github.io/phaser3-docs/global.html#RenderConfig}\n* @property {string|number} [backgroundColor=0x000000] The background color of the game canvas\n* @property {CallbacksConfig} [callbacks] Optional callbacks to run before or after game boot see {@link https://photonstorm.github.io/phaser3-docs/global.html#CallbacksConfig}\n* @property {LoaderConfig} [loader] Loader configuration see {@link https://photonstorm.github.io/phaser3-docs/global.html#LoaderConfig}\n* @property {ImagesConfig} [images] Images configuration see {@link https://photonstorm.github.io/phaser3-docs/global.html#ImagesConfig}\n* @property {Object} [physics] Physics configuration see {@link https://photonstorm.github.io/phaser3-docs/Phaser.Physics.html}\n* @property {PluginObject|PluginObjectItem[]} Plugins to install see {@link https://photonstorm.github.io/phaser3-docs/global.html#PluginObject} and {@link https://photonstorm.github.io/phaser3-docs/global.html#PluginObjectItem}\n* @see https://photonstorm.github.io/phaser3-docs/global.html#GameConfig\n",
+              "value": "*\n* @desc Default Phaser configuration, for more settings see {@link https://photonstorm.github.io/phaser3-docs/global.html#GameConfig}\n* @typedef {Object} defaultConfig\n* @property {number} [type=Phaser.AUTO] Phaser.AUTO, Phaser.CANVAS, Phaser.HEADLESS or Phaser.WEBGL.\n* AUTO picks WEBGL if available, otherwise CANVAS.\n* @property {number|string} [width=1024] The width of the game, in game pixels\n* @property {number|string} [height=768] The height of the game, in game pixels\n* @property {number} [zoom=1] Simple scale applied to the game canvas. 2 is double size,\n*  0.5 is half size, etc\n* @property {number} [resolution=1] The size of each game pixel, in canvas pixels. Values\n*  larger than 1 are \"high\"\n* resolution\n* @property {Object|string} [parent=null] The DOM element that will contain the game canvas,\n* or its id. If null (the default) or if the named element doesn't exist, the game canvas is\n* inserted directly into the document body\n* @property {Object} [canvas=null] Provide your own Canvas element for Phaser to use instead of\n* creating one.\n* @property {string} [canvasStyle=null] CSS styles to apply to the game canvas instead of Phaser's\n*  default styles.\n* @property {Object} [CanvasRenderingContext2D] Provide your own Canvas Context for Phaser to use,\n* instead of creating one.\n* @property {Object} [scene=null] A scene or scenes to add to the game. If several are given,\n* the first is started; the remainder are started only if they have { active: true }.\n* @property {string[]} [seed] Seed for the random number generator\n* @property {string} [title=''] The title of the game shown in the browser console\n* @property {string} [url='http://phaser.io'] The URL of the game shown in the browser console\n* @property {string} [version=''] The version of the game shown in the browser console\n* @property {boolean} [autoFocus=true] Automatically call window.focus() when the game boots.\n* Usually necessary to capture input events if the game is in a separate frame\n* @property {boolean|InputConfig} [input] Input configuration, or false to disable all game input.\n* See {@link https://photonstorm.github.io/phaser3-docs/global.html#InputConfig}\n* @property {boolean} [disableContextMenu=false] Disable the browser's default 'contextmenu' event\n* (usually triggered by a right-button mouse click)\n* @property {boolean|BannerConfig} [banner=false] Configuration for the banner printed in the\n* browser console when the game starts. See {@link https://photonstorm.github.io/phaser3-docs/global.html#BannerConfig}\n* @property {DOMContainerConfig} [dom] The DOM Container configuration object, see {@link https://photonstorm.github.io/phaser3-docs/global.html#DOMContainerConfig}\n* @property {FPSConfig} [fps] Game loop configuration, see {@link https://photonstorm.github.io/phaser3-docs/global.html#FPSConfig}\n* @property {RenderConfig} [render] Game render configuration, see {@link https://photonstorm.github.io/phaser3-docs/global.html#RenderConfig}\n* @property {string|number} [backgroundColor=0x000000] The background color of the game canvas\n* @property {CallbacksConfig} [callbacks] Optional callbacks to run before or after game boot see {@link https://photonstorm.github.io/phaser3-docs/global.html#CallbacksConfig}\n* @property {LoaderConfig} [loader] Loader configuration see {@link https://photonstorm.github.io/phaser3-docs/global.html#LoaderConfig}\n* @property {ImagesConfig} [images] Images configuration see {@link https://photonstorm.github.io/phaser3-docs/global.html#ImagesConfig}\n* @property {Object} [physics] Physics configuration see {@link https://photonstorm.github.io/phaser3-docs/Phaser.Physics.html}\n* @property {PluginObject|PluginObjectItem[]} Plugins to install see {@link https://photonstorm.github.io/phaser3-docs/global.html#PluginObject} and {@link https://photonstorm.github.io/phaser3-docs/global.html#PluginObjectItem}\n* @see https://photonstorm.github.io/phaser3-docs/global.html#GameConfig\n",
               "start": 334,
-              "end": 4264,
+              "end": 4295,
               "loc": {
                 "start": {
                   "line": 9,
                   "column": 0
                 },
                 "end": {
-                  "line": 40,
+                  "line": 54,
                   "column": 2
                 }
               }
@@ -1165,16 +1165,16 @@
         "leadingComments": [
           {
             "type": "CommentBlock",
-            "value": "*\n* @desc Default Phaser configuration, for more settings see {@link https://photonstorm.github.io/phaser3-docs/global.html#GameConfig}\n* @typedef {Object} defaultConfig\n* @property {number} [type=Phaser.AUTO] Phaser.AUTO, Phaser.CANVAS, Phaser.HEADLESS or Phaser.WEBGL. AUTO picks WEBGL if available, otherwise CANVAS.\n* @property {number|string} [width=1024] The width of the game, in game pixels\n* @property {number|string} [height=768] The height of the game, in game pixels\n* @property {number} [zoom=1] Simple scale applied to the game canvas. 2 is double size, 0.5 is half size, etc\n* @property {number} [resolution=1] The size of each game pixel, in canvas pixels. Values larger than 1 are \"high\" resolution\n* @property {Object|string} [parent=null] The DOM element that will contain the game canvas, or its id. If null (the default) or if the named element doesn't exist, the game canvas is inserted directly into the document body\n* @property {Object} [canvas=null] Provide your own Canvas element for Phaser to use instead of creating one.\n* @property {string} [canvasStyle=null] CSS styles to apply to the game canvas instead of Phaser's default styles.\n* @property {Object} [CanvasRenderingContext2D] Provide your own Canvas Context for Phaser to use, instead of creating one.\n* @property {Object} [scene=null] A scene or scenes to add to the game. If several are given, the first is started; the remainder are started only if they have { active: true }.\n* @property {string[]} [seed]\tSeed for the random number generator\n* @property {string} [title=''] The title of the game shown in the browser console\n* @property {string} [url='http://phaser.io'] The URL of the game shown in the browser console\n* @property {string} [version=''] The version of the game shown in the browser console\n* @property {boolean} [autoFocus=true] Automatically call window.focus() when the game boots. Usually necessary to capture input events if the game is in a separate frame\n* @property {boolean|InputConfig} [input] Input configuration, or false to disable all game input. See {@link https://photonstorm.github.io/phaser3-docs/global.html#InputConfig}\n* @property {boolean} [disableContextMenu=false] Disable the browser's default 'contextmenu' event (usually triggered by a right-button mouse click)\n* @property {boolean|BannerConfig} [banner=false] Configuration for the banner printed in the browser console when the game starts. See {@link https://photonstorm.github.io/phaser3-docs/global.html#BannerConfig}\n* @property {DOMContainerConfig} [dom] The DOM Container configuration object, see {@link https://photonstorm.github.io/phaser3-docs/global.html#DOMContainerConfig}\n* @property {FPSConfig} [fps] Game loop configuration, see {@link https://photonstorm.github.io/phaser3-docs/global.html#FPSConfig}\n* @property {RenderConfig} [render] Game render configuration, see {@link https://photonstorm.github.io/phaser3-docs/global.html#RenderConfig}\n* @property {string|number} [backgroundColor=0x000000] The background color of the game canvas\n* @property {CallbacksConfig} [callbacks] Optional callbacks to run before or after game boot see {@link https://photonstorm.github.io/phaser3-docs/global.html#CallbacksConfig}\n* @property {LoaderConfig} [loader] Loader configuration see {@link https://photonstorm.github.io/phaser3-docs/global.html#LoaderConfig}\n* @property {ImagesConfig} [images] Images configuration see {@link https://photonstorm.github.io/phaser3-docs/global.html#ImagesConfig}\n* @property {Object} [physics] Physics configuration see {@link https://photonstorm.github.io/phaser3-docs/Phaser.Physics.html}\n* @property {PluginObject|PluginObjectItem[]} Plugins to install see {@link https://photonstorm.github.io/phaser3-docs/global.html#PluginObject} and {@link https://photonstorm.github.io/phaser3-docs/global.html#PluginObjectItem}\n* @see https://photonstorm.github.io/phaser3-docs/global.html#GameConfig\n",
+            "value": "*\n* @desc Default Phaser configuration, for more settings see {@link https://photonstorm.github.io/phaser3-docs/global.html#GameConfig}\n* @typedef {Object} defaultConfig\n* @property {number} [type=Phaser.AUTO] Phaser.AUTO, Phaser.CANVAS, Phaser.HEADLESS or Phaser.WEBGL.\n* AUTO picks WEBGL if available, otherwise CANVAS.\n* @property {number|string} [width=1024] The width of the game, in game pixels\n* @property {number|string} [height=768] The height of the game, in game pixels\n* @property {number} [zoom=1] Simple scale applied to the game canvas. 2 is double size,\n*  0.5 is half size, etc\n* @property {number} [resolution=1] The size of each game pixel, in canvas pixels. Values\n*  larger than 1 are \"high\"\n* resolution\n* @property {Object|string} [parent=null] The DOM element that will contain the game canvas,\n* or its id. If null (the default) or if the named element doesn't exist, the game canvas is\n* inserted directly into the document body\n* @property {Object} [canvas=null] Provide your own Canvas element for Phaser to use instead of\n* creating one.\n* @property {string} [canvasStyle=null] CSS styles to apply to the game canvas instead of Phaser's\n*  default styles.\n* @property {Object} [CanvasRenderingContext2D] Provide your own Canvas Context for Phaser to use,\n* instead of creating one.\n* @property {Object} [scene=null] A scene or scenes to add to the game. If several are given,\n* the first is started; the remainder are started only if they have { active: true }.\n* @property {string[]} [seed] Seed for the random number generator\n* @property {string} [title=''] The title of the game shown in the browser console\n* @property {string} [url='http://phaser.io'] The URL of the game shown in the browser console\n* @property {string} [version=''] The version of the game shown in the browser console\n* @property {boolean} [autoFocus=true] Automatically call window.focus() when the game boots.\n* Usually necessary to capture input events if the game is in a separate frame\n* @property {boolean|InputConfig} [input] Input configuration, or false to disable all game input.\n* See {@link https://photonstorm.github.io/phaser3-docs/global.html#InputConfig}\n* @property {boolean} [disableContextMenu=false] Disable the browser's default 'contextmenu' event\n* (usually triggered by a right-button mouse click)\n* @property {boolean|BannerConfig} [banner=false] Configuration for the banner printed in the\n* browser console when the game starts. See {@link https://photonstorm.github.io/phaser3-docs/global.html#BannerConfig}\n* @property {DOMContainerConfig} [dom] The DOM Container configuration object, see {@link https://photonstorm.github.io/phaser3-docs/global.html#DOMContainerConfig}\n* @property {FPSConfig} [fps] Game loop configuration, see {@link https://photonstorm.github.io/phaser3-docs/global.html#FPSConfig}\n* @property {RenderConfig} [render] Game render configuration, see {@link https://photonstorm.github.io/phaser3-docs/global.html#RenderConfig}\n* @property {string|number} [backgroundColor=0x000000] The background color of the game canvas\n* @property {CallbacksConfig} [callbacks] Optional callbacks to run before or after game boot see {@link https://photonstorm.github.io/phaser3-docs/global.html#CallbacksConfig}\n* @property {LoaderConfig} [loader] Loader configuration see {@link https://photonstorm.github.io/phaser3-docs/global.html#LoaderConfig}\n* @property {ImagesConfig} [images] Images configuration see {@link https://photonstorm.github.io/phaser3-docs/global.html#ImagesConfig}\n* @property {Object} [physics] Physics configuration see {@link https://photonstorm.github.io/phaser3-docs/Phaser.Physics.html}\n* @property {PluginObject|PluginObjectItem[]} Plugins to install see {@link https://photonstorm.github.io/phaser3-docs/global.html#PluginObject} and {@link https://photonstorm.github.io/phaser3-docs/global.html#PluginObjectItem}\n* @see https://photonstorm.github.io/phaser3-docs/global.html#GameConfig\n",
             "start": 334,
-            "end": 4264,
+            "end": 4295,
             "loc": {
               "start": {
                 "line": 9,
                 "column": 0
               },
               "end": {
-                "line": 40,
+                "line": 54,
                 "column": 2
               }
             }
@@ -1203,16 +1203,16 @@
     },
     {
       "type": "CommentBlock",
-      "value": "*\n* @desc Default Phaser configuration, for more settings see {@link https://photonstorm.github.io/phaser3-docs/global.html#GameConfig}\n* @typedef {Object} defaultConfig\n* @property {number} [type=Phaser.AUTO] Phaser.AUTO, Phaser.CANVAS, Phaser.HEADLESS or Phaser.WEBGL. AUTO picks WEBGL if available, otherwise CANVAS.\n* @property {number|string} [width=1024] The width of the game, in game pixels\n* @property {number|string} [height=768] The height of the game, in game pixels\n* @property {number} [zoom=1] Simple scale applied to the game canvas. 2 is double size, 0.5 is half size, etc\n* @property {number} [resolution=1] The size of each game pixel, in canvas pixels. Values larger than 1 are \"high\" resolution\n* @property {Object|string} [parent=null] The DOM element that will contain the game canvas, or its id. If null (the default) or if the named element doesn't exist, the game canvas is inserted directly into the document body\n* @property {Object} [canvas=null] Provide your own Canvas element for Phaser to use instead of creating one.\n* @property {string} [canvasStyle=null] CSS styles to apply to the game canvas instead of Phaser's default styles.\n* @property {Object} [CanvasRenderingContext2D] Provide your own Canvas Context for Phaser to use, instead of creating one.\n* @property {Object} [scene=null] A scene or scenes to add to the game. If several are given, the first is started; the remainder are started only if they have { active: true }.\n* @property {string[]} [seed]\tSeed for the random number generator\n* @property {string} [title=''] The title of the game shown in the browser console\n* @property {string} [url='http://phaser.io'] The URL of the game shown in the browser console\n* @property {string} [version=''] The version of the game shown in the browser console\n* @property {boolean} [autoFocus=true] Automatically call window.focus() when the game boots. Usually necessary to capture input events if the game is in a separate frame\n* @property {boolean|InputConfig} [input] Input configuration, or false to disable all game input. See {@link https://photonstorm.github.io/phaser3-docs/global.html#InputConfig}\n* @property {boolean} [disableContextMenu=false] Disable the browser's default 'contextmenu' event (usually triggered by a right-button mouse click)\n* @property {boolean|BannerConfig} [banner=false] Configuration for the banner printed in the browser console when the game starts. See {@link https://photonstorm.github.io/phaser3-docs/global.html#BannerConfig}\n* @property {DOMContainerConfig} [dom] The DOM Container configuration object, see {@link https://photonstorm.github.io/phaser3-docs/global.html#DOMContainerConfig}\n* @property {FPSConfig} [fps] Game loop configuration, see {@link https://photonstorm.github.io/phaser3-docs/global.html#FPSConfig}\n* @property {RenderConfig} [render] Game render configuration, see {@link https://photonstorm.github.io/phaser3-docs/global.html#RenderConfig}\n* @property {string|number} [backgroundColor=0x000000] The background color of the game canvas\n* @property {CallbacksConfig} [callbacks] Optional callbacks to run before or after game boot see {@link https://photonstorm.github.io/phaser3-docs/global.html#CallbacksConfig}\n* @property {LoaderConfig} [loader] Loader configuration see {@link https://photonstorm.github.io/phaser3-docs/global.html#LoaderConfig}\n* @property {ImagesConfig} [images] Images configuration see {@link https://photonstorm.github.io/phaser3-docs/global.html#ImagesConfig}\n* @property {Object} [physics] Physics configuration see {@link https://photonstorm.github.io/phaser3-docs/Phaser.Physics.html}\n* @property {PluginObject|PluginObjectItem[]} Plugins to install see {@link https://photonstorm.github.io/phaser3-docs/global.html#PluginObject} and {@link https://photonstorm.github.io/phaser3-docs/global.html#PluginObjectItem}\n* @see https://photonstorm.github.io/phaser3-docs/global.html#GameConfig\n",
+      "value": "*\n* @desc Default Phaser configuration, for more settings see {@link https://photonstorm.github.io/phaser3-docs/global.html#GameConfig}\n* @typedef {Object} defaultConfig\n* @property {number} [type=Phaser.AUTO] Phaser.AUTO, Phaser.CANVAS, Phaser.HEADLESS or Phaser.WEBGL.\n* AUTO picks WEBGL if available, otherwise CANVAS.\n* @property {number|string} [width=1024] The width of the game, in game pixels\n* @property {number|string} [height=768] The height of the game, in game pixels\n* @property {number} [zoom=1] Simple scale applied to the game canvas. 2 is double size,\n*  0.5 is half size, etc\n* @property {number} [resolution=1] The size of each game pixel, in canvas pixels. Values\n*  larger than 1 are \"high\"\n* resolution\n* @property {Object|string} [parent=null] The DOM element that will contain the game canvas,\n* or its id. If null (the default) or if the named element doesn't exist, the game canvas is\n* inserted directly into the document body\n* @property {Object} [canvas=null] Provide your own Canvas element for Phaser to use instead of\n* creating one.\n* @property {string} [canvasStyle=null] CSS styles to apply to the game canvas instead of Phaser's\n*  default styles.\n* @property {Object} [CanvasRenderingContext2D] Provide your own Canvas Context for Phaser to use,\n* instead of creating one.\n* @property {Object} [scene=null] A scene or scenes to add to the game. If several are given,\n* the first is started; the remainder are started only if they have { active: true }.\n* @property {string[]} [seed] Seed for the random number generator\n* @property {string} [title=''] The title of the game shown in the browser console\n* @property {string} [url='http://phaser.io'] The URL of the game shown in the browser console\n* @property {string} [version=''] The version of the game shown in the browser console\n* @property {boolean} [autoFocus=true] Automatically call window.focus() when the game boots.\n* Usually necessary to capture input events if the game is in a separate frame\n* @property {boolean|InputConfig} [input] Input configuration, or false to disable all game input.\n* See {@link https://photonstorm.github.io/phaser3-docs/global.html#InputConfig}\n* @property {boolean} [disableContextMenu=false] Disable the browser's default 'contextmenu' event\n* (usually triggered by a right-button mouse click)\n* @property {boolean|BannerConfig} [banner=false] Configuration for the banner printed in the\n* browser console when the game starts. See {@link https://photonstorm.github.io/phaser3-docs/global.html#BannerConfig}\n* @property {DOMContainerConfig} [dom] The DOM Container configuration object, see {@link https://photonstorm.github.io/phaser3-docs/global.html#DOMContainerConfig}\n* @property {FPSConfig} [fps] Game loop configuration, see {@link https://photonstorm.github.io/phaser3-docs/global.html#FPSConfig}\n* @property {RenderConfig} [render] Game render configuration, see {@link https://photonstorm.github.io/phaser3-docs/global.html#RenderConfig}\n* @property {string|number} [backgroundColor=0x000000] The background color of the game canvas\n* @property {CallbacksConfig} [callbacks] Optional callbacks to run before or after game boot see {@link https://photonstorm.github.io/phaser3-docs/global.html#CallbacksConfig}\n* @property {LoaderConfig} [loader] Loader configuration see {@link https://photonstorm.github.io/phaser3-docs/global.html#LoaderConfig}\n* @property {ImagesConfig} [images] Images configuration see {@link https://photonstorm.github.io/phaser3-docs/global.html#ImagesConfig}\n* @property {Object} [physics] Physics configuration see {@link https://photonstorm.github.io/phaser3-docs/Phaser.Physics.html}\n* @property {PluginObject|PluginObjectItem[]} Plugins to install see {@link https://photonstorm.github.io/phaser3-docs/global.html#PluginObject} and {@link https://photonstorm.github.io/phaser3-docs/global.html#PluginObjectItem}\n* @see https://photonstorm.github.io/phaser3-docs/global.html#GameConfig\n",
       "start": 334,
-      "end": 4264,
+      "end": 4295,
       "loc": {
         "start": {
           "line": 9,
           "column": 0
         },
         "end": {
-          "line": 40,
+          "line": 54,
           "column": 2
         }
       }
@@ -1220,15 +1220,15 @@
     {
       "type": "CommentBlock",
       "value": " list of all the game scenes ",
-      "start": 4504,
-      "end": 4537,
+      "start": 4535,
+      "end": 4568,
       "loc": {
         "start": {
-          "line": 55,
+          "line": 69,
           "column": 2
         },
         "end": {
-          "line": 55,
+          "line": 69,
           "column": 35
         }
       }
@@ -1673,16 +1673,16 @@
     },
     {
       "type": "CommentBlock",
-      "value": "*\n* @desc Default Phaser configuration, for more settings see {@link https://photonstorm.github.io/phaser3-docs/global.html#GameConfig}\n* @typedef {Object} defaultConfig\n* @property {number} [type=Phaser.AUTO] Phaser.AUTO, Phaser.CANVAS, Phaser.HEADLESS or Phaser.WEBGL. AUTO picks WEBGL if available, otherwise CANVAS.\n* @property {number|string} [width=1024] The width of the game, in game pixels\n* @property {number|string} [height=768] The height of the game, in game pixels\n* @property {number} [zoom=1] Simple scale applied to the game canvas. 2 is double size, 0.5 is half size, etc\n* @property {number} [resolution=1] The size of each game pixel, in canvas pixels. Values larger than 1 are \"high\" resolution\n* @property {Object|string} [parent=null] The DOM element that will contain the game canvas, or its id. If null (the default) or if the named element doesn't exist, the game canvas is inserted directly into the document body\n* @property {Object} [canvas=null] Provide your own Canvas element for Phaser to use instead of creating one.\n* @property {string} [canvasStyle=null] CSS styles to apply to the game canvas instead of Phaser's default styles.\n* @property {Object} [CanvasRenderingContext2D] Provide your own Canvas Context for Phaser to use, instead of creating one.\n* @property {Object} [scene=null] A scene or scenes to add to the game. If several are given, the first is started; the remainder are started only if they have { active: true }.\n* @property {string[]} [seed]\tSeed for the random number generator\n* @property {string} [title=''] The title of the game shown in the browser console\n* @property {string} [url='http://phaser.io'] The URL of the game shown in the browser console\n* @property {string} [version=''] The version of the game shown in the browser console\n* @property {boolean} [autoFocus=true] Automatically call window.focus() when the game boots. Usually necessary to capture input events if the game is in a separate frame\n* @property {boolean|InputConfig} [input] Input configuration, or false to disable all game input. See {@link https://photonstorm.github.io/phaser3-docs/global.html#InputConfig}\n* @property {boolean} [disableContextMenu=false] Disable the browser's default 'contextmenu' event (usually triggered by a right-button mouse click)\n* @property {boolean|BannerConfig} [banner=false] Configuration for the banner printed in the browser console when the game starts. See {@link https://photonstorm.github.io/phaser3-docs/global.html#BannerConfig}\n* @property {DOMContainerConfig} [dom] The DOM Container configuration object, see {@link https://photonstorm.github.io/phaser3-docs/global.html#DOMContainerConfig}\n* @property {FPSConfig} [fps] Game loop configuration, see {@link https://photonstorm.github.io/phaser3-docs/global.html#FPSConfig}\n* @property {RenderConfig} [render] Game render configuration, see {@link https://photonstorm.github.io/phaser3-docs/global.html#RenderConfig}\n* @property {string|number} [backgroundColor=0x000000] The background color of the game canvas\n* @property {CallbacksConfig} [callbacks] Optional callbacks to run before or after game boot see {@link https://photonstorm.github.io/phaser3-docs/global.html#CallbacksConfig}\n* @property {LoaderConfig} [loader] Loader configuration see {@link https://photonstorm.github.io/phaser3-docs/global.html#LoaderConfig}\n* @property {ImagesConfig} [images] Images configuration see {@link https://photonstorm.github.io/phaser3-docs/global.html#ImagesConfig}\n* @property {Object} [physics] Physics configuration see {@link https://photonstorm.github.io/phaser3-docs/Phaser.Physics.html}\n* @property {PluginObject|PluginObjectItem[]} Plugins to install see {@link https://photonstorm.github.io/phaser3-docs/global.html#PluginObject} and {@link https://photonstorm.github.io/phaser3-docs/global.html#PluginObjectItem}\n* @see https://photonstorm.github.io/phaser3-docs/global.html#GameConfig\n",
+      "value": "*\n* @desc Default Phaser configuration, for more settings see {@link https://photonstorm.github.io/phaser3-docs/global.html#GameConfig}\n* @typedef {Object} defaultConfig\n* @property {number} [type=Phaser.AUTO] Phaser.AUTO, Phaser.CANVAS, Phaser.HEADLESS or Phaser.WEBGL.\n* AUTO picks WEBGL if available, otherwise CANVAS.\n* @property {number|string} [width=1024] The width of the game, in game pixels\n* @property {number|string} [height=768] The height of the game, in game pixels\n* @property {number} [zoom=1] Simple scale applied to the game canvas. 2 is double size,\n*  0.5 is half size, etc\n* @property {number} [resolution=1] The size of each game pixel, in canvas pixels. Values\n*  larger than 1 are \"high\"\n* resolution\n* @property {Object|string} [parent=null] The DOM element that will contain the game canvas,\n* or its id. If null (the default) or if the named element doesn't exist, the game canvas is\n* inserted directly into the document body\n* @property {Object} [canvas=null] Provide your own Canvas element for Phaser to use instead of\n* creating one.\n* @property {string} [canvasStyle=null] CSS styles to apply to the game canvas instead of Phaser's\n*  default styles.\n* @property {Object} [CanvasRenderingContext2D] Provide your own Canvas Context for Phaser to use,\n* instead of creating one.\n* @property {Object} [scene=null] A scene or scenes to add to the game. If several are given,\n* the first is started; the remainder are started only if they have { active: true }.\n* @property {string[]} [seed] Seed for the random number generator\n* @property {string} [title=''] The title of the game shown in the browser console\n* @property {string} [url='http://phaser.io'] The URL of the game shown in the browser console\n* @property {string} [version=''] The version of the game shown in the browser console\n* @property {boolean} [autoFocus=true] Automatically call window.focus() when the game boots.\n* Usually necessary to capture input events if the game is in a separate frame\n* @property {boolean|InputConfig} [input] Input configuration, or false to disable all game input.\n* See {@link https://photonstorm.github.io/phaser3-docs/global.html#InputConfig}\n* @property {boolean} [disableContextMenu=false] Disable the browser's default 'contextmenu' event\n* (usually triggered by a right-button mouse click)\n* @property {boolean|BannerConfig} [banner=false] Configuration for the banner printed in the\n* browser console when the game starts. See {@link https://photonstorm.github.io/phaser3-docs/global.html#BannerConfig}\n* @property {DOMContainerConfig} [dom] The DOM Container configuration object, see {@link https://photonstorm.github.io/phaser3-docs/global.html#DOMContainerConfig}\n* @property {FPSConfig} [fps] Game loop configuration, see {@link https://photonstorm.github.io/phaser3-docs/global.html#FPSConfig}\n* @property {RenderConfig} [render] Game render configuration, see {@link https://photonstorm.github.io/phaser3-docs/global.html#RenderConfig}\n* @property {string|number} [backgroundColor=0x000000] The background color of the game canvas\n* @property {CallbacksConfig} [callbacks] Optional callbacks to run before or after game boot see {@link https://photonstorm.github.io/phaser3-docs/global.html#CallbacksConfig}\n* @property {LoaderConfig} [loader] Loader configuration see {@link https://photonstorm.github.io/phaser3-docs/global.html#LoaderConfig}\n* @property {ImagesConfig} [images] Images configuration see {@link https://photonstorm.github.io/phaser3-docs/global.html#ImagesConfig}\n* @property {Object} [physics] Physics configuration see {@link https://photonstorm.github.io/phaser3-docs/Phaser.Physics.html}\n* @property {PluginObject|PluginObjectItem[]} Plugins to install see {@link https://photonstorm.github.io/phaser3-docs/global.html#PluginObject} and {@link https://photonstorm.github.io/phaser3-docs/global.html#PluginObjectItem}\n* @see https://photonstorm.github.io/phaser3-docs/global.html#GameConfig\n",
       "start": 334,
-      "end": 4264,
+      "end": 4295,
       "loc": {
         "start": {
           "line": 9,
           "column": 0
         },
         "end": {
-          "line": 40,
+          "line": 54,
           "column": 2
         }
       }
@@ -1702,15 +1702,15 @@
         "updateContext": null
       },
       "value": "export",
-      "start": 4265,
-      "end": 4271,
+      "start": 4296,
+      "end": 4302,
       "loc": {
         "start": {
-          "line": 41,
+          "line": 55,
           "column": 0
         },
         "end": {
-          "line": 41,
+          "line": 55,
           "column": 6
         }
       }
@@ -1730,15 +1730,15 @@
         "updateContext": null
       },
       "value": "default",
-      "start": 4272,
-      "end": 4279,
+      "start": 4303,
+      "end": 4310,
       "loc": {
         "start": {
-          "line": 41,
+          "line": 55,
           "column": 7
         },
         "end": {
-          "line": 41,
+          "line": 55,
           "column": 14
         }
       }
@@ -1755,15 +1755,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 4280,
-      "end": 4281,
+      "start": 4311,
+      "end": 4312,
       "loc": {
         "start": {
-          "line": 41,
+          "line": 55,
           "column": 15
         },
         "end": {
-          "line": 41,
+          "line": 55,
           "column": 16
         }
       }
@@ -1781,15 +1781,15 @@
         "binop": null
       },
       "value": "type",
-      "start": 4284,
-      "end": 4288,
+      "start": 4315,
+      "end": 4319,
       "loc": {
         "start": {
-          "line": 42,
+          "line": 56,
           "column": 2
         },
         "end": {
-          "line": 42,
+          "line": 56,
           "column": 6
         }
       }
@@ -1807,15 +1807,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 4288,
-      "end": 4289,
+      "start": 4319,
+      "end": 4320,
       "loc": {
         "start": {
-          "line": 42,
+          "line": 56,
           "column": 6
         },
         "end": {
-          "line": 42,
+          "line": 56,
           "column": 7
         }
       }
@@ -1833,15 +1833,15 @@
         "binop": null
       },
       "value": "Phaser",
-      "start": 4290,
-      "end": 4296,
+      "start": 4321,
+      "end": 4327,
       "loc": {
         "start": {
-          "line": 42,
+          "line": 56,
           "column": 8
         },
         "end": {
-          "line": 42,
+          "line": 56,
           "column": 14
         }
       }
@@ -1859,15 +1859,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 4296,
-      "end": 4297,
+      "start": 4327,
+      "end": 4328,
       "loc": {
         "start": {
-          "line": 42,
+          "line": 56,
           "column": 14
         },
         "end": {
-          "line": 42,
+          "line": 56,
           "column": 15
         }
       }
@@ -1885,15 +1885,15 @@
         "binop": null
       },
       "value": "WEBGL",
-      "start": 4297,
-      "end": 4302,
+      "start": 4328,
+      "end": 4333,
       "loc": {
         "start": {
-          "line": 42,
+          "line": 56,
           "column": 15
         },
         "end": {
-          "line": 42,
+          "line": 56,
           "column": 20
         }
       }
@@ -1911,15 +1911,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 4302,
-      "end": 4303,
+      "start": 4333,
+      "end": 4334,
       "loc": {
         "start": {
-          "line": 42,
+          "line": 56,
           "column": 20
         },
         "end": {
-          "line": 42,
+          "line": 56,
           "column": 21
         }
       }
@@ -1937,15 +1937,15 @@
         "binop": null
       },
       "value": "parent",
-      "start": 4306,
-      "end": 4312,
+      "start": 4337,
+      "end": 4343,
       "loc": {
         "start": {
-          "line": 43,
+          "line": 57,
           "column": 2
         },
         "end": {
-          "line": 43,
+          "line": 57,
           "column": 8
         }
       }
@@ -1963,15 +1963,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 4312,
-      "end": 4313,
+      "start": 4343,
+      "end": 4344,
       "loc": {
         "start": {
-          "line": 43,
+          "line": 57,
           "column": 8
         },
         "end": {
-          "line": 43,
+          "line": 57,
           "column": 9
         }
       }
@@ -1990,15 +1990,15 @@
         "updateContext": null
       },
       "value": "content",
-      "start": 4314,
-      "end": 4323,
+      "start": 4345,
+      "end": 4354,
       "loc": {
         "start": {
-          "line": 43,
+          "line": 57,
           "column": 10
         },
         "end": {
-          "line": 43,
+          "line": 57,
           "column": 19
         }
       }
@@ -2016,15 +2016,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 4323,
-      "end": 4324,
+      "start": 4354,
+      "end": 4355,
       "loc": {
         "start": {
-          "line": 43,
+          "line": 57,
           "column": 19
         },
         "end": {
-          "line": 43,
+          "line": 57,
           "column": 20
         }
       }
@@ -2042,15 +2042,15 @@
         "binop": null
       },
       "value": "width",
-      "start": 4327,
-      "end": 4332,
+      "start": 4358,
+      "end": 4363,
       "loc": {
         "start": {
-          "line": 44,
+          "line": 58,
           "column": 2
         },
         "end": {
-          "line": 44,
+          "line": 58,
           "column": 7
         }
       }
@@ -2068,15 +2068,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 4332,
-      "end": 4333,
+      "start": 4363,
+      "end": 4364,
       "loc": {
         "start": {
-          "line": 44,
+          "line": 58,
           "column": 7
         },
         "end": {
-          "line": 44,
+          "line": 58,
           "column": 8
         }
       }
@@ -2095,15 +2095,15 @@
         "updateContext": null
       },
       "value": 800,
-      "start": 4334,
-      "end": 4337,
+      "start": 4365,
+      "end": 4368,
       "loc": {
         "start": {
-          "line": 44,
+          "line": 58,
           "column": 9
         },
         "end": {
-          "line": 44,
+          "line": 58,
           "column": 12
         }
       }
@@ -2121,15 +2121,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 4337,
-      "end": 4338,
+      "start": 4368,
+      "end": 4369,
       "loc": {
         "start": {
-          "line": 44,
+          "line": 58,
           "column": 12
         },
         "end": {
-          "line": 44,
+          "line": 58,
           "column": 13
         }
       }
@@ -2147,15 +2147,15 @@
         "binop": null
       },
       "value": "height",
-      "start": 4341,
-      "end": 4347,
+      "start": 4372,
+      "end": 4378,
       "loc": {
         "start": {
-          "line": 45,
+          "line": 59,
           "column": 2
         },
         "end": {
-          "line": 45,
+          "line": 59,
           "column": 8
         }
       }
@@ -2173,15 +2173,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 4347,
-      "end": 4348,
+      "start": 4378,
+      "end": 4379,
       "loc": {
         "start": {
-          "line": 45,
+          "line": 59,
           "column": 8
         },
         "end": {
-          "line": 45,
+          "line": 59,
           "column": 9
         }
       }
@@ -2200,15 +2200,15 @@
         "updateContext": null
       },
       "value": 600,
-      "start": 4349,
-      "end": 4352,
+      "start": 4380,
+      "end": 4383,
       "loc": {
         "start": {
-          "line": 45,
+          "line": 59,
           "column": 10
         },
         "end": {
-          "line": 45,
+          "line": 59,
           "column": 13
         }
       }
@@ -2226,15 +2226,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 4352,
-      "end": 4353,
+      "start": 4383,
+      "end": 4384,
       "loc": {
         "start": {
-          "line": 45,
+          "line": 59,
           "column": 13
         },
         "end": {
-          "line": 45,
+          "line": 59,
           "column": 14
         }
       }
@@ -2252,15 +2252,15 @@
         "binop": null
       },
       "value": "pixelArt",
-      "start": 4356,
-      "end": 4364,
+      "start": 4387,
+      "end": 4395,
       "loc": {
         "start": {
-          "line": 46,
+          "line": 60,
           "column": 2
         },
         "end": {
-          "line": 46,
+          "line": 60,
           "column": 10
         }
       }
@@ -2278,15 +2278,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 4364,
-      "end": 4365,
+      "start": 4395,
+      "end": 4396,
       "loc": {
         "start": {
-          "line": 46,
+          "line": 60,
           "column": 10
         },
         "end": {
-          "line": 46,
+          "line": 60,
           "column": 11
         }
       }
@@ -2306,15 +2306,15 @@
         "updateContext": null
       },
       "value": "true",
-      "start": 4366,
-      "end": 4370,
+      "start": 4397,
+      "end": 4401,
       "loc": {
         "start": {
-          "line": 46,
+          "line": 60,
           "column": 12
         },
         "end": {
-          "line": 46,
+          "line": 60,
           "column": 16
         }
       }
@@ -2332,15 +2332,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 4370,
-      "end": 4371,
+      "start": 4401,
+      "end": 4402,
       "loc": {
         "start": {
-          "line": 46,
+          "line": 60,
           "column": 16
         },
         "end": {
-          "line": 46,
+          "line": 60,
           "column": 17
         }
       }
@@ -2358,15 +2358,15 @@
         "binop": null
       },
       "value": "roundPixels",
-      "start": 4374,
-      "end": 4385,
+      "start": 4405,
+      "end": 4416,
       "loc": {
         "start": {
-          "line": 47,
+          "line": 61,
           "column": 2
         },
         "end": {
-          "line": 47,
+          "line": 61,
           "column": 13
         }
       }
@@ -2384,15 +2384,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 4385,
-      "end": 4386,
+      "start": 4416,
+      "end": 4417,
       "loc": {
         "start": {
-          "line": 47,
+          "line": 61,
           "column": 13
         },
         "end": {
-          "line": 47,
+          "line": 61,
           "column": 14
         }
       }
@@ -2412,15 +2412,15 @@
         "updateContext": null
       },
       "value": "true",
-      "start": 4387,
-      "end": 4391,
+      "start": 4418,
+      "end": 4422,
       "loc": {
         "start": {
-          "line": 47,
+          "line": 61,
           "column": 15
         },
         "end": {
-          "line": 47,
+          "line": 61,
           "column": 19
         }
       }
@@ -2438,15 +2438,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 4391,
-      "end": 4392,
+      "start": 4422,
+      "end": 4423,
       "loc": {
         "start": {
-          "line": 47,
+          "line": 61,
           "column": 19
         },
         "end": {
-          "line": 47,
+          "line": 61,
           "column": 20
         }
       }
@@ -2464,15 +2464,15 @@
         "binop": null
       },
       "value": "physics",
-      "start": 4395,
-      "end": 4402,
+      "start": 4426,
+      "end": 4433,
       "loc": {
         "start": {
-          "line": 48,
+          "line": 62,
           "column": 2
         },
         "end": {
-          "line": 48,
+          "line": 62,
           "column": 9
         }
       }
@@ -2490,15 +2490,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 4402,
-      "end": 4403,
+      "start": 4433,
+      "end": 4434,
       "loc": {
         "start": {
-          "line": 48,
+          "line": 62,
           "column": 9
         },
         "end": {
-          "line": 48,
+          "line": 62,
           "column": 10
         }
       }
@@ -2515,15 +2515,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 4404,
-      "end": 4405,
+      "start": 4435,
+      "end": 4436,
       "loc": {
         "start": {
-          "line": 48,
+          "line": 62,
           "column": 11
         },
         "end": {
-          "line": 48,
+          "line": 62,
           "column": 12
         }
       }
@@ -2543,15 +2543,15 @@
         "updateContext": null
       },
       "value": "default",
-      "start": 4410,
-      "end": 4417,
+      "start": 4441,
+      "end": 4448,
       "loc": {
         "start": {
-          "line": 49,
+          "line": 63,
           "column": 4
         },
         "end": {
-          "line": 49,
+          "line": 63,
           "column": 11
         }
       }
@@ -2569,15 +2569,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 4417,
-      "end": 4418,
+      "start": 4448,
+      "end": 4449,
       "loc": {
         "start": {
-          "line": 49,
+          "line": 63,
           "column": 11
         },
         "end": {
-          "line": 49,
+          "line": 63,
           "column": 12
         }
       }
@@ -2596,15 +2596,15 @@
         "updateContext": null
       },
       "value": "arcade",
-      "start": 4419,
-      "end": 4427,
+      "start": 4450,
+      "end": 4458,
       "loc": {
         "start": {
-          "line": 49,
+          "line": 63,
           "column": 13
         },
         "end": {
-          "line": 49,
+          "line": 63,
           "column": 21
         }
       }
@@ -2622,15 +2622,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 4427,
-      "end": 4428,
+      "start": 4458,
+      "end": 4459,
       "loc": {
         "start": {
-          "line": 49,
+          "line": 63,
           "column": 21
         },
         "end": {
-          "line": 49,
+          "line": 63,
           "column": 22
         }
       }
@@ -2648,15 +2648,15 @@
         "binop": null
       },
       "value": "arcade",
-      "start": 4433,
-      "end": 4439,
+      "start": 4464,
+      "end": 4470,
       "loc": {
         "start": {
-          "line": 50,
+          "line": 64,
           "column": 4
         },
         "end": {
-          "line": 50,
+          "line": 64,
           "column": 10
         }
       }
@@ -2674,15 +2674,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 4439,
-      "end": 4440,
+      "start": 4470,
+      "end": 4471,
       "loc": {
         "start": {
-          "line": 50,
+          "line": 64,
           "column": 10
         },
         "end": {
-          "line": 50,
+          "line": 64,
           "column": 11
         }
       }
@@ -2699,15 +2699,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 4441,
-      "end": 4442,
+      "start": 4472,
+      "end": 4473,
       "loc": {
         "start": {
-          "line": 50,
+          "line": 64,
           "column": 12
         },
         "end": {
-          "line": 50,
+          "line": 64,
           "column": 13
         }
       }
@@ -2725,15 +2725,15 @@
         "binop": null
       },
       "value": "gravity",
-      "start": 4449,
-      "end": 4456,
+      "start": 4480,
+      "end": 4487,
       "loc": {
         "start": {
-          "line": 51,
+          "line": 65,
           "column": 6
         },
         "end": {
-          "line": 51,
+          "line": 65,
           "column": 13
         }
       }
@@ -2751,15 +2751,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 4456,
-      "end": 4457,
+      "start": 4487,
+      "end": 4488,
       "loc": {
         "start": {
-          "line": 51,
+          "line": 65,
           "column": 13
         },
         "end": {
-          "line": 51,
+          "line": 65,
           "column": 14
         }
       }
@@ -2776,15 +2776,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 4458,
-      "end": 4459,
+      "start": 4489,
+      "end": 4490,
       "loc": {
         "start": {
-          "line": 51,
+          "line": 65,
           "column": 15
         },
         "end": {
-          "line": 51,
+          "line": 65,
           "column": 16
         }
       }
@@ -2802,15 +2802,15 @@
         "binop": null
       },
       "value": "y",
-      "start": 4460,
-      "end": 4461,
+      "start": 4491,
+      "end": 4492,
       "loc": {
         "start": {
-          "line": 51,
+          "line": 65,
           "column": 17
         },
         "end": {
-          "line": 51,
+          "line": 65,
           "column": 18
         }
       }
@@ -2828,15 +2828,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 4461,
-      "end": 4462,
+      "start": 4492,
+      "end": 4493,
       "loc": {
         "start": {
-          "line": 51,
+          "line": 65,
           "column": 18
         },
         "end": {
-          "line": 51,
+          "line": 65,
           "column": 19
         }
       }
@@ -2855,15 +2855,15 @@
         "updateContext": null
       },
       "value": 800,
-      "start": 4463,
-      "end": 4466,
+      "start": 4494,
+      "end": 4497,
       "loc": {
         "start": {
-          "line": 51,
+          "line": 65,
           "column": 20
         },
         "end": {
-          "line": 51,
+          "line": 65,
           "column": 23
         }
       }
@@ -2880,15 +2880,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 4467,
-      "end": 4468,
+      "start": 4498,
+      "end": 4499,
       "loc": {
         "start": {
-          "line": 51,
+          "line": 65,
           "column": 24
         },
         "end": {
-          "line": 51,
+          "line": 65,
           "column": 25
         }
       }
@@ -2906,15 +2906,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 4468,
-      "end": 4469,
+      "start": 4499,
+      "end": 4500,
       "loc": {
         "start": {
-          "line": 51,
+          "line": 65,
           "column": 25
         },
         "end": {
-          "line": 51,
+          "line": 65,
           "column": 26
         }
       }
@@ -2932,15 +2932,15 @@
         "binop": null
       },
       "value": "debug",
-      "start": 4476,
-      "end": 4481,
+      "start": 4507,
+      "end": 4512,
       "loc": {
         "start": {
-          "line": 52,
+          "line": 66,
           "column": 6
         },
         "end": {
-          "line": 52,
+          "line": 66,
           "column": 11
         }
       }
@@ -2958,15 +2958,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 4481,
-      "end": 4482,
+      "start": 4512,
+      "end": 4513,
       "loc": {
         "start": {
-          "line": 52,
+          "line": 66,
           "column": 11
         },
         "end": {
-          "line": 52,
+          "line": 66,
           "column": 12
         }
       }
@@ -2986,15 +2986,15 @@
         "updateContext": null
       },
       "value": "false",
-      "start": 4483,
-      "end": 4488,
+      "start": 4514,
+      "end": 4519,
       "loc": {
         "start": {
-          "line": 52,
+          "line": 66,
           "column": 13
         },
         "end": {
-          "line": 52,
+          "line": 66,
           "column": 18
         }
       }
@@ -3012,15 +3012,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 4488,
-      "end": 4489,
+      "start": 4519,
+      "end": 4520,
       "loc": {
         "start": {
-          "line": 52,
+          "line": 66,
           "column": 18
         },
         "end": {
-          "line": 52,
+          "line": 66,
           "column": 19
         }
       }
@@ -3037,15 +3037,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 4494,
-      "end": 4495,
+      "start": 4525,
+      "end": 4526,
       "loc": {
         "start": {
-          "line": 53,
+          "line": 67,
           "column": 4
         },
         "end": {
-          "line": 53,
+          "line": 67,
           "column": 5
         }
       }
@@ -3063,15 +3063,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 4495,
-      "end": 4496,
+      "start": 4526,
+      "end": 4527,
       "loc": {
         "start": {
-          "line": 53,
+          "line": 67,
           "column": 5
         },
         "end": {
-          "line": 53,
+          "line": 67,
           "column": 6
         }
       }
@@ -3088,15 +3088,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 4499,
-      "end": 4500,
+      "start": 4530,
+      "end": 4531,
       "loc": {
         "start": {
-          "line": 54,
+          "line": 68,
           "column": 2
         },
         "end": {
-          "line": 54,
+          "line": 68,
           "column": 3
         }
       }
@@ -3114,15 +3114,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 4500,
-      "end": 4501,
+      "start": 4531,
+      "end": 4532,
       "loc": {
         "start": {
-          "line": 54,
+          "line": 68,
           "column": 3
         },
         "end": {
-          "line": 54,
+          "line": 68,
           "column": 4
         }
       }
@@ -3130,15 +3130,15 @@
     {
       "type": "CommentBlock",
       "value": " list of all the game scenes ",
-      "start": 4504,
-      "end": 4537,
+      "start": 4535,
+      "end": 4568,
       "loc": {
         "start": {
-          "line": 55,
+          "line": 69,
           "column": 2
         },
         "end": {
-          "line": 55,
+          "line": 69,
           "column": 35
         }
       }
@@ -3156,15 +3156,15 @@
         "binop": null
       },
       "value": "scene",
-      "start": 4540,
-      "end": 4545,
+      "start": 4571,
+      "end": 4576,
       "loc": {
         "start": {
-          "line": 56,
+          "line": 70,
           "column": 2
         },
         "end": {
-          "line": 56,
+          "line": 70,
           "column": 7
         }
       }
@@ -3182,15 +3182,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 4545,
-      "end": 4546,
+      "start": 4576,
+      "end": 4577,
       "loc": {
         "start": {
-          "line": 56,
+          "line": 70,
           "column": 7
         },
         "end": {
-          "line": 56,
+          "line": 70,
           "column": 8
         }
       }
@@ -3208,15 +3208,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 4547,
-      "end": 4548,
+      "start": 4578,
+      "end": 4579,
       "loc": {
         "start": {
-          "line": 56,
+          "line": 70,
           "column": 9
         },
         "end": {
-          "line": 56,
+          "line": 70,
           "column": 10
         }
       }
@@ -3234,15 +3234,15 @@
         "binop": null
       },
       "value": "AnimationTween",
-      "start": 4553,
-      "end": 4567,
+      "start": 4584,
+      "end": 4598,
       "loc": {
         "start": {
-          "line": 57,
+          "line": 71,
           "column": 4
         },
         "end": {
-          "line": 57,
+          "line": 71,
           "column": 18
         }
       }
@@ -3260,15 +3260,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 4567,
-      "end": 4568,
+      "start": 4598,
+      "end": 4599,
       "loc": {
         "start": {
-          "line": 57,
+          "line": 71,
           "column": 18
         },
         "end": {
-          "line": 57,
+          "line": 71,
           "column": 19
         }
       }
@@ -3286,15 +3286,15 @@
         "binop": null
       },
       "value": "AnimationData",
-      "start": 4573,
-      "end": 4586,
+      "start": 4604,
+      "end": 4617,
       "loc": {
         "start": {
-          "line": 58,
+          "line": 72,
           "column": 4
         },
         "end": {
-          "line": 58,
+          "line": 72,
           "column": 17
         }
       }
@@ -3312,15 +3312,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 4586,
-      "end": 4587,
+      "start": 4617,
+      "end": 4618,
       "loc": {
         "start": {
-          "line": 58,
+          "line": 72,
           "column": 17
         },
         "end": {
-          "line": 58,
+          "line": 72,
           "column": 18
         }
       }
@@ -3338,15 +3338,15 @@
         "binop": null
       },
       "value": "AnimationAdd",
-      "start": 4592,
-      "end": 4604,
+      "start": 4623,
+      "end": 4635,
       "loc": {
         "start": {
-          "line": 59,
+          "line": 73,
           "column": 4
         },
         "end": {
-          "line": 59,
+          "line": 73,
           "column": 16
         }
       }
@@ -3364,15 +3364,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 4604,
-      "end": 4605,
+      "start": 4635,
+      "end": 4636,
       "loc": {
         "start": {
-          "line": 59,
+          "line": 73,
           "column": 16
         },
         "end": {
-          "line": 59,
+          "line": 73,
           "column": 17
         }
       }
@@ -3390,15 +3390,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 4608,
-      "end": 4609,
+      "start": 4639,
+      "end": 4640,
       "loc": {
         "start": {
-          "line": 60,
+          "line": 74,
           "column": 2
         },
         "end": {
-          "line": 60,
+          "line": 74,
           "column": 3
         }
       }
@@ -3416,15 +3416,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 4609,
-      "end": 4610,
+      "start": 4640,
+      "end": 4641,
       "loc": {
         "start": {
-          "line": 60,
+          "line": 74,
           "column": 3
         },
         "end": {
-          "line": 60,
+          "line": 74,
           "column": 4
         }
       }
@@ -3441,15 +3441,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 4611,
-      "end": 4612,
+      "start": 4642,
+      "end": 4643,
       "loc": {
         "start": {
-          "line": 61,
+          "line": 75,
           "column": 0
         },
         "end": {
-          "line": 61,
+          "line": 75,
           "column": 1
         }
       }
@@ -3467,15 +3467,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 4612,
-      "end": 4613,
+      "start": 4643,
+      "end": 4644,
       "loc": {
         "start": {
-          "line": 61,
+          "line": 75,
           "column": 1
         },
         "end": {
-          "line": 61,
+          "line": 75,
           "column": 2
         }
       }
@@ -3493,15 +3493,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 4614,
-      "end": 4614,
+      "start": 4645,
+      "end": 4645,
       "loc": {
         "start": {
-          "line": 62,
+          "line": 76,
           "column": 0
         },
         "end": {
-          "line": 62,
+          "line": 76,
           "column": 0
         }
       }

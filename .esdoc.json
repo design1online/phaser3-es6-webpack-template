@@ -2,7 +2,53 @@
   "source": "./src",
   "destination": "./docs",
   "plugins": [
-    {"name": "esdoc-standard-plugin"},
-    {"name": "esdoc-ecmascript-proposal-plugin", "option": {"all": true}}
+    {
+      "name": "esdoc-standard-plugin",
+      "option": {
+        "coverage": {
+          "enable": true
+          },
+          "accessor": {
+            "access": ["public", "protected", "package", "private"],
+            "autoPrivate": true
+          },
+          "undocumentIdentifier": {
+            "enable": true
+          },
+          "unexportedIdentifier": {
+            "enable": false
+          },
+          "typeInference": {
+            "enable": true
+          },
+          "brand": {
+            "logo": "./assets/logo.png",
+            "title": "Phaser 3 Starter Project",
+            "description": "edit this description on the .esdoc.js file",
+            "repository": "https://github.com/design1online/phaser3-es6-webpack-template",
+            "site": "http://design1online.com",
+            "author": "http://design1online.com",
+            "image": "http://design1online.com/logo.png"
+          },
+        "test": {
+          "source": "./src/",
+          "interfaces": ["describe", "it", "test"],
+          "includes": ["(spec|Spec|test|Test)\\.js$"],
+          "excludes": ["\\.config\\.js$"]
+        },
+        "manual": {
+          "index": "./tutorials/Index.md",
+          "asset": "./tutorials/asset",
+          "files": [
+            "./tutorials/Animations.md",
+            "./tutorials/Utilities.md"
+          ]
+        }
+      }
+    },
+    {
+      "name": "esdoc-ecmascript-proposal-plugin",
+      "option": { "all": true }
+    }
   ]
 }

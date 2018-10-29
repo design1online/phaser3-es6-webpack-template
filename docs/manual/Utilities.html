@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../">
+  <title data-ice="title">Manual | Phaser 3 Starter Project</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="edit this description on the .esdoc.js file"><meta property="og:type" content="website"><meta property="og:url" content="http://design1online.com"><meta property="og:site_name" content="Phaser 3 Starter Project"><meta property="og:title" content="Phaser 3 Starter Project"><meta property="og:image" content="http://design1online.com/logo.png"><meta property="og:description" content="edit this description on the .esdoc.js file"><meta property="og:author" content="http://design1online.com"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="Phaser 3 Starter Project"><meta property="twitter:description" content="edit this description on the .esdoc.js file"><meta property="twitter:image" content="http://design1online.com/logo.png"></head>
+<body class="layout-container manual-root" data-ice="rootContainer">
+
+<header>
+  <a href="./" style="display: flex; align-items: center;"><img src="./image/brand_logo.png" style="width:34px;"></a>
+  <a href="./manual/index.html" data-ice="manualHeaderLink">Manual</a>
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  <a href="test.html" data-ice="testLink">Test</a>
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/design1online/phaser3-es6-webpack-template"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div class="manual-toc-root">
+  
+<div data-ice="manual">
+    <ul class="manual-toc">
+      
+    <li data-ice="manualNav" class="indent-h1" data-link="manual/Animations.html"><a href="manual/Animations.html" data-ice="link">Animations</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/Animations.html"><a href="manual/Animations.html#tween-js" data-ice="link">Tween.js</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/Animations.html"><a href="manual/Animations.html#data-js" data-ice="link">Data.js</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/Animations.html"><a href="manual/Animations.html#add-js" data-ice="link">Add.js</a></li>
+</ul>
+  </div>
+<div data-ice="manual">
+    <ul class="manual-toc">
+      
+    <li data-ice="manualNav" class="indent-h1" data-link="manual/Utilities.html"><a href="manual/Utilities.html" data-ice="link">Full Screen Canvas</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/Utilities.html"><a href="manual/Utilities.html#create-a-resize-event-listener" data-ice="link">Create a resize event listener</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/Utilities.html"><a href="manual/Utilities.html#create-the-fullscreencanvas-function" data-ice="link">Create the fullScreenCanvas function</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/Utilities.html"><a href="manual/Utilities.html#working-example" data-ice="link">Working Example</a></li>
+</ul>
+  </div>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><div class="github-markdown" data-ice="content"><h1 id="full-screen-canvas">Full Screen Canvas</h1><p>In order to make the canvas go full screen for Phaser you need to add a window event listener for the resize event. Then you&apos;ll pass it a callback which will re-calculate the height and width of the screen proportional to the new window dimensions.</p>
+<h2 id="create-a-resize-event-listener">Create a resize event listener</h2><pre><code><code class="source-code prettyprint">const config = {
+  type: Phaser.WEBGL,
+  parent: &apos;content&apos;,
+  width: 800,
+  height: 600,
+  fullScreen: true,
+};
+
+window.game = new Phaser(config);
+
+if (config.fullScreen) {
+  // call the full screen function after we initialize the game instance
+  fullScreenCanvas();
+
+  // call the full screen function every time the screen resizes
+  window.addEventListener(&apos;resize&apos;, fullScreenCanvas, false);
+}</code>
+</code></pre><h2 id="create-the-fullscreencanvas-function">Create the fullScreenCanvas function</h2><pre><code><code class="source-code prettyprint">function fullScreenCanvas() {
+  const canvas = document.querySelector(&apos;canvas&apos;);
+  const windowWidth = window.innerWidth;
+  const windowHeight = window.innerHeight;
+  const windowRatio = windowWidth / windowHeight;
+  const gameRatio = window.game.width / window.game.height;
+
+  if (windowRatio &lt; gameRatio) {
+    canvas.style.width = `${windowWidth}px`;
+    canvas.style.height = `${windowWidth / gameRatio}px`;
+  } else {
+    canvas.style.width = `${windowHeight * gameRatio}px`;
+    canvas.style.height = `${windowHeight}px`;
+  }
+}</code>
+</code></pre><h2 id="working-example">Working Example</h2><p>In this project you can see an example of our full screen resizer in the following files:</p>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="/src/main.js">src/main.js</a></td>
+<td>Initalizes the game object and window resize onEventListener</td>
+</tr>
+<tr>
+<td><a href="/src/config/index.js">src/config/index.js</a></td>
+<td>Exports the default and custom phaser game configurations</td>
+</tr>
+<tr>
+<td><a href="/src/config/custom.js">src/config/custom.js</a></td>
+<td>The custom phaser configurations that are added for this starter pack</td>
+</tr>
+<tr>
+<td><a href="/src/config/default.js">src/config/default.js</a></td>
+<td>The default phaser configuration settings for a phaser project</td>
+</tr>
+<tr>
+<td><a href="/src/utilities/canvas.js">src/utilities/canvas.js</a></td>
+<td>Contains the utility function for the fullScreenCanvas resize adjustments</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

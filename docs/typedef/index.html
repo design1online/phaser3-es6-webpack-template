@@ -3,20 +3,20 @@
 <head>
   <meta charset="utf-8">
   <base data-ice="baseUrl" href="../">
-  <title data-ice="title">Typedef | Phaser3-Examples</title>
+  <title data-ice="title">Typedef | Phaser 3 Starter Project</title>
   <link type="text/css" rel="stylesheet" href="css/style.css">
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
   <script src="script/manual.js"></script>
-</head>
+<meta name="description" content="edit this description on the .esdoc.js file"><meta property="og:type" content="website"><meta property="og:url" content="http://design1online.com"><meta property="og:site_name" content="Phaser 3 Starter Project"><meta property="og:title" content="Phaser 3 Starter Project"><meta property="og:image" content="http://design1online.com/logo.png"><meta property="og:description" content="edit this description on the .esdoc.js file"><meta property="og:author" content="http://design1online.com"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="Phaser 3 Starter Project"><meta property="twitter:description" content="edit this description on the .esdoc.js file"><meta property="twitter:image" content="http://design1online.com/logo.png"></head>
 <body class="layout-container" data-ice="rootContainer">
 
 <header>
-  <a href="./">Home</a>
-  
+  <a href="./" style="display: flex; align-items: center;"><img src="./image/brand_logo.png" style="width:34px;"></a>
+  <a href="./manual/index.html" data-ice="manualHeaderLink">Manual</a>
   <a href="identifiers.html">Reference</a>
   <a href="source.html">Source</a>
-  
+  <a href="test.html" data-ice="testLink">Test</a>
   <div class="search-box">
   <span>
     <img src="./image/search.png">
@@ -24,7 +24,7 @@
   </span>
     <ul class="search-result"></ul>
   </div>
-</header>
+<a style="position:relative; top:3px;" href="https://github.com/design1online/phaser3-es6-webpack-template"><img width="20px" src="./image/github.png"></a></header>
 
 <nav class="navigation" data-ice="nav"><div>
   <ul>
@@ -211,7 +211,7 @@
     <span class="right-info">
       
       
-      <span data-ice="source"><span><a href="file/src/config/default.js.html#lineNumber41">source</a></span></span>
+      <span data-ice="source"><span><a href="file/src/config/default.js.html#lineNumber55">source</a></span></span>
     </span>
   </h3>
 
@@ -236,7 +236,8 @@
       <td data-ice="type" class="code"><span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a></span></td>
       <td data-ice="appendix"><ul><li>optional</li>
 <li>default: Phaser.AUTO</li></ul></td>
-      <td data-ice="description"><p>Phaser.AUTO, Phaser.CANVAS, Phaser.HEADLESS or Phaser.WEBGL. AUTO picks WEBGL if available, otherwise CANVAS.</p>
+      <td data-ice="description"><p>Phaser.AUTO, Phaser.CANVAS, Phaser.HEADLESS or Phaser.WEBGL.
+AUTO picks WEBGL if available, otherwise CANVAS.</p>
 </td>
     </tr>
 <tr data-ice="property" data-depth="0">
@@ -260,7 +261,8 @@
       <td data-ice="type" class="code"><span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a></span></td>
       <td data-ice="appendix"><ul><li>optional</li>
 <li>default: 1</li></ul></td>
-      <td data-ice="description"><p>Simple scale applied to the game canvas. 2 is double size, 0.5 is half size, etc</p>
+      <td data-ice="description"><p>Simple scale applied to the game canvas. 2 is double size,
+ 0.5 is half size, etc</p>
 </td>
     </tr>
 <tr data-ice="property" data-depth="0">
@@ -268,7 +270,9 @@
       <td data-ice="type" class="code"><span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a></span></td>
       <td data-ice="appendix"><ul><li>optional</li>
 <li>default: 1</li></ul></td>
-      <td data-ice="description"><p>The size of each game pixel, in canvas pixels. Values larger than 1 are &quot;high&quot; resolution</p>
+      <td data-ice="description"><p>The size of each game pixel, in canvas pixels. Values
+ larger than 1 are &quot;high&quot;
+resolution</p>
 </td>
     </tr>
 <tr data-ice="property" data-depth="0">
@@ -276,7 +280,9 @@
       <td data-ice="type" class="code"><span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a></span> | <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></span></td>
       <td data-ice="appendix"><ul><li>optional</li>
 <li>default: null</li></ul></td>
-      <td data-ice="description"><p>The DOM element that will contain the game canvas, or its id. If null (the default) or if the named element doesn&apos;t exist, the game canvas is inserted directly into the document body</p>
+      <td data-ice="description"><p>The DOM element that will contain the game canvas,
+or its id. If null (the default) or if the named element doesn&apos;t exist, the game canvas is
+inserted directly into the document body</p>
 </td>
     </tr>
 <tr data-ice="property" data-depth="0">
@@ -284,7 +290,8 @@
       <td data-ice="type" class="code"><span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a></span></td>
       <td data-ice="appendix"><ul><li>optional</li>
 <li>default: null</li></ul></td>
-      <td data-ice="description"><p>Provide your own Canvas element for Phaser to use instead of creating one.</p>
+      <td data-ice="description"><p>Provide your own Canvas element for Phaser to use instead of
+creating one.</p>
 </td>
     </tr>
 <tr data-ice="property" data-depth="0">
@@ -292,14 +299,16 @@
       <td data-ice="type" class="code"><span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></span></td>
       <td data-ice="appendix"><ul><li>optional</li>
 <li>default: null</li></ul></td>
-      <td data-ice="description"><p>CSS styles to apply to the game canvas instead of Phaser&apos;s default styles.</p>
+      <td data-ice="description"><p>CSS styles to apply to the game canvas instead of Phaser&apos;s
+ default styles.</p>
 </td>
     </tr>
 <tr data-ice="property" data-depth="0">
       <td data-ice="name" class="code" data-depth="0">CanvasRenderingContext2D</td>
       <td data-ice="type" class="code"><span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a></span></td>
       <td data-ice="appendix"><ul><li>optional</li></ul></td>
-      <td data-ice="description"><p>Provide your own Canvas Context for Phaser to use, instead of creating one.</p>
+      <td data-ice="description"><p>Provide your own Canvas Context for Phaser to use,
+instead of creating one.</p>
 </td>
     </tr>
 <tr data-ice="property" data-depth="0">
@@ -307,7 +316,8 @@
       <td data-ice="type" class="code"><span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a></span></td>
       <td data-ice="appendix"><ul><li>optional</li>
 <li>default: null</li></ul></td>
-      <td data-ice="description"><p>A scene or scenes to add to the game. If several are given, the first is started; the remainder are started only if they have { active: true }.</p>
+      <td data-ice="description"><p>A scene or scenes to add to the game. If several are given,
+the first is started; the remainder are started only if they have { active: true }.</p>
 </td>
     </tr>
 <tr data-ice="property" data-depth="0">
@@ -346,14 +356,16 @@
       <td data-ice="type" class="code"><span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">boolean</a></span></td>
       <td data-ice="appendix"><ul><li>optional</li>
 <li>default: true</li></ul></td>
-      <td data-ice="description"><p>Automatically call window.focus() when the game boots. Usually necessary to capture input events if the game is in a separate frame</p>
+      <td data-ice="description"><p>Automatically call window.focus() when the game boots.
+Usually necessary to capture input events if the game is in a separate frame</p>
 </td>
     </tr>
 <tr data-ice="property" data-depth="0">
       <td data-ice="name" class="code" data-depth="0">input</td>
       <td data-ice="type" class="code"><span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">boolean</a></span> | <span>InputConfig</span></td>
       <td data-ice="appendix"><ul><li>optional</li></ul></td>
-      <td data-ice="description"><p>Input configuration, or false to disable all game input. See <span><a href="https://photonstorm.github.io/phaser3-docs/global.html#InputConfig">https://photonstorm.github.io/phaser3-docs/global.html#InputConfig</a></span></p>
+      <td data-ice="description"><p>Input configuration, or false to disable all game input.
+See <span><a href="https://photonstorm.github.io/phaser3-docs/global.html#InputConfig">https://photonstorm.github.io/phaser3-docs/global.html#InputConfig</a></span></p>
 </td>
     </tr>
 <tr data-ice="property" data-depth="0">
@@ -361,7 +373,8 @@
       <td data-ice="type" class="code"><span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">boolean</a></span></td>
       <td data-ice="appendix"><ul><li>optional</li>
 <li>default: false</li></ul></td>
-      <td data-ice="description"><p>Disable the browser&apos;s default &apos;contextmenu&apos; event (usually triggered by a right-button mouse click)</p>
+      <td data-ice="description"><p>Disable the browser&apos;s default &apos;contextmenu&apos; event
+(usually triggered by a right-button mouse click)</p>
 </td>
     </tr>
 <tr data-ice="property" data-depth="0">
@@ -369,7 +382,8 @@
       <td data-ice="type" class="code"><span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean">boolean</a></span> | <span>BannerConfig</span></td>
       <td data-ice="appendix"><ul><li>optional</li>
 <li>default: false</li></ul></td>
-      <td data-ice="description"><p>Configuration for the banner printed in the browser console when the game starts. See <span><a href="https://photonstorm.github.io/phaser3-docs/global.html#BannerConfig">https://photonstorm.github.io/phaser3-docs/global.html#BannerConfig</a></span></p>
+      <td data-ice="description"><p>Configuration for the banner printed in the
+browser console when the game starts. See <span><a href="https://photonstorm.github.io/phaser3-docs/global.html#BannerConfig">https://photonstorm.github.io/phaser3-docs/global.html#BannerConfig</a></span></p>
 </td>
     </tr>
 <tr data-ice="property" data-depth="0">
